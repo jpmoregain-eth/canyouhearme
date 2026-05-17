@@ -86,6 +86,8 @@ export const t = {
     weaknesses: 'Weaknesses',
     footer: 'CanYouHearMe — VC Product Comparison. Data sourced from manufacturer datasheets.',
     footerCompany: 'CanYouHearMe — VC Product Comparison. No affiliation with any manufacturer.',
+    privacyPolicy: 'Privacy Policy',
+    disclaimer: 'Product specifications sourced from publicly available manufacturer documentation. Data current as of May 2026.',
     selectLang: 'Language',
   },
   ms: {
@@ -152,6 +154,8 @@ export const t = {
     weaknesses: 'Kelemahan',
     footer: 'CanYouHearMe — Perbandingan Produk VC. Data dari datasheet pengeluar.',
     footerCompany: 'CanYouHearMe — Perbandingan Produk VC. Tiada hubungan dengan pengeluar.',
+    privacyPolicy: 'Dasar Privasi',
+    disclaimer: 'Spesifikasi produk dari dokumentasi pengeluar yang tersedia untuk umum. Data dikemaskini sehingga Mei 2026.',
     selectLang: 'Bahasa',
   },
   id: {
@@ -218,6 +222,8 @@ export const t = {
     weaknesses: 'Kelemahan',
     footer: 'CanYouHearMe — Perbandingan Produk VC. Data dari datasheet pabrikan.',
     footerCompany: 'CanYouHearMe — Perbandingan Produk VC. Tidak berafiliasi dengan pabrikan.',
+    privacyPolicy: 'Kebijakan Privasi',
+    disclaimer: 'Spesifikasi produk dari dokumentasi pabrikan yang tersedia untuk umum. Data diperbarui hingga Mei 2026.',
     selectLang: 'Bahasa',
   },
   th: {
@@ -284,6 +290,8 @@ export const t = {
     weaknesses: 'จุดอ่อน',
     footer: 'CanYouHearMe — เปรียบเทียบสินค้า VC. ข้อมูลจาก datasheet ของผู้ผลิต',
     footerCompany: 'CanYouHearMe — เปรียบเทียบสินค้า VC. ไม่มีสังกัดกับผู้ผลิตใด',
+    privacyPolicy: 'นโยบายความเป็นส่วนตัว',
+    disclaimer: 'ข้อมูลสเปคสินค้าจากเอกสารของผู้ผลิตที่เปิดเผยต่อสาธารณะ ข้อมูลปัจจุบัน ณ พฤษภาคม 2026',
     selectLang: 'ภาษา',
   },
   tl: {
@@ -350,6 +358,8 @@ export const t = {
     weaknesses: 'Mga Kahinaan',
     footer: 'CanYouHearMe — Paghahambing ng Produkto VC. Data mula sa datasheet ng manufacturer.',
     footerCompany: 'CanYouHearMe — Paghahambing ng Produkto VC. Walang kaugnayan sa anumang manufacturer.',
+    privacyPolicy: 'Patakaran sa Pagkapribado',
+    disclaimer: 'Mga specification ng produkto mula sa pampublikong dokumentasyon ng manufacturer. Data na-update noong Mayo 2026.',
     selectLang: 'Wika',
   },
   vi: {
@@ -416,6 +426,8 @@ export const t = {
     weaknesses: 'Điểm yếu',
     footer: 'CanYouHearMe — So sánh Sản phẩm VC. Dữ liệu từ datasheet của nhà sản xuất.',
     footerCompany: 'CanYouHearMe — So sánh Sản phẩm VC. Không liên kết với nhà sản xuất nào.',
+    privacyPolicy: 'Chính sách Bảo mật',
+    disclaimer: 'Thông số kỹ thuật sản phẩm từ tài liệu công khai của nhà sản xuất. Dữ liệu cập nhật đến tháng 5/2026.',
     selectLang: 'Ngôn ngữ',
   },
 } as const;

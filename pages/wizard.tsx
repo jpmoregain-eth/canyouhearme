@@ -307,6 +307,15 @@ export default function Wizard() {
           </div>
         )}
       </main>
+
+      <footer className="border-t border-slate-800 mt-12 py-6 text-center space-y-2">
+        <p className="text-sm text-slate-500">
+          {tx.disclaimer}
+        </p>
+        <p className="text-sm text-slate-600">
+          {tx.footer} <a href="/privacy" className="text-slate-500 hover:text-emerald-400 transition-colors">{tx.privacyPolicy}</a>
+        </p>
+      </footer>
     </div>
   );
 }

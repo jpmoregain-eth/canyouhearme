@@ -167,9 +167,12 @@ export default function Companies() {
         </div>
       </main>
 
-      <footer className="border-t border-slate-800 mt-12 py-6 text-center">
+      <footer className="border-t border-slate-800 mt-12 py-6 text-center space-y-2">
+        <p className="text-sm text-slate-500">
+          {tx.disclaimer}
+        </p>
         <p className="text-sm text-slate-600">
-          {tx.footerCompany}
+          {tx.footerCompany} <a href="/privacy" className="text-slate-500 hover:text-emerald-400 transition-colors">{tx.privacyPolicy}</a>
         </p>
       </footer>
     </div>
