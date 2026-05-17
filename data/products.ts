@@ -654,7 +654,7 @@ export const products: Product[] = [
   {
     id: 'poly-studio-e360',
     name: 'Poly Studio E360',
-    company: 'Poly (HP)',
+    company: 'Poly',
     category: 'companion',
     subCategory: 'Room Companion',
     cameraResolution: '4x 8MP cameras',
