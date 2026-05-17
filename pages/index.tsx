@@ -298,18 +298,18 @@ export default function Home() {
               onChange={(e) => setSearchQuery(e.target.value)}
               className="flex-1 min-w-[200px] bg-slate-800 border border-slate-700 rounded-lg px-3 py-2 text-sm text-slate-200 placeholder-slate-500 focus:outline-none focus:border-slate-500"
             />
-            <div className="flex bg-slate-800 rounded-lg p-1">
+            <div className="flex bg-slate-800 rounded-lg p-1 overflow-x-auto">
               {(['all', 'bars', 'displays', 'companions', 'management'] as ViewMode[]).map(mode => (
                 <button
                   key={mode}
                   onClick={() => setViewMode(mode)}
-                  className={`px-4 py-1.5 rounded-md text-sm font-medium transition-colors ${
+                  className={`px-3 md:px-4 py-1.5 rounded-md text-sm font-medium transition-colors whitespace-nowrap ${
                     viewMode === mode
                       ? 'bg-emerald-600 text-white'
                       : 'text-slate-400 hover:text-slate-200'
                   }`}
                 >
-                  {mode === 'all' ? tx.allProducts : mode === 'bars' ? tx.bars : mode === 'companions' ? tx.companions : tx.displays}
+                  {mode === 'all' ? tx.allProducts : mode === 'bars' ? tx.bars : mode === 'companions' ? tx.companions : mode === 'management' ? tx.management : tx.displays}
                 </button>
               ))}
             </div>
