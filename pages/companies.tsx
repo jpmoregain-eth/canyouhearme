@@ -1,11 +1,26 @@
 import React, { useState } from 'react';
 import Head from 'next/head';
 import { companyProfiles } from '../data/companies';
+import { companyTranslations } from '../data/i18n-companies';
 import { useI18n, languages } from '../data/i18n';
 
 export default function Companies() {
   const [langMenuOpen, setLangMenuOpen] = useState(false);
   const { lang, setLang, tx } = useI18n();
+
+  const getCompanyData = (company: typeof companyProfiles[0]) => {
+    const trans = companyTranslations[lang]?.[company.id];
+    if (!trans) return company;
+    return {
+      ...company,
+      tagline: trans.tagline,
+      description: trans.description,
+      strengths: trans.strengths,
+      weaknesses: trans.weaknesses,
+    };
+  };
+
+  const displayCompanies = companyProfiles.map(getCompanyData);
 
   return (
     <div className="min-h-screen bg-slate-950 text-slate-200">
@@ -74,7 +89,7 @@ export default function Companies() {
         </div>
 
         <div className="space-y-6">
-          {companyProfiles.map(company => (
+          {displayCompanies.map(company => (
             <div key={company.id} className="bg-slate-900 border border-slate-800 rounded-xl overflow-hidden">
               {/* Header */}
               <div className="p-5 border-b border-slate-800">
