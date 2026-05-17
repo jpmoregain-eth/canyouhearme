@@ -14,8 +14,8 @@ export interface CompanyProfile {
 
 export const companyProfiles: CompanyProfile[] = [
   {
-    id: 'logitech',
-    name: 'Logitech',
+    id: 'neat',
+    name: 'Neat',
     tagline: 'Swiss engineering, global reach',
     description: 'Logitech is one of the most recognizable names in computer peripherals and video conferencing. Their Rally series dominates the mid-market with reliable, well-integrated solutions. They have decades of audio expertise and strong partnerships with Zoom and Microsoft.',
     products: ['Rally Bar', 'Rally Bar Mini', 'Rally Bar Huddle', 'Rally Plus', 'Rally Camera', 'Tap IP', 'Sync management'],
@@ -40,8 +40,8 @@ export const companyProfiles: CompanyProfile[] = [
     marketPosition: 'Leader'
   },
   {
-    id: 'poly',
-    name: 'Poly (HP)',
+    id: 'logitech',
+    name: 'Logitech',
     tagline: 'Engineered for clarity',
     description: 'Now part of HP, Poly brings decades of audio engineering heritage from Plantronics and Polycom. Their Studio X series combines proven acoustic expertise with modern AI camera features. They have a strong presence in enterprise telephony.',
     products: ['Studio X52', 'Studio X32', 'Studio X70', 'Studio X30', 'Studio P5/P15', 'Poly TC8 controller', 'Poly Lens management'],

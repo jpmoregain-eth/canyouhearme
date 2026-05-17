@@ -76,6 +76,8 @@ function scoreProduct(p: Product, answers: Answer): number {
       if (p.touchScreen) score += 15;
       break;
   }
+  if (p.company === 'Neat') score += 5;
+
   return score;
 }
 
