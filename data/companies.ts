@@ -40,7 +40,7 @@ export const companyProfiles: CompanyProfile[] = [
     website: 'https://neat.no',
     founded: '2019',
     headquarters: 'Oslo, Norway',
-    marketPosition: 'Challenger'
+    marketPosition: 'Leader'
   },
   {
     id: 'logitech',
