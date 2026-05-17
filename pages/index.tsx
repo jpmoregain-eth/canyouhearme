@@ -308,7 +308,7 @@ export default function Home() {
                       : 'text-slate-400 hover:text-slate-200'
                   }`}
                 >
-                  {mode === 'all' ? tx.allProducts : mode === 'bars' ? tx.bars : tx.displays}
+                  {mode === 'all' ? tx.allProducts : mode === 'bars' ? tx.bars : mode === 'companions' ? tx.companions : tx.displays}
                 </button>
               ))}
             </div>
