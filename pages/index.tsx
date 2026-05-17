@@ -152,7 +152,13 @@ export default function Home() {
               <p className="text-xs text-slate-500">VC Product Comparison</p>
             </div>
           </div>
-          <div className="flex gap-2">
+          <div className="flex gap-2 items-center">
+            <a
+              href="/companies"
+              className="px-3 py-2 text-slate-400 hover:text-white text-sm transition-colors"
+            >
+              Companies
+            </a>
             {compareMode === 'none' ? (
               <button
                 onClick={() => { setCompareMode('selecting'); setCompareSelection([]); }}
