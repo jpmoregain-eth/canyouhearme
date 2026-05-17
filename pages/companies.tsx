@@ -1,12 +1,16 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Head from 'next/head';
 import { companyProfiles } from '../data/companies';
+import { useI18n, languages } from '../data/i18n';
 
 export default function Companies() {
+  const [langMenuOpen, setLangMenuOpen] = useState(false);
+  const { lang, setLang, tx } = useI18n();
+
   return (
     <div className="min-h-screen bg-slate-950 text-slate-200">
       <Head>
-        <title>Company Profiles — CanYouHearMe</title>
+        <title>{tx.companyProfiles} — {tx.siteTitle}</title>
         <meta name="description" content="Video conferencing company profiles, strengths, and areas to improve." />
       </Head>
 
@@ -19,23 +23,54 @@ export default function Companies() {
               </svg>
             </div>
             <div>
-              <h1 className="text-lg font-bold text-white">CanYouHearMe</h1>
-              <p className="text-xs text-slate-500">VC Product Comparison</p>
+              <h1 className="text-lg font-bold text-white">{tx.siteTitle}</h1>
+              <p className="text-xs text-slate-500">{tx.siteSubtitle}</p>
             </div>
           </div>
-          <a
-            href="/"
-            className="px-4 py-2 bg-slate-800 hover:bg-slate-700 text-slate-300 rounded-lg text-sm font-medium transition-colors"
-          >
-            ← Back to Products
-          </a>
+
+          <div className="flex items-center gap-2">
+            {/* Language Toggle */}
+            <div className="relative">
+              <button
+                onClick={() => setLangMenuOpen(!langMenuOpen)}
+                className="flex items-center gap-1 px-2 py-1.5 rounded-lg hover:bg-slate-800 text-sm"
+              >
+                <span>{languages.find(l => l.code === lang)?.flag}</span>
+                <svg className="w-3 h-3 text-slate-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+                </svg>
+              </button>
+              {langMenuOpen && (
+                <div className="absolute right-0 top-full mt-1 bg-slate-800 border border-slate-700 rounded-xl overflow-hidden shadow-xl min-w-[140px] z-50">
+                  {languages.map(l => (
+                    <button
+                      key={l.code}
+                      onClick={() => { setLang(l.code); setLangMenuOpen(false); }}
+                      className={`w-full text-left px-3 py-2 text-sm flex items-center gap-2 transition-colors ${
+                        lang === l.code ? 'bg-emerald-500/20 text-emerald-400' : 'text-slate-300 hover:bg-slate-700'
+                      }`}
+                    >
+                      <span>{l.flag}</span>
+                      <span>{l.nativeLabel}</span>
+                    </button>
+                  ))}
+                </div>
+              )}
+            </div>
+            <a
+              href="/"
+              className="px-4 py-2 bg-slate-800 hover:bg-slate-700 text-slate-300 rounded-lg text-sm font-medium transition-colors"
+            >
+              {tx.back}
+            </a>
+          </div>
         </div>
       </header>
 
       <main className="max-w-4xl mx-auto px-4 py-8">
         <div className="text-center mb-10">
-          <h2 className="text-2xl font-bold text-white mb-2">Company Profiles</h2>
-          <p className="text-slate-400">Who makes what — and what they're good (and not so good) at</p>
+          <h2 className="text-2xl font-bold text-white mb-2">{tx.companyProfiles}</h2>
+          <p className="text-slate-400">{tx.companyProfilesDesc}</p>
         </div>
 
         <div className="space-y-6">
@@ -59,8 +94,8 @@ export default function Companies() {
                 </div>
                 <p className="text-sm text-slate-400 leading-relaxed">{company.description}</p>
                 <div className="flex flex-wrap gap-3 mt-3 text-xs text-slate-500">
-                  {company.founded && <span>Founded: {company.founded}</span>}
-                  {company.headquarters && <span>HQ: {company.headquarters}</span>}
+                  {company.founded && <span>{tx.founded}: {company.founded}</span>}
+                  {company.headquarters && <span>{tx.headquarters}: {company.headquarters}</span>}
                   <a href={company.website} target="_blank" rel="noopener noreferrer" className="text-emerald-400 hover:text-emerald-300">
                     {company.website.replace('https://', '')} →
                   </a>
@@ -69,7 +104,7 @@ export default function Companies() {
 
               {/* Products */}
               <div className="p-5 border-b border-slate-800">
-                <h4 className="text-sm font-medium text-slate-500 uppercase tracking-wider mb-3">Product Lineup</h4>
+                <h4 className="text-sm font-medium text-slate-500 uppercase tracking-wider mb-3">{tx.productLineup}</h4>
                 <div className="flex flex-wrap gap-2">
                   {company.products.map(p => (
                     <span key={p} className="px-3 py-1.5 bg-slate-800 text-slate-300 rounded-lg text-sm">{p}</span>
@@ -84,7 +119,7 @@ export default function Companies() {
                     <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                     </svg>
-                    Selling Points
+                    {tx.sellingPoints}
                   </h4>
                   <ul className="space-y-2">
                     {company.strengths.map((s, i) => (
@@ -100,7 +135,7 @@ export default function Companies() {
                     <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z" />
                     </svg>
-                    Areas to Improve
+                    {tx.areasToImprove}
                   </h4>
                   <ul className="space-y-2">
                     {company.weaknesses.map((w, i) => (
@@ -119,7 +154,7 @@ export default function Companies() {
 
       <footer className="border-t border-slate-800 mt-12 py-6 text-center">
         <p className="text-sm text-slate-600">
-          CanYouHearMe — VC Product Comparison. No affiliation with any manufacturer.
+          {tx.footerCompany}
         </p>
       </footer>
     </div>

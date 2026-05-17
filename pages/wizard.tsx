@@ -3,6 +3,7 @@ import Head from 'next/head';
 import { products } from '../data/products';
 import { roomSizes, platformOptions, priorities, categoryOptions } from '../data/wizard';
 import { Product } from '../data/types';
+import { useI18n, languages } from '../data/i18n';
 
 interface Answer {
   roomSize: string;
@@ -22,8 +23,6 @@ const platformMap: Record<string, string> = {
 
 function scoreProduct(p: Product, answers: Answer): number {
   let score = 0;
-
-  // Room size matching
   const sizeMap: Record<string, string[]> = {
     huddle: ['Huddle', 'Focus', 'Phone Booth', 'Small'],
     small: ['Small', 'Huddle', 'Focus'],
@@ -32,8 +31,6 @@ function scoreProduct(p: Product, answers: Answer): number {
   };
   const matchedSize = sizeMap[answers.roomSize]?.some(s => p.subCategory?.toLowerCase().includes(s.toLowerCase()));
   if (matchedSize) score += 30;
-
-  // Platform matching
   if (answers.platform === 'any' || answers.platform === 'byod') {
     score += 15;
   } else {
@@ -42,15 +39,11 @@ function scoreProduct(p: Product, answers: Answer): number {
       score += 20;
     }
   }
-
-  // Category matching
   if (answers.category === 'any') {
     score += 10;
   } else if (answers.category === p.category) {
     score += 20;
   }
-
-  // Priority matching
   switch (answers.priority) {
     case 'camera':
       if (p.cameraResolution?.includes('4K') || p.cameraResolution?.includes('100MP') || p.cameraResolution?.includes('96MP')) score += 25;
@@ -82,7 +75,6 @@ function scoreProduct(p: Product, answers: Answer): number {
       if (p.touchScreen) score += 15;
       break;
   }
-
   return score;
 }
 
@@ -90,12 +82,14 @@ export default function Wizard() {
   const [step, setStep] = useState(0);
   const [answers, setAnswers] = useState<Partial<Answer>>({});
   const [showResults, setShowResults] = useState(false);
+  const [langMenuOpen, setLangMenuOpen] = useState(false);
+  const { lang, setLang, tx } = useI18n();
 
   const steps = [
-    { key: 'roomSize' as const, title: 'Room Size', subtitle: 'How big is the meeting space?' },
-    { key: 'platform' as const, title: 'Platform', subtitle: 'What video platform do you use?' },
-    { key: 'priority' as const, title: 'Priority', subtitle: 'What matters most to you?' },
-    { key: 'category' as const, title: 'Product Type', subtitle: 'Sound bar or all-in-one display?' },
+    { key: 'roomSize' as const, title: tx.wizardRoomSize, subtitle: tx.wizardRoomSizeDesc },
+    { key: 'platform' as const, title: tx.wizardPlatform, subtitle: tx.wizardPlatformDesc },
+    { key: 'priority' as const, title: tx.wizardPriority, subtitle: tx.wizardPriorityDesc },
+    { key: 'category' as const, title: tx.wizardCategory, subtitle: tx.wizardCategoryDesc },
   ];
 
   const current = steps[step];
@@ -135,7 +129,7 @@ export default function Wizard() {
   return (
     <div className="min-h-screen bg-slate-950 text-slate-200">
       <Head>
-        <title>Recommendation Wizard — CanYouHearMe</title>
+        <title>{tx.wizardTitle} — {tx.siteTitle}</title>
       </Head>
 
       <header className="border-b border-slate-800">
@@ -147,11 +141,42 @@ export default function Wizard() {
               </svg>
             </div>
             <div>
-              <h1 className="text-lg font-bold text-white">CanYouHearMe</h1>
-              <p className="text-xs text-slate-500">Recommendation Wizard</p>
+              <h1 className="text-lg font-bold text-white">{tx.siteTitle}</h1>
+              <p className="text-xs text-slate-500">{tx.wizardTitle}</p>
             </div>
           </div>
-          <a href="/" className="text-sm text-slate-400 hover:text-white">← Back</a>
+
+          <div className="flex items-center gap-2">
+            {/* Language Toggle */}
+            <div className="relative">
+              <button
+                onClick={() => setLangMenuOpen(!langMenuOpen)}
+                className="flex items-center gap-1 px-2 py-1.5 rounded-lg hover:bg-slate-800 text-sm"
+              >
+                <span>{languages.find(l => l.code === lang)?.flag}</span>
+                <svg className="w-3 h-3 text-slate-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+                </svg>
+              </button>
+              {langMenuOpen && (
+                <div className="absolute right-0 top-full mt-1 bg-slate-800 border border-slate-700 rounded-xl overflow-hidden shadow-xl min-w-[140px] z-50">
+                  {languages.map(l => (
+                    <button
+                      key={l.code}
+                      onClick={() => { setLang(l.code); setLangMenuOpen(false); }}
+                      className={`w-full text-left px-3 py-2 text-sm flex items-center gap-2 transition-colors ${
+                        lang === l.code ? 'bg-emerald-500/20 text-emerald-400' : 'text-slate-300 hover:bg-slate-700'
+                      }`}
+                    >
+                      <span>{l.flag}</span>
+                      <span>{l.nativeLabel}</span>
+                    </button>
+                  ))}
+                </div>
+              )}
+            </div>
+            <a href="/" className="text-sm text-slate-400 hover:text-white">{tx.back}</a>
+          </div>
         </div>
       </header>
 
@@ -168,7 +193,7 @@ export default function Wizard() {
             </div>
 
             <div className="text-center space-y-2 mb-8">
-              <div className="text-xs text-emerald-400 uppercase tracking-wider">Step {step + 1} of {steps.length}</div>
+              <div className="text-xs text-emerald-400 uppercase tracking-wider">{tx.wizardStep} {step + 1} / {steps.length}</div>
               <h2 className="text-2xl font-bold text-white">{current.title}</h2>
               <p className="text-slate-400">{current.subtitle}</p>
             </div>
@@ -202,7 +227,7 @@ export default function Wizard() {
                   onClick={() => setStep(s => s - 1)}
                   className="text-slate-500 hover:text-slate-300 text-sm"
                 >
-                  ← Back
+                  {tx.back}
                 </button>
               </div>
             )}
@@ -210,9 +235,9 @@ export default function Wizard() {
         ) : (
           <div className="space-y-8">
             <div className="text-center space-y-2">
-              <h2 className="text-2xl font-bold text-white">Recommended for You</h2>
+              <h2 className="text-2xl font-bold text-white">{tx.wizardResults}</h2>
               <p className="text-slate-400 text-sm">
-                Based on: {roomSizes.find(r => r.id === answers.roomSize)?.label} · 
+                {roomSizes.find(r => r.id === answers.roomSize)?.label} · 
                 {platformOptions.find(p => p.id === answers.platform)?.label} · 
                 {priorities.find(p => p.id === answers.priority)?.label} · 
                 {categoryOptions.find(c => c.id === answers.category)?.label}
@@ -221,7 +246,7 @@ export default function Wizard() {
                 onClick={() => { setShowResults(false); setStep(0); setAnswers({}); }}
                 className="mt-2 text-sm text-emerald-400 hover:text-emerald-300"
               >
-                Start Over
+                {tx.wizardStartOver}
               </button>
             </div>
 
@@ -238,11 +263,11 @@ export default function Wizard() {
                     <div className="flex items-start justify-between">
                       <div>
                         {i === 0 && (
-                          <div className="text-xs text-emerald-400 font-medium mb-1">🏆 TOP PICK</div>
+                          <div className="text-xs text-emerald-400 font-medium mb-1">{tx.wizardTopPick}</div>
                         )}
                         <div className="text-xs text-slate-500 uppercase tracking-wider">{p.company}</div>
                         <h3 className="text-lg font-bold text-white">{p.name}</h3>
-                        <div className="text-xs text-slate-400 mt-1">{p.subCategory} · Score: {score}</div>
+                        <div className="text-xs text-slate-400 mt-1">{p.subCategory} · {tx.wizardScore}: {score}</div>
                       </div>
                       <div className="text-right">
                         <div className="text-2xl font-bold text-emerald-400">#{i + 1}</div>
@@ -250,16 +275,16 @@ export default function Wizard() {
                     </div>
                     <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 mt-4 text-sm">
                       {p.cameraResolution && (
-                        <div><span className="text-slate-500">Camera:</span> <span className="text-slate-300">{p.cameraResolution}</span></div>
+                        <div><span className="text-slate-500">{tx.camera}:</span> <span className="text-slate-300">{p.cameraResolution}</span></div>
                       )}
                       {p.fieldOfView && (
-                        <div><span className="text-slate-500">FOV:</span> <span className="text-slate-300">{p.fieldOfView}</span></div>
+                        <div><span className="text-slate-500">{tx.fov}:</span> <span className="text-slate-300">{p.fieldOfView}</span></div>
                       )}
                       {p.micCount && (
-                        <div><span className="text-slate-500">Mics:</span> <span className="text-slate-300">{p.micCount} array</span></div>
+                        <div><span className="text-slate-500">{tx.mics}:</span> <span className="text-slate-300">{p.micCount} array</span></div>
                       )}
                       {p.displaySize && (
-                        <div><span className="text-slate-500">Display:</span> <span className="text-slate-300">{p.displaySize}</span></div>
+                        <div><span className="text-slate-500">{tx.display}:</span> <span className="text-slate-300">{p.displaySize}</span></div>
                       )}
                     </div>
                     <div className="flex flex-wrap gap-1 mt-3">
@@ -270,7 +295,7 @@ export default function Wizard() {
                     <a href={p.productUrl} target="_blank" rel="noopener noreferrer"
                       className="mt-3 block text-center py-2 bg-slate-800 hover:bg-slate-700 text-slate-300 rounded-lg text-sm"
                     >
-                      View Product →
+                      {tx.viewProduct}
                     </a>
                   </div>
                 ))}

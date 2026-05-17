@@ -2,6 +2,7 @@ import React, { useState, useMemo } from 'react';
 import Head from 'next/head';
 import { products, companies, platforms } from '../data/products';
 import { Product } from '../data/types';
+import { useI18n, languages } from '../data/i18n';
 
 type ViewMode = 'bars' | 'displays' | 'all';
 type CompareMode = 'none' | 'selecting' | 'comparing';
@@ -16,6 +17,9 @@ export default function Home() {
   const [sortBy, setSortBy] = useState<string>('name');
 
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+  const [langMenuOpen, setLangMenuOpen] = useState(false);
+
+  const { lang, setLang, tx } = useI18n();
 
   const filtered = useMemo(() => {
     let list = products;
@@ -57,20 +61,20 @@ export default function Home() {
   const comparedProducts = compareSelection.map(id => products.find(p => p.id === id)).filter(Boolean) as Product[];
 
   const specs = [
-    { key: 'cameraResolution', label: 'Camera' },
-    { key: 'fieldOfView', label: 'Field of View' },
+    { key: 'cameraResolution', label: tx.camera },
+    { key: 'fieldOfView', label: tx.fov },
     { key: 'opticalZoom', label: 'Zoom' },
-    { key: 'micCount', label: 'Mics', format: (v: any) => v ? `${v} array` : undefined },
-    { key: 'micPickupRange', label: 'Mic Range' },
+    { key: 'micCount', label: tx.mics, format: (v: any) => v ? `${v} array` : undefined },
+    { key: 'micPickupRange', label: tx.coverage },
     { key: 'speakerOutput', label: 'Speakers' },
     { key: 'maxResolution', label: 'Video Res' },
-    { key: 'displaySize', label: 'Display' },
+    { key: 'displaySize', label: tx.display },
     { key: 'displayResolution', label: 'Display Res' },
     { key: 'touchScreen', label: 'Touch', format: (v: any) => v ? 'Yes' : undefined },
     { key: 'dimensions', label: 'Dimensions' },
     { key: 'weight', label: 'Weight' },
-    { key: 'platformSupport', label: 'Platforms', format: (v: any) => v?.join(', ') },
-    { key: 'aiFeatures', label: 'AI Features', format: (v: any) => v?.slice(0, 3).join(', ') + (v?.length > 3 ? '...' : '') },
+    { key: 'platformSupport', label: tx.platforms, format: (v: any) => v?.join(', ') },
+    { key: 'aiFeatures', label: tx.aiFeatures, format: (v: any) => v?.slice(0, 3).join(', ') + (v?.length > 3 ? '...' : '') },
   ];
 
   const renderSpec = (p: Product, key: string, format?: (v: any) => string | undefined) => {
@@ -150,67 +154,125 @@ export default function Home() {
               </svg>
             </div>
             <div>
-              <h1 className="text-base font-bold text-white leading-tight">CanYouHearMe</h1>
-              <p className="text-[10px] text-slate-500 leading-tight">VC Compare</p>
+              <h1 className="text-base font-bold text-white leading-tight">{tx.siteTitle}</h1>
+              <p className="text-[10px] text-slate-500 leading-tight">{tx.siteSubtitle}</p>
             </div>
           </div>
 
-          {/* Desktop Nav */}
+          {/* Desktop Nav + Language */}
           <nav className="hidden md:flex gap-1 items-center">
-            <a href="/wizard" className="px-3 py-2 text-slate-400 hover:text-white text-sm transition-colors rounded-lg hover:bg-slate-800">Wizard</a>
-            <a href="/company-compare" className="px-3 py-2 text-slate-400 hover:text-white text-sm transition-colors rounded-lg hover:bg-slate-800">Compare Co.</a>
-            <a href="/companies" className="px-3 py-2 text-slate-400 hover:text-white text-sm transition-colors rounded-lg hover:bg-slate-800">Companies</a>
+            <a href="/wizard" className="px-3 py-2 text-slate-400 hover:text-white text-sm transition-colors rounded-lg hover:bg-slate-800">{tx.navWizard}</a>
+            <a href="/company-compare" className="px-3 py-2 text-slate-400 hover:text-white text-sm transition-colors rounded-lg hover:bg-slate-800">{tx.navCompareCo}</a>
+            <a href="/companies" className="px-3 py-2 text-slate-400 hover:text-white text-sm transition-colors rounded-lg hover:bg-slate-800">{tx.navCompanies}</a>
             {compareMode === 'none' ? (
               <button onClick={() => { setCompareMode('selecting'); setCompareSelection([]); }}
-                className="px-4 py-2 bg-emerald-600 hover:bg-emerald-500 text-white rounded-lg text-sm font-medium transition-colors">Compare Products</button>
+                className="px-4 py-2 bg-emerald-600 hover:bg-emerald-500 text-white rounded-lg text-sm font-medium transition-colors">{tx.compareProducts}</button>
             ) : compareMode === 'selecting' ? (
               <div className="flex gap-2">
                 <span className="text-sm text-slate-400 self-center">{compareSelection.length}/4</span>
                 <button onClick={() => { setCompareMode('none'); setCompareSelection([]); }}
-                  className="px-3 py-2 bg-slate-800 hover:bg-slate-700 text-slate-300 rounded-lg text-sm">Cancel</button>
+                  className="px-3 py-2 bg-slate-800 hover:bg-slate-700 text-slate-300 rounded-lg text-sm">{tx.cancel}</button>
                 <button onClick={() => { if (compareSelection.length >= 2) setCompareMode('comparing'); }}
                   disabled={compareSelection.length < 2}
-                  className="px-4 py-2 bg-emerald-600 hover:bg-emerald-500 disabled:bg-slate-800 disabled:text-slate-600 text-white rounded-lg text-sm font-medium">Compare ({compareSelection.length})</button>
+                  className="px-4 py-2 bg-emerald-600 hover:bg-emerald-500 disabled:bg-slate-800 disabled:text-slate-600 text-white rounded-lg text-sm font-medium">{tx.compareProducts} ({compareSelection.length})</button>
               </div>
             ) : (
               <div className="flex gap-2">
                 <button onClick={() => setCompareMode('selecting')}
-                  className="px-3 py-2 bg-slate-800 hover:bg-slate-700 text-slate-300 rounded-lg text-sm">Reselect</button>
+                  className="px-3 py-2 bg-slate-800 hover:bg-slate-700 text-slate-300 rounded-lg text-sm">{tx.reselect}</button>
                 <button onClick={() => { setCompareMode('none'); setCompareSelection([]); }}
-                  className="px-3 py-2 bg-slate-800 hover:bg-slate-700 text-slate-300 rounded-lg text-sm">Close</button>
+                  className="px-3 py-2 bg-slate-800 hover:bg-slate-700 text-slate-300 rounded-lg text-sm">{tx.close}</button>
               </div>
             )}
+
+            {/* Language Toggle Desktop */}
+            <div className="relative ml-2">
+              <button
+                onClick={() => setLangMenuOpen(!langMenuOpen)}
+                className="flex items-center gap-1.5 px-2 py-1.5 rounded-lg hover:bg-slate-800 text-sm"
+              >
+                <span>{languages.find(l => l.code === lang)?.flag}</span>
+                <span className="text-slate-400">{languages.find(l => l.code === lang)?.nativeLabel}</span>
+                <svg className="w-3 h-3 text-slate-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+                </svg>
+              </button>
+              {langMenuOpen && (
+                <div className="absolute right-0 top-full mt-1 bg-slate-800 border border-slate-700 rounded-xl overflow-hidden shadow-xl min-w-[160px] z-50">
+                  {languages.map(l => (
+                    <button
+                      key={l.code}
+                      onClick={() => { setLang(l.code); setLangMenuOpen(false); }}
+                      className={`w-full text-left px-3 py-2 text-sm flex items-center gap-2 transition-colors ${
+                        lang === l.code ? 'bg-emerald-500/20 text-emerald-400' : 'text-slate-300 hover:bg-slate-700'
+                      }`}
+                    >
+                      <span>{l.flag}</span>
+                      <span>{l.nativeLabel}</span>
+                    </button>
+                  ))}
+                </div>
+              )}
+            </div>
           </nav>
 
-          {/* Mobile Hamburger */}
-          <button
-            onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-            className="md:hidden w-9 h-9 flex items-center justify-center rounded-lg hover:bg-slate-800"
-          >
-            <svg className="w-5 h-5 text-slate-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              {mobileMenuOpen ? (
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
-              ) : (
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
+          {/* Mobile: Hamburger + Lang */}
+          <div className="flex items-center gap-1 md:hidden">
+            {/* Mobile Lang Toggle */}
+            <div className="relative">
+              <button
+                onClick={() => setLangMenuOpen(!langMenuOpen)}
+                className="w-9 h-9 flex items-center justify-center rounded-lg hover:bg-slate-800 text-lg"
+              >
+                {languages.find(l => l.code === lang)?.flag}
+              </button>
+              {langMenuOpen && (
+                <div className="absolute right-0 top-full mt-1 bg-slate-800 border border-slate-700 rounded-xl overflow-hidden shadow-xl min-w-[140px] z-50">
+                  {languages.map(l => (
+                    <button
+                      key={l.code}
+                      onClick={() => { setLang(l.code); setLangMenuOpen(false); }}
+                      className={`w-full text-left px-3 py-2 text-sm flex items-center gap-2 transition-colors ${
+                        lang === l.code ? 'bg-emerald-500/20 text-emerald-400' : 'text-slate-300 hover:bg-slate-700'
+                      }`}
+                    >
+                      <span>{l.flag}</span>
+                      <span>{l.nativeLabel}</span>
+                    </button>
+                  ))}
+                </div>
               )}
-            </svg>
-          </button>
+            </div>
+
+            <button
+              onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
+              className="w-9 h-9 flex items-center justify-center rounded-lg hover:bg-slate-800"
+            >
+              <svg className="w-5 h-5 text-slate-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                {mobileMenuOpen ? (
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
+                ) : (
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
+                )}
+              </svg>
+            </button>
+          </div>
         </div>
 
         {/* Mobile Menu */}
         {mobileMenuOpen && (
           <div className="md:hidden border-t border-slate-800 bg-slate-900 px-4 py-3 space-y-1">
-            <a href="/wizard" className="block px-3 py-2 text-slate-400 hover:text-white hover:bg-slate-800 rounded-lg text-sm">Wizard</a>
-            <a href="/company-compare" className="block px-3 py-2 text-slate-400 hover:text-white hover:bg-slate-800 rounded-lg text-sm">Compare Companies</a>
-            <a href="/companies" className="block px-3 py-2 text-slate-400 hover:text-white hover:bg-slate-800 rounded-lg text-sm">Company Profiles</a>
-            <a href="/" className="block px-3 py-2 text-white bg-slate-800 rounded-lg text-sm">Products</a>
+            <a href="/wizard" className="block px-3 py-2 text-slate-400 hover:text-white hover:bg-slate-800 rounded-lg text-sm">{tx.navWizard}</a>
+            <a href="/company-compare" className="block px-3 py-2 text-slate-400 hover:text-white hover:bg-slate-800 rounded-lg text-sm">{tx.navCompareCo}</a>
+            <a href="/companies" className="block px-3 py-2 text-slate-400 hover:text-white hover:bg-slate-800 rounded-lg text-sm">{tx.navCompanies}</a>
+            <a href="/" className="block px-3 py-2 text-white bg-slate-800 rounded-lg text-sm">{tx.navProducts}</a>
             <div className="pt-2 border-t border-slate-800">
               {compareMode === 'none' ? (
                 <button onClick={() => { setCompareMode('selecting'); setCompareSelection([]); setMobileMenuOpen(false); }}
-                  className="w-full px-4 py-2 bg-emerald-600 text-white rounded-lg text-sm font-medium">Compare Products</button>
+                  className="w-full px-4 py-2 bg-emerald-600 text-white rounded-lg text-sm font-medium">{tx.compareProducts}</button>
               ) : (
                 <button onClick={() => { setCompareMode('none'); setCompareSelection([]); setMobileMenuOpen(false); }}
-                  className="w-full px-4 py-2 bg-slate-800 text-slate-300 rounded-lg text-sm">Cancel Compare</button>
+                  className="w-full px-4 py-2 bg-slate-800 text-slate-300 rounded-lg text-sm">{tx.cancel} {tx.compareProducts}</button>
               )}
             </div>
           </div>
@@ -224,7 +286,7 @@ export default function Home() {
           <div className="flex flex-wrap gap-3 items-center">
             <input
               type="text"
-              placeholder="Search products..."
+              placeholder={tx.searchPlaceholder}
               value={searchQuery}
               onChange={(e) => setSearchQuery(e.target.value)}
               className="flex-1 min-w-[200px] bg-slate-800 border border-slate-700 rounded-lg px-3 py-2 text-sm text-slate-200 placeholder-slate-500 focus:outline-none focus:border-slate-500"
@@ -240,7 +302,7 @@ export default function Home() {
                       : 'text-slate-400 hover:text-slate-200'
                   }`}
                 >
-                  {mode === 'all' ? 'All Products' : mode === 'bars' ? 'Bars' : 'Displays'}
+                  {mode === 'all' ? tx.allProducts : mode === 'bars' ? tx.bars : tx.displays}
                 </button>
               ))}
             </div>
@@ -248,7 +310,7 @@ export default function Home() {
 
           {/* Company Filter */}
           <div>
-            <div className="text-xs text-slate-500 uppercase tracking-wider mb-2">Companies</div>
+            <div className="text-xs text-slate-500 uppercase tracking-wider mb-2">{tx.filterCompanies}</div>
             <div className="flex flex-wrap gap-2">
               {companies.map(c => (
                 <button
@@ -268,7 +330,7 @@ export default function Home() {
 
           {/* Platform Filter */}
           <div>
-            <div className="text-xs text-slate-500 uppercase tracking-wider mb-2">Platforms</div>
+            <div className="text-xs text-slate-500 uppercase tracking-wider mb-2">{tx.filterPlatforms}</div>
             <div className="flex flex-wrap gap-2">
               {platforms.map(p => (
                 <button
@@ -291,14 +353,14 @@ export default function Home() {
         {compareMode === 'comparing' && comparedProducts.length >= 2 && (
           <div className="mb-8 bg-slate-900 border border-slate-800 rounded-xl overflow-hidden">
             <div className="p-4 border-b border-slate-800 flex items-center justify-between">
-              <h2 className="text-lg font-bold text-white">Side-by-Side Comparison</h2>
+              <h2 className="text-lg font-bold text-white">{tx.compareTable}</h2>
               <span className="text-sm text-slate-500">{comparedProducts.length} products</span>
             </div>
             <div className="overflow-x-auto">
               <table className="w-full text-sm">
                 <thead>
                   <tr className="border-b border-slate-800">
-                    <th className="text-left p-3 text-slate-500 font-medium sticky left-0 bg-slate-900 min-w-[140px]">Spec</th>
+                    <th className="text-left p-3 text-slate-500 font-medium sticky left-0 bg-slate-900 min-w-[140px]">{tx.spec}</th>
                     {comparedProducts.map(p => (
                       <th key={p.id} className="text-left p-3 min-w-[180px]">
                         <div className="text-xs text-slate-500">{p.company}</div>
@@ -334,7 +396,7 @@ export default function Home() {
         {/* Product Grid */}
         <div className="mb-4 flex items-center justify-between">
           <h2 className="text-lg font-bold text-white">
-            {viewMode === 'all' ? 'All Products' : viewMode === 'bars' ? 'Video Conferencing Bars' : 'All-in-One Displays'}
+            {viewMode === 'all' ? tx.allProducts : viewMode === 'bars' ? tx.bars : tx.displays}
             <span className="text-sm text-slate-500 font-normal ml-2">({filtered.length})</span>
           </h2>
         </div>
@@ -347,12 +409,12 @@ export default function Home() {
 
         {filtered.length === 0 && (
           <div className="text-center py-12">
-            <p className="text-slate-500">No products match your filters.</p>
+            <p className="text-slate-500">{tx.noResults}</p>
             <button
               onClick={() => { setSelectedCompanies([]); setSelectedPlatforms([]); setSearchQuery(''); }}
               className="mt-2 text-emerald-400 hover:text-emerald-300 text-sm"
             >
-              Clear all filters
+              {tx.clearFilters}
             </button>
           </div>
         )}
@@ -360,7 +422,7 @@ export default function Home() {
 
       <footer className="border-t border-slate-800 mt-12 py-6 text-center">
         <p className="text-sm text-slate-600">
-          CanYouHearMe — VC Product Comparison. Data sourced from manufacturer datasheets.
+          {tx.footer}
         </p>
       </footer>
     </div>

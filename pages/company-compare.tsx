@@ -2,10 +2,13 @@ import React, { useState } from 'react';
 import Head from 'next/head';
 import { companyProfiles } from '../data/companies';
 import { CompanyProfile } from '../data/companies';
+import { useI18n, languages } from '../data/i18n';
 
 export default function CompanyCompare() {
   const [selected, setSelected] = useState<string[]>([]);
   const [mode, setMode] = useState<'select' | 'compare'>('select');
+  const [langMenuOpen, setLangMenuOpen] = useState(false);
+  const { lang, setLang, tx } = useI18n();
 
   const toggle = (id: string) => {
     setSelected(prev => {
@@ -18,14 +21,14 @@ export default function CompanyCompare() {
   const compared = selected.map(id => companyProfiles.find(c => c.id === id)).filter(Boolean) as CompanyProfile[];
 
   const rows = [
-    { label: 'Market Position', key: 'marketPosition' },
-    { label: 'Founded', key: 'founded' },
-    { label: 'Headquarters', key: 'headquarters' },
-    { label: 'Tagline', key: 'tagline' },
-    { label: 'Product Count', key: 'products', format: (v: string[]) => String(v.length) },
-    { label: 'Product Lineup', key: 'products', format: (v: string[]) => v.join(', ') },
-    { label: 'Strengths', key: 'strengths', format: (v: string[]) => v.slice(0, 2).join('; ') + (v.length > 2 ? '...' : '') },
-    { label: 'Weaknesses', key: 'weaknesses', format: (v: string[]) => v.slice(0, 2).join('; ') + (v.length > 2 ? '...' : '') },
+    { label: tx.marketPosition, key: 'marketPosition' },
+    { label: tx.founded, key: 'founded' },
+    { label: tx.headquarters, key: 'headquarters' },
+    { label: tx.tagline, key: 'tagline' },
+    { label: tx.productCount, key: 'products', format: (v: string[]) => String(v.length) },
+    { label: tx.productLineup, key: 'products', format: (v: string[]) => v.join(', ') },
+    { label: tx.strengths, key: 'strengths', format: (v: string[]) => v.slice(0, 2).join('; ') + (v.length > 2 ? '...' : '') },
+    { label: tx.weaknesses, key: 'weaknesses', format: (v: string[]) => v.slice(0, 2).join('; ') + (v.length > 2 ? '...' : '') },
   ];
 
   const renderCell = (c: CompanyProfile, key: string, format?: (v: any) => string) => {
@@ -38,7 +41,7 @@ export default function CompanyCompare() {
   return (
     <div className="min-h-screen bg-slate-950 text-slate-200">
       <Head>
-        <title>Company Comparison — CanYouHearMe</title>
+        <title>{tx.companyCompare} — {tx.siteTitle}</title>
       </Head>
 
       <header className="border-b border-slate-800">
@@ -50,11 +53,42 @@ export default function CompanyCompare() {
               </svg>
             </div>
             <div>
-              <h1 className="text-lg font-bold text-white">CanYouHearMe</h1>
-              <p className="text-xs text-slate-500">Company Comparison</p>
+              <h1 className="text-lg font-bold text-white">{tx.siteTitle}</h1>
+              <p className="text-xs text-slate-500">{tx.companyCompare}</p>
             </div>
           </div>
-          <a href="/" className="text-sm text-slate-400 hover:text-white">← Back</a>
+
+          <div className="flex items-center gap-2">
+            {/* Language Toggle */}
+            <div className="relative">
+              <button
+                onClick={() => setLangMenuOpen(!langMenuOpen)}
+                className="flex items-center gap-1 px-2 py-1.5 rounded-lg hover:bg-slate-800 text-sm"
+              >
+                <span>{languages.find(l => l.code === lang)?.flag}</span>
+                <svg className="w-3 h-3 text-slate-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+                </svg>
+              </button>
+              {langMenuOpen && (
+                <div className="absolute right-0 top-full mt-1 bg-slate-800 border border-slate-700 rounded-xl overflow-hidden shadow-xl min-w-[140px] z-50">
+                  {languages.map(l => (
+                    <button
+                      key={l.code}
+                      onClick={() => { setLang(l.code); setLangMenuOpen(false); }}
+                      className={`w-full text-left px-3 py-2 text-sm flex items-center gap-2 transition-colors ${
+                        lang === l.code ? 'bg-emerald-500/20 text-emerald-400' : 'text-slate-300 hover:bg-slate-700'
+                      }`}
+                    >
+                      <span>{l.flag}</span>
+                      <span>{l.nativeLabel}</span>
+                    </button>
+                  ))}
+                </div>
+              )}
+            </div>
+            <a href="/" className="text-sm text-slate-400 hover:text-white">{tx.back}</a>
+          </div>
         </div>
       </header>
 
@@ -62,9 +96,9 @@ export default function CompanyCompare() {
         {mode === 'select' ? (
           <div className="space-y-6">
             <div className="text-center space-y-2">
-              <h2 className="text-2xl font-bold text-white">Compare Companies</h2>
-              <p className="text-slate-400">Select up to 3 companies to compare side-by-side</p>
-              <div className="text-sm text-slate-500">{selected.length}/3 selected</div>
+              <h2 className="text-2xl font-bold text-white">{tx.companyCompare}</h2>
+              <p className="text-slate-400">{tx.companyCompareDesc}</p>
+              <div className="text-sm text-slate-500">{selected.length}/3 {tx.selectLang}</div>
             </div>
 
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
@@ -91,7 +125,7 @@ export default function CompanyCompare() {
                       {selected.includes(c.id) ? '✓' : '+'}
                     </div>
                   </div>
-                  <div className="text-xs text-slate-500 mt-3">{c.products.length} products</div>
+                  <div className="text-xs text-slate-500 mt-3">{c.products.length} {tx.productCount.toLowerCase()}</div>
                 </button>
               ))}
             </div>
@@ -101,33 +135,33 @@ export default function CompanyCompare() {
                 onClick={() => setSelected([])}
                 className="px-4 py-2 bg-slate-800 hover:bg-slate-700 text-slate-300 rounded-lg text-sm"
               >
-                Clear
+                {tx.clearFilters}
               </button>
               <button
                 onClick={() => { if (selected.length >= 2) setMode('compare'); }}
                 disabled={selected.length < 2}
                 className="px-6 py-2 bg-emerald-600 hover:bg-emerald-500 disabled:bg-slate-800 disabled:text-slate-600 text-white rounded-lg text-sm font-medium"
               >
-                Compare ({selected.length})
+                {tx.compareProducts} ({selected.length})
               </button>
             </div>
           </div>
         ) : (
           <div className="space-y-6">
             <div className="flex items-center justify-between">
-              <h2 className="text-xl font-bold text-white">Side-by-Side Comparison</h2>
+              <h2 className="text-xl font-bold text-white">{tx.compareTable}</h2>
               <div className="flex gap-2">
                 <button
                   onClick={() => setMode('select')}
                   className="px-3 py-2 bg-slate-800 hover:bg-slate-700 text-slate-300 rounded-lg text-sm"
                 >
-                  Reselect
+                  {tx.reselect}
                 </button>
                 <button
                   onClick={() => { setMode('select'); setSelected([]); }}
                   className="px-3 py-2 bg-slate-800 hover:bg-slate-700 text-slate-300 rounded-lg text-sm"
                 >
-                  Close
+                  {tx.close}
                 </button>
               </div>
             </div>
@@ -136,7 +170,7 @@ export default function CompanyCompare() {
               <table className="w-full text-sm border border-slate-800 rounded-xl overflow-hidden">
                 <thead>
                   <tr className="bg-slate-900 border-b border-slate-800">
-                    <th className="text-left p-4 text-slate-500 font-medium sticky left-0 bg-slate-900 min-w-[160px]">Attribute</th>
+                    <th className="text-left p-4 text-slate-500 font-medium sticky left-0 bg-slate-900 min-w-[160px]">{tx.spec}</th>
                     {compared.map(c => (
                       <th key={c.id} className="text-left p-4 min-w-[220px]">
                         <div className="text-lg font-bold text-white">{c.name}</div>
@@ -156,7 +190,7 @@ export default function CompanyCompare() {
                   ))}
                   {/* Full strengths */}
                   <tr className="border-b border-slate-800/50">
-                    <td className="p-4 text-emerald-400 font-medium sticky left-0 bg-slate-950">✓ All Strengths</td>
+                    <td className="p-4 text-emerald-400 font-medium sticky left-0 bg-slate-950">✓ {tx.strengths}</td>
                     {compared.map(c => (
                       <td key={c.id} className="p-4">
                         <ul className="space-y-1">
@@ -172,7 +206,7 @@ export default function CompanyCompare() {
                   </tr>
                   {/* Full weaknesses */}
                   <tr>
-                    <td className="p-4 text-amber-400 font-medium sticky left-0 bg-slate-950">⚠ All Weaknesses</td>
+                    <td className="p-4 text-amber-400 font-medium sticky left-0 bg-slate-950">⚠ {tx.weaknesses}</td>
                     {compared.map(c => (
                       <td key={c.id} className="p-4">
                         <ul className="space-y-1">
