@@ -390,6 +390,198 @@ export const companyTranslations: Record<string, Record<string, {
       ],
     },
   },
+  tl: {
+    logitech: {
+      tagline: 'Swiss engineering, saklaw sa buong mundo',
+      description:
+        'Ang Logitech ay isa sa pinakakilalang tatak sa mga computer peripheral at video conferencing. Ang kanilang Rally series ang naghahari sa mid-market na may mga maaasahan, maayos na integrated na solusyon. Mayroon silang mga dekada ng karanasan sa audio at malalakas na pakikipagtulungan sa Zoom at Microsoft.',
+      strengths: [
+        'Malakas na pagkilala sa tatak at pagtitiwala',
+        'Mahusay na RightSight AI framing at RightSound noise suppression',
+        'Logitech Sync cloud management platform',
+        'Suporta sa maraming platform (Zoom, Teams, Google Meet, BYOD)',
+        'Modular ecosystem (mic pods, speakers, controllers)',
+        'Magandang kalidad ng gawa at track record ng pagiging maaasahan',
+      ],
+      weaknesses: [
+        'Premium pricing — hindi ang pinakamurang opsyon',
+        'Ilan sa mga produkto ay "safe" sa halip na makabago',
+        'AI features ay nahuhuli sa mga mas bagong kumpanya tulad ng Neat',
+        'Mga specs ng camera hardware (MP count) ay mas mababa sa kumpetisyon',
+        'Hindi gaanong agresibo sa all-in-one display category',
+      ],
+    },
+    poly: {
+      tagline: 'Engineered para sa kalinawan',
+      description:
+        'Ngayon ay bahagi ng HP, nagdadala ang Poly ng mga dekada ng karanasan sa audio engineering mula sa Plantronics at Polycom. Ang kanilang Studio X series ay pinagsama ang napatunayan na acoustic expertise sa modernong AI camera features. Mayroon silang malakas na presensya sa enterprise telephony.',
+      strengths: [
+        'Pinakamagandang kalidad ng audio at noise cancellation sa klase',
+        'Poly DirectorAI na may smart speaker tracking at group framing',
+        'Malakas na enterprise support at infrastructure ng serbisyo',
+        'Ang suporta ng HP ay nagbibigay ng supply chain stability',
+        'Magandang camera zoom capabilities (5x sa X52/X70)',
+        'Poly Lens cloud management',
+      ],
+      weaknesses: [
+        'Integration sa HP ecosystem ay patuloy na nagmamature',
+        'Ilan sa lumang Polycom products ay nagkakapatungan kaya nalilito',
+        'Software platform (Poly Lens) ay mas bata pa kaysa sa Logitech Sync',
+        'Ang disenyo ay maaaring maramdaman bilang corporate/boring',
+        'Mas mabagal na mag-adopt ng cutting-edge sensor technology',
+      ],
+    },
+    cisco: {
+      tagline: 'Ang network ay ang platform',
+      description:
+        'Ang Webex Room series ng Cisco ay nagdadala ng enterprise-grade security at integration sa video conferencing. Ang kanilang mga device ay idinisenyo para sa mga organisasyon na nakainvest na sa Cisco/Webex ecosystem, na may top-tier security certifications.',
+      strengths: [
+        'Enterprise-grade security at compliance',
+        'Dual 96MP camera system (Room Bar Pro) — pinakamataas na resolution sa merkado',
+        'Malalim na Webex integration at Control Hub management',
+        'AI noise removal at facial recognition',
+        'RoomOS ay nagbibigay ng consistent na karanasan sa lahat ng device',
+        'Malakas na in-room intelligence (bilang ng tao, kalidad ng hangin)',
+      ],
+      weaknesses: [
+        'Premium pricing — kadalasan doble sa mga kakumpitensya',
+        'Pinakamagandang karanasan ay nangangailangan ng buong Webex commitment',
+        'Mas mahina ang third-party platform support',
+        'Komplikadong setup para sa non-Cisco environments',
+        'Mas mabagal na feature rollouts kaysa sa mga agile kakumpitensya',
+        'Ang hardware ay maaaring maramdaman bilang bulky at outdated',
+      ],
+    },
+    neat: {
+      tagline: 'Maganda nang simple',
+      description:
+        'Ang Neat ay ang tagapag-ugnay — isang Norwegian startup na mula sa wala ay naging paborito ng Zoom/Teams sa loob lamang ng ilang taon. Prioridad nila ang cutting-edge sensors, sleek Scandinavian design, at AI-first features. Ang kanilang mga device ay parang consumer tech, hindi corporate gear.',
+      strengths: [
+        'Pinakamagandang disenyo at aesthetics sa klase',
+        'Cutting-edge sensors: radar (wakeup), depth (ToF), ambient light',
+        '100MP dual-camera system (Bar Pro / Board Pro)',
+        'Neat Symmetry — pinalalaki ang mga remote at in-room participant',
+        'Neat Boundary — virtual room dividers via depth sensor',
+        'Pinakamabilis na feature development cycle sa industriya',
+        'Google Meet certified (Enero 2026) — sumusuporta ngayon sa Zoom, Teams, at Meet',
+        'BYOD mode available sa Bar Gen 2, Bar Pro, Board 50, Board Pro — kumonekta ng laptop via USB-C o gamitin ang standalone BYOD-only mode',
+        'Android-based, madalas na software updates',
+      ],
+      weaknesses: [
+        'Bagong kumpanya — mabilis na innovation cycles na may madalas na feature releases',
+        'Google Meet ay kararating lang (Enero 2026) — lumalawak nang lampas sa native Zoom/Teams',
+        'Lumalaking global support network — sumusunod sa demand',
+        'Premium positioning — namumuhunan sa advanced sensors at Scandinavian design',
+        'Ang unang hardware generations ay na-refine sa pamamagitan ng patuloy na software updates',
+      ],
+    },
+    yealink: {
+      tagline: 'Madaling pakikipagtulungan, mataas na produktibidad',
+      description:
+        'Ang Yealink ay ang kampeon sa value — isang Chinese manufacturer na nag-aalok ng feature-rich na mga device sa agresibong presyo. Naghahari sila sa Asia at mabilis na nakakakuha ng ground sa Europe/Americas na may Teams-certified at Zoom-certified na mga bar at display.',
+      strengths: [
+        'Pinakamagandang price-to-feature ratio sa merkado',
+        'Ultra-wide cameras (151° sa A25) para sa mga maliit na kwarto',
+        'Qualcomm 8550 chipset sa A50 para sa AI processing',
+        'Malakas na Teams at Zoom certification program',
+        'Mabilis na product development at iteration',
+        'Magandang display options (MeetingBoard) sa mas mababang halaga',
+      ],
+      weaknesses: [
+        'Nakikita bilang "budget" brand kumpara sa Logitech/Cisco',
+        'Software experience ay mas hindi pa kasing polished ng Neat/Logitech',
+        'AI features ay mas hindi pa kasing sopistikado ng premium kakumpitensya',
+        'Audio quality ay mabuti ngunit hindi ang pinakamahusay sa klase',
+        'Support network ay mas manipis sa Americas',
+        'Ilan ay may alalahanin tungkol sa long-term firmware support',
+      ],
+    },
+    crestron: {
+      tagline: 'Kontrolin ang lahat',
+      description:
+        'Ang Crestron ay ang automation at control giant na gumagawa rin ng VC hardware. Ang kanilang Videobar 70 ay idinisenyo para sa mga malalaking kwarto at malalim na integrated sa kanilang room control systems. Sila ang pinipili para sa high-end corporate AV installations.',
+      strengths: [
+        'Malalim na room automation at control integration',
+        '24-microphone array sa Videobar 70 — pinakamaraming mic sa anumang bar',
+        '4-camera system para sa intelligent video stitching',
+        'Enterprise-grade security at management',
+        'Pinakamahusay para sa malaki/huddle spaces at custom AV installs',
+        'Unified platform sa lighting, shades, AV, at VC',
+      ],
+      weaknesses: [
+        'Overkill para sa simpleng deployment — komplikadong setup',
+        'Nangangailangan ng Crestron expertise para sa buong value',
+        'Pinakamahal na ecosystem kapag isinama ang control systems',
+        'Hindi competitive para sa simple plug-and-play deployments',
+        'Mas maliit na VC-specific feature set vs dedicated vendors',
+        'Software UX ay mas hindi pa kasing refined ng Zoom/Teams native',
+      ],
+    },
+    lenovo: {
+      tagline: 'Mas matalinong teknolohiya para sa lahat',
+      description:
+        'Ang ThinkSmart series ng Lenovo ay inaasahan ang kanilang karanasan sa pagmamanufacture ng PC. Ang Bar 180 ay natatangi sa 180° panoramic camera — perpekto para sa malalawak na kwarto. Ang kanila ay gumagana ng maayos sa hybrid work scenarios na may malakas na PC/ThinkPad integration.',
+      strengths: [
+        'Natatanging 180° panoramic camera na may 13MP sensor',
+        '6x lossless digital zoom at intelligent framing',
+        'Malakas na integration sa ThinkPad/Windows ecosystem',
+        'Magaan (2.2kg) at compact na disenyo',
+        'Magandang BYOD support',
+        'Competitive pricing para sa feature set',
+      ],
+      weaknesses: [
+        'Mas bagong player — mas hindi pa napatunayan ang track record sa VC',
+        'Software platform ay mas bata pa kaysa sa Logitech Sync',
+        'Limited product range vs full-suite competitors',
+        'Ang panoramic format (3840x1080) ay maaaring awkward sa ilang platform',
+        'Support infrastructure ay patuloy na nagtatayo',
+        'Camera resolution ay mas mababa sa 4K competitors',
+      ],
+    },
+    dten: {
+      tagline: 'All-in-one simplicity',
+      description:
+        'Ang DTEN ay nakatuon lamang sa mga all-in-one display na may built-in Zoom/Teams. Ang kanilang D7X series ay sumasaklaw sa lahat mula sa personal na 27" device hanggang sa malalaking 75" room displays. Prioridad nila ang touch-first collaboration na may whiteboard features.',
+      strengths: [
+        'Purpose-built para sa Zoom Rooms at Teams Rooms',
+        '15-microphone array sa mas malalaking display — mahusay na audio pickup',
+        'Malakas na touch at whiteboard experience',
+        'BYOD Smart Connect sa pamamagitan ng isang USB-C cable',
+        'Lahat ng sizes mula personal hanggang malaking kwarto sa isang product family',
+        'Malinis, minimalist na disenyo',
+      ],
+      weaknesses: [
+        'Limitado sa Zoom/Teams — walang Google Meet o Webex',
+        'All-in-one nangangahulugang walang modular upgrades (stuck sa display quality)',
+        'Mas kaunting camera intelligence kaysa sa Neat/Cisco',
+        'Mas mababang brand recognition sa labas ng Zoom ecosystem',
+        'Service at support network ay limitado kumpara sa Logitech',
+        'Premium pricing para sa mas malalaking display',
+      ],
+    },
+    maxhub: {
+      tagline: 'Maximize ang pakikipagtulungan',
+      description:
+        'Ang MAXHUB ay isang Chinese display technology company na agresibong lumawak sa interactive displays at VC bars. Kompetitibo sila sa specs — 100MP cameras, 16-mic arrays, 180° FOV — sa presyong mas mababa sa mga Western competitor.',
+      strengths: [
+        'Agresibong specs: 100MP dual-lens, 16-mic array, 180° FOV',
+        '15-meter voice pickup range — pinakamahabang sa klase',
+        'Pinakakompetitibong pricing para sa feature set',
+        'Malawak na range ng display sizes (55" hanggang 86")',
+        'AI Noise Cancellation technology',
+        'FlexMount para sa madaling pag-install',
+        'Teams at Zoom certified',
+      ],
+      weaknesses: [
+        'Mababang brand recognition sa labas ng Asia',
+        'Software experience ay mas hindi pa kasing refined ng Western competitors',
+        'Long-term support at firmware updates ay hindi pa sigurado',
+        'Perception ng build quality vs Logitech/Cisco',
+        'Limitadong global service network',
+        'Spec-sheet marketing ay maaaring hindi sumalamin sa totoong performance',
+      ],
+    },
+  },
 };
 
 export function getTranslatedCompany(company: CompanyProfile, lang: string): CompanyProfile {
