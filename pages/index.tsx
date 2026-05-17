@@ -40,6 +40,12 @@ export default function Home() {
         p.subCategory?.toLowerCase().includes(q)
       );
     }
+    // Sort: Neat first, then alphabetically by company
+    list = [...list].sort((a, b) => {
+      if (a.company === 'Neat' && b.company !== 'Neat') return -1;
+      if (b.company === 'Neat' && a.company !== 'Neat') return 1;
+      return a.company.localeCompare(b.company) || a.name.localeCompare(b.name);
+    });
     return list;
   }, [viewMode, selectedCompanies, selectedPlatforms, searchQuery]);
 

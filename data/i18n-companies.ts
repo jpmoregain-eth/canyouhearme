@@ -80,7 +80,7 @@ export const companyTranslations: Record<string, Record<string, {
         'Neat Boundary — vách ngăn phòng ảo qua cảm biến độ sâu',
         'Chu kỳ phát triển tính năng nhanh nhất ngành',
         'Google Meet được chứng nhận (Tháng 1/2026) — hỗ trợ Zoom, Teams và Meet',
-        'Chế độ BYOD có sẵn trên Bar Gen 2, Bar Pro, Board 50, Board Pro',
+        'Chế độ BYOD có sẵn trên Bar Gen 2, Bar Pro, Board 50, Board Pro — kết nối laptop qua USB-C hoặc sử dụng chế độ BYOD-only độc lập',
         'Dựa trên Android, cập nhật phần mềm thường xuyên',
       ],
       weaknesses: [

@@ -27,7 +27,7 @@ export const companyProfiles: CompanyProfile[] = [
       'Neat Boundary — virtual room dividers via depth sensor',
       'Fastest feature development cycle in the industry',
       'Google Meet certified (Jan 2026) — now supports Zoom, Teams, and Meet',
-      'BYOD mode available on Bar Gen 2, Bar Pro, Board 50, Board Pro',
+      'BYOD mode available on Bar Gen 2, Bar Pro, Board 50, Board Pro — connect any laptop via USB-C or use standalone BYOD-only mode',
       'Android-based, frequent software updates'
     ],
     weaknesses: [
