@@ -155,13 +155,13 @@ export default function Home() {
           <div className="flex gap-2 items-center">
             <a
               href="/wizard"
-              className="px-3 py-2 text-slate-400 hover:text-white text-sm transition-colors hidden sm:block"
+              className="px-3 py-2 text-slate-400 hover:text-white text-sm transition-colors"
             >
               Wizard
             </a>
             <a
               href="/company-compare"
-              className="px-3 py-2 text-slate-400 hover:text-white text-sm transition-colors hidden sm:block"
+              className="px-3 py-2 text-slate-400 hover:text-white text-sm transition-colors"
             >
               Compare Co.
             </a>
