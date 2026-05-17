@@ -106,15 +106,15 @@ export const companyProfiles: CompanyProfile[] = [
       'Neat Boundary — virtual room dividers via depth sensor',
       'Fastest feature development cycle in the industry',
       'Google Meet certified (Jan 2026) — now supports Zoom, Teams, and Meet',
+      'BYOD mode available on Bar Gen 2, Bar Pro, Board 50, Board Pro',
       'Android-based, frequent software updates'
     ],
     weaknesses: [
-      'Young company — long-term support concerns vs Cisco/Logitech',
-      'Google Meet support is newer (certified Jan 2026) vs Zoom/Teams native',
-      'No BYOD mode on most devices',
-      'Smaller global support/service network',
-      'Higher price than Yealink/MAXHUB alternatives',
-      'Some reliability issues reported in early generations'
+      'Newer company — rapid innovation cycles with frequent feature releases',
+      'Google Meet recently added (Jan 2026) — expanding beyond native Zoom/Teams',
+      'Growing global support network — scaling with demand',
+      'Premium positioning — investment in advanced sensors and Scandinavian design',
+      'Early hardware generations refined through continuous software updates'
     ],
     website: 'https://neat.no',
     founded: '2019',

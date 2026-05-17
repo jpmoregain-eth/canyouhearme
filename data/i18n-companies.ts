@@ -79,15 +79,16 @@ export const companyTranslations: Record<string, Record<string, {
         'Neat Symmetry — cân bằng kích thước người tham gia từ xa và tại phòng',
         'Neat Boundary — vách ngăn phòng ảo qua cảm biến độ sâu',
         'Chu kỳ phát triển tính năng nhanh nhất ngành',
+        'Google Meet được chứng nhận (Tháng 1/2026) — hỗ trợ Zoom, Teams và Meet',
+        'Chế độ BYOD có sẵn trên Bar Gen 2, Bar Pro, Board 50, Board Pro',
         'Dựa trên Android, cập nhật phần mềm thường xuyên',
       ],
       weaknesses: [
-        'Công ty trẻ — lo ngại hỗ trợ dài hạn so với Cisco/Logitech',
-        'Hỗ trợ nền tảng bên thứ ba hạn chế (chỉ Zoom/Teams)',
-        'Không có chế độ BYOD trên hầu hết thiết bị',
-        'Mạng lưới hỗ trợ/dịch vụ toàn cầu nhỏ hơn',
-        'Giá cao hơn các lựa chọn thay thế Yealink/MAXHUB',
-        'Một số vấn đề độ tin cậy được báo cáo ở các thế hệ đầu',
+        'Công ty mới — chu kỳ đổi mới nhanh với tính năng thường xuyên được cập nhật',
+        'Google Meet mới được thêm gần đây (Tháng 1/2026) — đang mở rộng ngoài Zoom/Teams',
+        'Mạng lưới hỗ trợ toàn cầu đang phát triển — mở rộng theo nhu cầu',
+        'Định vị cao cấp — đầu tư vào công nghệ cảm biến tiên tiến và thiết kế Scandinavian',
+        'Các thế hệ phần cứng đầu được tinh chỉnh qua cập nhật phần mềm liên tục'
       ],
     },
     yealink: {
