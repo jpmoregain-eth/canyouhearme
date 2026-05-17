@@ -112,6 +112,21 @@ export default function CompanyCompare() {
               <h2 className="text-2xl font-bold text-white">{tx.companyCompare}</h2>
               <p className="text-slate-400">{tx.companyCompareDesc}</p>
               <div className="text-sm text-slate-500">{selected.length}/3 {tx.selectLang}</div>
+            <div className="flex justify-center gap-3 mt-4">
+              <button
+                onClick={() => { if (selected.length >= 2) setMode('compare'); }}
+                disabled={selected.length < 2}
+                className="px-6 py-2 bg-emerald-600 hover:bg-emerald-500 disabled:bg-slate-800 disabled:text-slate-600 text-white rounded-lg text-sm font-medium"
+              >
+                {tx.compareProducts} ({selected.length})
+              </button>
+              <button
+                onClick={() => setSelected([])}
+                className="px-4 py-2 bg-slate-800 hover:bg-slate-700 text-slate-300 rounded-lg text-sm"
+              >
+                {tx.clearFilters}
+              </button>
+            </div>
             </div>
 
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">

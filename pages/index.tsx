@@ -447,6 +447,32 @@ export default function Home() {
         )}
       </main>
 
+      {/* Fixed Compare Action Bar — Bottom of Page */}
+      {compareMode === 'selecting' && (
+        <div className="fixed bottom-0 left-0 right-0 bg-slate-900/95 backdrop-blur border-t border-slate-700 z-50">
+          <div className="max-w-7xl mx-auto px-4 py-3 flex items-center justify-between">
+            <div className="text-sm text-slate-400">
+              {compareSelection.length}/4 {tx.selected}
+            </div>
+            <div className="flex gap-2">
+              <button
+                onClick={() => { setCompareMode('none'); setCompareSelection([]); }}
+                className="px-4 py-2 bg-slate-800 hover:bg-slate-700 text-slate-300 rounded-lg text-sm"
+              >
+                {tx.cancel}
+              </button>
+              <button
+                onClick={() => { if (compareSelection.length >= 2) setCompareMode('comparing'); }}
+                disabled={compareSelection.length < 2}
+                className="px-4 py-2 bg-emerald-600 hover:bg-emerald-500 disabled:bg-slate-800 disabled:text-slate-600 text-white rounded-lg text-sm font-medium"
+              >
+                {tx.compareProducts} ({compareSelection.length})
+              </button>
+            </div>
+          </div>
+        </div>
+      )}
+
       <footer className="border-t border-slate-800 mt-12 py-6 text-center">
         <p className="text-sm text-slate-600">
           {tx.footer}
