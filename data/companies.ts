@@ -12,7 +12,7 @@ export interface CompanyProfile {
   marketPosition: 'Leader' | 'Challenger' | 'Niche' | 'Emerging';
 }
 
-[
+export const companyProfiles: CompanyProfile[] = [
   {
     id: 'neat',
     name: 'Neat',
