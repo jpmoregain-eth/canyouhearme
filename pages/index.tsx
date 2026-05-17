@@ -4,7 +4,7 @@ import { products, companies, platforms } from '../data/products';
 import { Product } from '../data/types';
 import { useI18n, languages } from '../data/i18n';
 
-type ViewMode = 'bars' | 'displays' | 'all';
+type ViewMode = 'bars' | 'displays' | 'companions' | 'all';
 type CompareMode = 'none' | 'selecting' | 'comparing';
 
 export default function Home() {
@@ -24,7 +24,9 @@ export default function Home() {
   const filtered = useMemo(() => {
     let list = products;
     if (viewMode !== 'all') {
-      list = list.filter(p => p.category === (viewMode === 'bars' ? 'bar' : 'display'));
+      if (viewMode === 'bars') list = list.filter(p => p.category === 'bar');
+      else if (viewMode === 'displays') list = list.filter(p => p.category === 'display');
+      else if (viewMode === 'companions') list = list.filter(p => p.category === 'companion');
     }
     if (selectedCompanies.length > 0) {
       list = list.filter(p => selectedCompanies.includes(p.company));
@@ -296,7 +298,7 @@ export default function Home() {
               className="flex-1 min-w-[200px] bg-slate-800 border border-slate-700 rounded-lg px-3 py-2 text-sm text-slate-200 placeholder-slate-500 focus:outline-none focus:border-slate-500"
             />
             <div className="flex bg-slate-800 rounded-lg p-1">
-              {(['all', 'bars', 'displays'] as ViewMode[]).map(mode => (
+              {(['all', 'bars', 'displays', 'companions'] as ViewMode[]).map(mode => (
                 <button
                   key={mode}
                   onClick={() => setViewMode(mode)}
@@ -400,7 +402,7 @@ export default function Home() {
         {/* Product Grid */}
         <div className="mb-4 flex items-center justify-between">
           <h2 className="text-lg font-bold text-white">
-            {viewMode === 'all' ? tx.allProducts : viewMode === 'bars' ? tx.bars : tx.displays}
+            {viewMode === 'all' ? tx.allProducts : viewMode === 'bars' ? tx.bars : viewMode === 'companions' ? tx.companions : tx.displays}
             <span className="text-sm text-slate-500 font-normal ml-2">({filtered.length})</span>
           </h2>
         </div>

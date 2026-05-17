@@ -18,7 +18,7 @@ export const companyProfiles: CompanyProfile[] = [
     name: 'Neat',
     tagline: 'Beautifully simple',
     description: 'Neat is the disruptor — a Norwegian startup that went from zero to Zoom/Teams darling in just a few years. They prioritize cutting-edge sensors, sleek Scandinavian design, and AI-first features. Their devices feel like consumer tech, not corporate gear.',
-    products: ['Neat Bar Gen 2', 'Neat Bar Pro', 'Neat Board 50', 'Neat Board Pro 65', 'Neat Frame', 'Neat Pad controller'],
+    products: ['Neat Bar Gen 2', 'Neat Bar Pro', 'Neat Board 50', 'Neat Board Pro 65', 'Neat Frame', 'Neat Center', 'Neat Pad controller'],
     strengths: [
       'Best-in-class design and aesthetics',
       'Cutting-edge sensors: radar (wakeup), depth (ToF), ambient light',
@@ -47,7 +47,7 @@ export const companyProfiles: CompanyProfile[] = [
     name: 'Logitech',
     tagline: 'Swiss engineering, global reach',
     description: 'Logitech is one of the most recognizable names in computer peripherals and video conferencing. Their Rally series dominates the mid-market with reliable, well-integrated solutions. They have decades of audio expertise and strong partnerships with Zoom and Microsoft.',
-    products: ['Rally Bar', 'Rally Bar Mini', 'Rally Bar Huddle', 'Rally Plus', 'Rally Camera', 'Tap IP', 'Sync management'],
+    products: ['Rally Bar', 'Rally Bar Mini', 'Rally Bar Huddle', 'Rally Plus', 'Rally Camera', 'Logitech Sight', 'Tap IP', 'Sync management'],
     strengths: [
       'Strong brand recognition and trust',
       'Excellent RightSight AI framing and RightSound noise suppression',
@@ -73,7 +73,7 @@ export const companyProfiles: CompanyProfile[] = [
     name: 'Poly (HP)',
     tagline: 'Engineered for clarity',
     description: 'Now part of HP, Poly brings decades of audio engineering heritage from Plantronics and Polycom. Their Studio X series combines proven acoustic expertise with modern AI camera features. They have a strong presence in enterprise telephony.',
-    products: ['Studio X52', 'Studio X32', 'Studio X70', 'Studio X30', 'Studio P5/P15', 'Poly TC8 controller', 'Poly Lens management'],
+    products: ['Studio X52', 'Studio X32', 'Studio X70', 'Studio X30', 'Studio P5/P15', 'Poly Studio E360', 'Poly TC8 controller', 'Poly Lens management'],
     strengths: [
       'Best-in-class audio quality and noise cancellation',
       'Poly DirectorAI with smart speaker tracking and group framing',

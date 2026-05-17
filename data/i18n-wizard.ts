@@ -23,6 +23,7 @@ export const wizardTranslations: Record<string, Record<string, { label: string; 
     cat_bar: { label: 'Sound Bar Only', desc: 'Camera + mic + speaker bar — no screen' },
     cat_display: { label: 'All-in-One Display', desc: 'Large touch screen with everything built in' },
     cat_any: { label: 'Either / Not Sure', desc: 'Show me both' },
+    cat_companion: { label: 'Room Companion', desc: '360° table-top camera for room coverage' },
   },
   vi: {
     huddle: { label: 'Phòng họp nhỏ / Buồng điện thoại', desc: '1–3 người' },
@@ -44,6 +45,7 @@ export const wizardTranslations: Record<string, Record<string, { label: string; 
     cat_bar: { label: 'Thanh âm thanh', desc: 'Camera + mic + loa trong thanh — không có màn hình' },
     cat_display: { label: 'Màn hình tất-cả-trong-một', desc: 'Màn hình cảm ứng lớn với mọi thứ tích hợp' },
     cat_any: { label: 'Cả hai / Không chắc', desc: 'Hiển thị cả hai' },
+    cat_companion: { label: 'Thiết bị bổ trợ', desc: 'Camera 360° trên bàn để bao phủ phòng' },
   },
   ms: {
     huddle: { label: 'Bilik Huddle / Telefon', desc: '1–3 orang' },
@@ -65,6 +67,7 @@ export const wizardTranslations: Record<string, Record<string, { label: string; 
     cat_bar: { label: 'Bar Bunyi Sahaja', desc: 'Kamera + mikrofon + pembesar suara — tiada skrin' },
     cat_display: { label: 'Paparan All-in-One', desc: 'Skrin sentuh besar dengan segala-galanya terbina dalam' },
     cat_any: { label: 'Mana-mana / Tidak Pasti', desc: 'Tunjukkan kedua-duanya' },
+    cat_companion: { label: 'Teman Peranti', desc: 'Kamera 360° di atas meja untuk liputan bilik' },
   },
   id: {
     huddle: { label: 'Ruang Huddle / Telepon', desc: '1–3 orang' },
@@ -86,6 +89,7 @@ export const wizardTranslations: Record<string, Record<string, { label: string; 
     cat_bar: { label: 'Bar Suara Saja', desc: 'Kamera + mic + speaker dalam bar — tanpa layar' },
     cat_display: { label: 'Layar All-in-One', desc: 'Layar sentuh besar dengan semuanya terintegrasi' },
     cat_any: { label: 'Keduanya / Tidak Yakin', desc: 'Tampilkan keduanya' },
+    cat_companion: { label: 'Perangkat Pendamping', desc: 'Kamera 360° di atas meja untuk liputan ruangan' },
   },
   th: {
     huddle: { label: 'ห้องประชุมเล็ก / ตู้โทรศัพท์', desc: '1–3 คน' },
@@ -107,6 +111,7 @@ export const wizardTranslations: Record<string, Record<string, { label: string; 
     cat_bar: { label: 'แถบเสียงอย่างเดียว', desc: 'กล้อง + ไมโครโฟน + ลำโพงในแถบ — ไม่มีจอ' },
     cat_display: { label: 'จอแสดงผล All-in-One', desc: 'จอสัมผัสขนาดใหญ่พร้อมทุกอย่างในตัว' },
     cat_any: { label: 'ทั้งสอง / ไม่แน่ใจ', desc: 'แสดงทั้งสอง' },
+    cat_companion: { label: 'อุปกรณ์เสริม', desc: 'กล้อง 360° บนโต๊ะสำหรับครอบคลุมห้อง' },
   },
   tl: {
     huddle: { label: 'Maliit na Silid / Telepono', desc: '1–3 tao' },
@@ -128,6 +133,7 @@ export const wizardTranslations: Record<string, Record<string, { label: string; 
     cat_bar: { label: 'Sound Bar Lang', desc: 'Kamera + mic + speaker sa bar — walang screen' },
     cat_display: { label: 'All-in-One Display', desc: 'Malaking touch screen na may lahat ng nakabuo' },
     cat_any: { label: 'Kahit alin / Hindi sigurado', desc: 'Ipakita pareho' },
+    cat_companion: { label: 'Mga Companion', desc: '360° camera sa mesa para sa saklaw ng silid' },
   },
 };
 
