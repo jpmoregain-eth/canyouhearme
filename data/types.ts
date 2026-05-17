@@ -42,6 +42,9 @@ export interface Product {
   // Software
   platformSupport?: string[]; // Zoom, Teams, Google Meet, etc
 
+  // Description (for non-hardware like management platforms)
+  description?: string;
+
   // Other
   aiFeatures?: string[];
   specialFeatures?: string[];

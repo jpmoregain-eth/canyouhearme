@@ -691,6 +691,7 @@ export const products: Product[] = [
     weight: 'Cloud platform',
     platformSupport: ['Zoom Rooms', 'Microsoft Teams', 'Google Meet', 'BYOD'],
     aiFeatures: ['Remote monitoring', 'Firmware updates', 'Room analytics', 'Health alerts', 'Mass deployment'],
+    description: 'Cloud-based management for all Logitech VC devices. Monitor health, deploy firmware, and get room analytics from a single dashboard.',
     productUrl: 'https://www.logitech.com/en-us/products/video-conferencing/room-solutions/sync.html',
   },
   {
@@ -712,6 +713,7 @@ export const products: Product[] = [
     weight: 'Cloud platform',
     platformSupport: ['Zoom Rooms', 'Microsoft Teams', 'Google Meet'],
     aiFeatures: ['Remote management', 'Analytics dashboard', 'Firmware management', 'Health monitoring', 'Policy enforcement'],
+    description: 'HP Poly\'s cloud platform for managing Poly video devices. Analytics, health monitoring, and policy enforcement across your fleet.',
     productUrl: 'https://www.hp.com/us-en/poly/software/poly-lens.html',
   },
   {
@@ -733,6 +735,7 @@ export const products: Product[] = [
     weight: 'Cloud platform',
     platformSupport: ['Webex', 'Zoom Rooms', 'Microsoft Teams'],
     aiFeatures: ['Device provisioning', 'Usage analytics', 'Security compliance', 'Remote diagnostics', 'RoomOS management'],
+    description: 'Cisco\'s unified platform for managing Webex devices. Deep security compliance, usage analytics, and remote diagnostics.',
     productUrl: 'https://www.webex.com/us/en/devices/control-hub.html',
   },
   {
@@ -754,6 +757,7 @@ export const products: Product[] = [
     weight: 'Cloud platform',
     platformSupport: ['Zoom Rooms', 'Microsoft Teams', 'Google Meet'],
     aiFeatures: ['Device monitoring', 'Room occupancy tracking', 'App control', 'OS updates', 'Premium support'],
+    description: 'Neat\'s subscription-based platform. Control which apps run on devices, track room occupancy, and get premium support with extended warranty.',
     productUrl: 'https://neat.no/pulse/',
   },
   {
@@ -775,6 +779,7 @@ export const products: Product[] = [
     weight: 'Cloud platform',
     platformSupport: ['Zoom Rooms', 'Microsoft Teams'],
     aiFeatures: ['Remote management', 'Mass configuration', 'Firmware upgrades', 'Device status', 'Troubleshooting'],
+    description: 'Yealink\'s YDMP / YMCS platform for managing meeting devices. Mass configuration, firmware upgrades, and remote troubleshooting.',
     productUrl: 'https://www.yealink.com/product/yealink-device-management-platform',
   },
   {
@@ -796,6 +801,7 @@ export const products: Product[] = [
     weight: 'Cloud platform',
     platformSupport: ['Zoom Rooms', 'Microsoft Teams', 'Google Meet'],
     aiFeatures: ['AV system management', 'Room control integration', 'Remote firmware', 'Health alerts', 'Usage analytics'],
+    description: 'Crestron\'s XiO Cloud manages not just VC devices but entire AV ecosystems — lighting, shades, and room control from one platform.',
     productUrl: 'https://www.crestron.com/products/featured-solutions/crestron-xio-cloud',
   },
   {
@@ -817,6 +823,7 @@ export const products: Product[] = [
     weight: 'Cloud platform',
     platformSupport: ['Microsoft Teams', 'Zoom Rooms'],
     aiFeatures: ['Device monitoring', 'Remote updates', 'Deployment tools', 'Health status', 'Room analytics'],
+    description: 'Lenovo\'s ThinkSmart Manager for ThinkSmart devices. Remote updates, deployment tools, and health monitoring for hybrid workspaces.',
     productUrl: 'https://support.lenovo.com/solutions/ht508540',
   },
   {
@@ -838,6 +845,7 @@ export const products: Product[] = [
     weight: 'Cloud platform',
     platformSupport: ['Zoom Rooms', 'Microsoft Teams'],
     aiFeatures: ['Remote management', 'Device health', 'Content sharing', 'Analytics', 'Auto-provisioning'],
+    description: 'DTEN Orbit manages DTEN devices with auto-provisioning, content sharing controls, and real-time device health monitoring.',
     productUrl: 'https://www.dten.com/dten-orbit',
   },
   {
@@ -859,6 +867,7 @@ export const products: Product[] = [
     weight: 'Cloud platform',
     platformSupport: ['Zoom Rooms', 'Microsoft Teams', 'Google Meet'],
     aiFeatures: ['Device management', 'Remote monitoring', 'Firmware updates', 'Usage statistics', 'Cloud deployment'],
+    description: 'MAXHUB Pivot (and Pivot+) manages interactive displays and VC bars. Cloud deployment, remote monitoring, and usage statistics.',
     productUrl: 'https://www.maxhub.com/us/pivot.html',
   },
 

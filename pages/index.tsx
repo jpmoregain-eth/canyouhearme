@@ -117,20 +117,40 @@ export default function Home() {
       </div>
 
       <div className="space-y-1.5 text-sm">
-        {p.cameraResolution && (
-          <div className="flex justify-between"><span className="text-slate-500">Camera</span><span className="text-slate-300">{p.cameraResolution}</span></div>
-        )}
-        {p.fieldOfView && (
-          <div className="flex justify-between"><span className="text-slate-500">FOV</span><span className="text-slate-300">{p.fieldOfView}</span></div>
-        )}
-        {p.micCount && (
-          <div className="flex justify-between"><span className="text-slate-500">Mics</span><span className="text-slate-300">{p.micCount} array</span></div>
-        )}
-        {p.micPickupRange && (
-          <div className="flex justify-between"><span className="text-slate-500">Pickup</span><span className="text-slate-300">{p.micPickupRange}</span></div>
-        )}
-        {p.displaySize && (
-          <div className="flex justify-between"><span className="text-slate-500">Display</span><span className="text-slate-300">{p.displaySize} {p.touchScreen ? '(Touch)' : ''}</span></div>
+        {p.category === 'management' ? (
+          <>
+            {p.description && (
+              <div className="text-slate-300 text-sm leading-relaxed mb-2">{p.description}</div>
+            )}
+            {p.aiFeatures && p.aiFeatures.length > 0 && (
+              <div className="space-y-1">
+                {p.aiFeatures.map((feature, i) => (
+                  <div key={i} className="flex items-start gap-2">
+                    <span className="text-emerald-400 mt-0.5">•</span>
+                    <span className="text-slate-400 text-xs">{feature}</span>
+                  </div>
+                ))}
+              </div>
+            )}
+          </>
+        ) : (
+          <>
+            {p.cameraResolution && (
+              <div className="flex justify-between"><span className="text-slate-500">Camera</span><span className="text-slate-300">{p.cameraResolution}</span></div>
+            )}
+            {p.fieldOfView && (
+              <div className="flex justify-between"><span className="text-slate-500">FOV</span><span className="text-slate-300">{p.fieldOfView}</span></div>
+            )}
+            {p.micCount !== undefined && p.micCount > 0 && (
+              <div className="flex justify-between"><span className="text-slate-500">Mics</span><span className="text-slate-300">{p.micCount} array</span></div>
+            )}
+            {p.micPickupRange && (
+              <div className="flex justify-between"><span className="text-slate-500">Pickup</span><span className="text-slate-300">{p.micPickupRange}</span></div>
+            )}
+            {p.displaySize && (
+              <div className="flex justify-between"><span className="text-slate-500">Display</span><span className="text-slate-300">{p.displaySize} {p.touchScreen ? '(Touch)' : ''}</span></div>
+            )}
+          </>
         )}
         <div className="flex flex-wrap gap-1 mt-2">
           {p.platformSupport?.slice(0, 3).map(pl => (
