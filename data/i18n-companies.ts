@@ -774,6 +774,198 @@ export const companyTranslations: Record<string, Record<string, {
         ],
       },
     },
+  ms: {
+    logitech: {
+      tagline: 'Kejuruteraan Swiss, jangkauan global',
+      description:
+        'Logitech adalah salah satu nama paling dikenali dalam peranti komputer dan persidangan video. Siri Rally mereka mendominasi segmen pertengahan dengan penyelesaian yang boleh dipercayai dan berintegrasi dengan baik. Mereka mempunyai dekad kepakaran audio dan perkongsian kuat dengan Zoom dan Microsoft.',
+      strengths: [
+        'Pengiktirafan jenama yang kuat dan dipercayai',
+        'Pembingkaian AI RightSight dan penekanan bunyi RightSound yang cemerlang',
+        'Platform pengurusan awan Logitech Sync',
+        'Sokongan pelbagai platform (Zoom, Teams, Google Meet, BYOD)',
+        'Ekosistem modular (pod mikrofon, pembesar suara, pengawal)',
+        'Kualiti binaan yang baik dan rekod kebolehpercayaan',
+      ],
+      weaknesses: [
+        'Harga premium — bukan pilihan termurah',
+        'Sesetengah produk terasa "selamat" berbanding inovatif',
+        'Ciri AI ketinggalan berbanding pendatang baru seperti Neat',
+        'Spesifikasi perkakasan kamera (bilangan MP) lebih rendah daripada pesaing',
+        'Kurang agresif dalam kategori paparan all-in-one',
+      ],
+    },
+    poly: {
+      tagline: 'Direka bentuk untuk kejelasan',
+      description:
+        'Kini sebahagian daripada HP, Poly membawa warisan dekad kejuruteraan audio dari Plantronics dan Polycom. Siri Studio X mereka menggabungkan kepakaran akustik yang terbukti dengan ciri kamera AI moden. Mereka mempunyai kehadiran yang kuat dalam telefoni perusahaan.',
+      strengths: [
+        'Kualiti audio dan pembatalan bunyi terbaik dalam kelasnya',
+        'Poly DirectorAI dengan penjejakan pembicara pintar dan pembingkaian kumpulan',
+        'Infrastruktur sokongan dan perkhidmatan perusahaan yang kuat',
+        'Sokongan HP menyediakan kestabilan rantaian bekalan',
+        'Keupayaan zum kamera yang baik (5x pada X52/X70)',
+        'Pengurusan awan Poly Lens',
+      ],
+      weaknesses: [
+        'Integrasi dengan ekosistem HP masih dalam pematangan',
+        'Pertindihan produk Polycom lama menyebabkan kekeliruan',
+        'Platform perisian (Poly Lens) kurang matang berbanding Logitech Sync',
+        'Estetik reka bentuk boleh terasa korporat/membosankan',
+        'Lebih perlahan mengguna pakai teknologi sensor terkini',
+      ],
+    },
+    cisco: {
+      tagline: 'Rangkaian adalah platform',
+      description:
+        'Siri Webex Room Cisco membawa keselamatan dan integrasi perusahaan ke persidangan video. Peranti mereka direka bentuk untuk organisasi yang telah melabur dalam ekosistem Cisco/Webex, dengan pensijilan keselamatan teratas.',
+      strengths: [
+        'Keselamatan dan pematuhan peringkat perusahaan',
+        'Sistem kamera dwi 96MP (Room Bar Pro) — resolusi tertinggi di pasaran',
+        'Integrasi Webex yang mendalam dan pengurusan Control Hub',
+        'Penyingkiran bunyi AI dan pengenalan wajah',
+        'RoomOS menyediakan pengalaman yang konsisten merentasi semua peranti',
+        'Kepintaran dalam bilik yang kuat (bilangan orang, kualiti udara)',
+      ],
+      weaknesses: [
+        'Harga premium — sering 2x pesaing',
+        'Pengalaman terbaik memerlukan komitmen Webex penuh',
+        'Sokongan platform pihak ketiga lebih lemah',
+        'Persediaan kompleks untuk persekitaran bukan-Cisco',
+        'Pelancaran ciri lebih perlahan daripada pesaing tangkas',
+        'Perkakasan boleh terasa besar dan ketinggalan zaman',
+      ],
+    },
+    neat: {
+      tagline: 'Indah dalam kesederhanaan',
+      description:
+        'Neat adalah pengganggu — permulaan Norway yang dari sifar menjadi kegemaran Zoom/Teams dalam beberapa tahun sahaja. Mereka mengutamakan sensor terkini, reka bentuk Scandinavian yang anggun, dan ciri AI-terdahulu. Peranti mereka terasa seperti teknologi pengguna, bukan peralatan korporat.',
+      strengths: [
+        'Reka bentuk dan estetik terbaik dalam kelasnya',
+        'Sensor terkini: radar (bangun), kedalaman (ToF), cahaya ambient',
+        'Sistem kamera dwi 100MP (Bar Pro / Board Pro)',
+        'Neat Symmetry — menyamakan saiz peserta jarak jauh dan dalam bilik',
+        'Neat Boundary — pembahagi bilik maya melalui sensor kedalaman',
+        'Kitaran pembangunan ciri terpantas dalam industri',
+        'Google Meet diperakui (Jan 2026) — kini menyokong Zoom, Teams, dan Meet',
+        'Mod BYOD tersedia pada Bar Gen 2, Bar Pro, Board 50, Board Pro — sambungkan sebarang komputer riba melalui USB-C atau gunakan mod BYOD-only secara bebas',
+        'Berasaskan Android, kemas kini perisian kerap',
+      ],
+      weaknesses: [
+        'Syarikat yang lebih baharu — kitaran inovasi pantas dengan pelancaran ciri kerap',
+        'Google Meet baru ditambah (Jan 2026) — mengembang daripada Zoom/Teams asli',
+        'Rangkaian sokongan global yang sedang berkembang — berkembang mengikut permintaan',
+        'Kedudukan premium — pelaburan dalam sensor canggih dan reka bentuk Scandinavian',
+        'Generasi perkakasan awan diperhalusi melalui kemas kini perisian berterusan',
+      ],
+    },
+    yealink: {
+      tagline: 'Kerjasama mudah, produktiviti tinggi',
+      description:
+        'Yealink adalah juara nilai — pengeluar China yang menawarkan peranti kaya ciri dengan harga agresif. Mereka mendominasi di Asia dan dengan pantas mendapatkan pasaran di Eropa/Amerika dengan bar dan paparan yang diperakui Teams dan Zoom.',
+      strengths: [
+        'Nisbah harga-ke-ciri terbaik di pasaran',
+        'Kamera ultra-lebar (151° pada A25) untuk bilik kecil',
+        'Cipset Qualcomm 8550 pada A50 untuk pemprosesan AI',
+        'Program pensijilan Teams dan Zoom yang kuat',
+        'Pembangunan produk dan iterasi yang pantas',
+        'Pilihan paparan yang baik (MeetingBoard) pada kos lebih rendah',
+      ],
+      weaknesses: [
+        'Dilihat sebagai jenama "bajet" berbanding Logitech/Cisco',
+        'Pengalaman perisian kurang halus berbanding Neat/Logitech',
+        'Ciri AI kurang canggih berbanding pesaing premium',
+        'Kualiti audio baik tetapi bukan terbaik dalam kelasnya',
+        'Rangkaian sokongan lebih nipis di Amerika',
+        'Sekurang-kurangnya kebimbangan tentang sokongan firmware jangka panjang',
+      ],
+    },
+    crestron: {
+      tagline: 'Kawal segala-galanya',
+      description:
+        'Crestron adalah gergasi automasi dan kawalan yang juga membuat perkakasan VC. Videobar 70 mereka dibina untuk bilik besar dan berintegrasi mendalam dengan sistem kawalan bilik mereka. Mereka adalah pilihan untuk pemasangan AV korporat kelas atas.',
+      strengths: [
+        'Integrasi automasi dan kawalan bilik yang mendalam',
+        'Tatasusunan mikrofon 24 pada Videobar 70 — mikrofon paling banyak dalam sebarang bar',
+        'Sistem kamera 4 untuk jahitan video pintar',
+        'Keselamatan dan pengurusan peringkat perusahaan',
+        'Terbaik untuk ruang besar/huddle dan pemasangan AV tersuai',
+        'Platform terpadu merentasi pencahayaan, langsir, AV, dan VC',
+      ],
+      weaknesses: [
+        'Berlebihan untuk penempatan mudah — persediaan kompleks',
+        'Memerlukan kepakaran Crestron untuk nilai penuh',
+        'Ekosistem paling mahal apabila mengambil kira sistem kawalan',
+        'Tidak kompetitif untuk penempatan plug-and-play mudah',
+        'Set ciri khusus VC lebih kecil berbanding vendor khusus',
+        'UX perisian kurang halus berbanding Zoom/Teams asli',
+      ],
+    },
+    lenovo: {
+      tagline: 'Teknologi lebih pintar untuk semua',
+      description:
+        'Siri ThinkSmart Lenovo memanfaatkan kepakaran pembuatan PC mereka. Bar 180 adalah unik dengan kamera panoramik 180° — sempurna untuk bilik lebar. Mereka berfungsi dengan baik dalam senario kerja hibrida dengan integrasi PC/ThinkPad yang kuat.',
+      strengths: [
+        'Kamera panoramik 180° yang unik dengan sensor 13MP',
+        'Zum digital tanpa kehilangan 6x dan pembingkaian pintar',
+        'Integrasi yang kuat dengan ekosistem ThinkPad/Windows',
+        'Ringan (2.2kg) dan reka bentuk yang padat',
+        'Sokongan BYOD yang baik',
+        'Harga kompetitif untuk set ciri',
+      ],
+      weaknesses: [
+        'Pemain yang lebih baharu — rekod kurang terbukti dalam VC',
+        'Platform perisian kurang matang berbanding Logitech Sync',
+        'Julat produk terhad berbanding pesaing full-suite',
+        'Format panoramik (3840x1080) boleh terasa janggal pada sesetengah platform',
+        'Infrastruktur sokongan masih dalam pembinaan',
+        'Resolusi kamera lebih rendah daripada pesaing 4K',
+      ],
+    },
+    dten: {
+      tagline: 'Kesederhanaan all-in-one',
+      description:
+        'DTEN memberi tumpuan secara eksklusif pada paparan all-in-one dengan Zoom/Teams terbina dalam. Siri D7X mereka merangkumi segala-galanya dari peranti peribadi 27" hingga paparan bilik besar 75". Mereka mengutamakan kerjasama sentuh-terdahulu dengan ciri papan putih.',
+      strengths: [
+        'Dibina khusus untuk Zoom Rooms dan Teams Rooms',
+        'Tatasusunan mikrofon 15 pada paparan yang lebih besar — pengambilan audio yang cemerlang',
+        'Pengalaman sentuh dan papan putih yang kuat',
+        'BYOD Smart Connect melalui satu kabel USB-C',
+        'Semua saiz dari peribadi hingga bilik besar dalam satu keluarga produk',
+        'Reka bentuk yang bersih dan minimalis',
+      ],
+      weaknesses: [
+        'Terhad kepada Zoom/Teams — tiada Google Meet atau Webex',
+        'All-in-one bermakna tiada peningkatan modular (tersepit dengan kualiti paparan)',
+        'Kepintaran kamera kurang daripada Neat/Cisco',
+        'Pengiktirafan jenama lebih kecil di luar ekosistem Zoom',
+        'Rangkaian perkhidmatan dan sokongan terhad berbanding Logitech',
+        'Harga premium untuk paparan yang lebih besar',
+      ],
+    },
+    maxhub: {
+      tagline: 'Maksimumkan kerjasama',
+      description:
+        'MAXHUB adalah syarikat teknologi paparan China yang telah mengembangkan secara agresif ke paparan interaktif dan bar VC. Mereka bersaing secara agresif pada spesifikasi — kamera 100MP, tatasusunan 16-mikrofon, FOV 180° — dengan harga yang mengalahkan pesaing Barat.',
+      strengths: [
+        'Spesifikasi agresif: kamera dwi 100MP, tatasusunan 16-mikrofon, FOV 180°',
+        'Julat pengambilan suara 15 meter — terpanjang dalam kelasnya',
+        'Harga paling kompetitif untuk set ciri',
+        'Julat saiz paparan yang luas (55" hingga 86")',
+        'Teknologi Pembatalan Bunyi AI',
+        'FlexMount untuk pemasangan mudah',
+        'Diperakui Teams dan Zoom',
+      ],
+      weaknesses: [
+        'Pengiktirafan jenama rendah di luar Asia',
+        'Pengalaman perisian kurang halus berbanding pesaing Barat',
+        'Sokongan jangka panjang dan kemas kini firmware tidak pasti',
+        'Persepsi kualiti binaan berbanding Logitech/Cisco',
+        'Rangkaian perkhidmatan global terhad',
+        'Pemasaran spesifikasi mungkin tidak mencerminkan prestasi dunia nyata',
+      ],
+    },
+  },
 };
 
 export function getTranslatedCompany(company: CompanyProfile, lang: string): CompanyProfile {
