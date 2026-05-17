@@ -12,10 +12,39 @@ export interface CompanyProfile {
   marketPosition: 'Leader' | 'Challenger' | 'Niche' | 'Emerging';
 }
 
-export const companyProfiles: CompanyProfile[] = [
+[
   {
     id: 'neat',
     name: 'Neat',
+    tagline: 'Beautifully simple',
+    description: 'Neat is the disruptor — a Norwegian startup that went from zero to Zoom/Teams darling in just a few years. They prioritize cutting-edge sensors, sleek Scandinavian design, and AI-first features. Their devices feel like consumer tech, not corporate gear.',
+    products: ['Neat Bar Gen 2', 'Neat Bar Pro', 'Neat Board 50', 'Neat Board Pro 65', 'Neat Frame', 'Neat Pad controller'],
+    strengths: [
+      'Best-in-class design and aesthetics',
+      'Cutting-edge sensors: radar (wakeup), depth (ToF), ambient light',
+      '100MP dual-camera system (Bar Pro / Board Pro)',
+      'Neat Symmetry — equalizes remote and in-room participant sizes',
+      'Neat Boundary — virtual room dividers via depth sensor',
+      'Fastest feature development cycle in the industry',
+      'Google Meet certified (Jan 2026) — now supports Zoom, Teams, and Meet',
+      'BYOD mode available on Bar Gen 2, Bar Pro, Board 50, Board Pro',
+      'Android-based, frequent software updates'
+    ],
+    weaknesses: [
+      'Newer company — rapid innovation cycles with frequent feature releases',
+      'Google Meet recently added (Jan 2026) — expanding beyond native Zoom/Teams',
+      'Growing global support network — scaling with demand',
+      'Premium positioning — investment in advanced sensors and Scandinavian design',
+      'Early hardware generations refined through continuous software updates'
+    ],
+    website: 'https://neat.no',
+    founded: '2019',
+    headquarters: 'Oslo, Norway',
+    marketPosition: 'Challenger'
+  },
+  {
+    id: 'logitech',
+    name: 'Logitech',
     tagline: 'Swiss engineering, global reach',
     description: 'Logitech is one of the most recognizable names in computer peripherals and video conferencing. Their Rally series dominates the mid-market with reliable, well-integrated solutions. They have decades of audio expertise and strong partnerships with Zoom and Microsoft.',
     products: ['Rally Bar', 'Rally Bar Mini', 'Rally Bar Huddle', 'Rally Plus', 'Rally Camera', 'Tap IP', 'Sync management'],
@@ -40,8 +69,8 @@ export const companyProfiles: CompanyProfile[] = [
     marketPosition: 'Leader'
   },
   {
-    id: 'logitech',
-    name: 'Logitech',
+    id: 'poly',
+    name: 'Poly (HP)',
     tagline: 'Engineered for clarity',
     description: 'Now part of HP, Poly brings decades of audio engineering heritage from Plantronics and Polycom. Their Studio X series combines proven acoustic expertise with modern AI camera features. They have a strong presence in enterprise telephony.',
     products: ['Studio X52', 'Studio X32', 'Studio X70', 'Studio X30', 'Studio P5/P15', 'Poly TC8 controller', 'Poly Lens management'],
@@ -91,35 +120,6 @@ export const companyProfiles: CompanyProfile[] = [
     founded: '1984',
     headquarters: 'San Jose, California, USA',
     marketPosition: 'Leader'
-  },
-  {
-    id: 'neat',
-    name: 'Neat',
-    tagline: 'Beautifully simple',
-    description: 'Neat is the disruptor — a Norwegian startup that went from zero to Zoom/Teams darling in just a few years. They prioritize cutting-edge sensors, sleek Scandinavian design, and AI-first features. Their devices feel like consumer tech, not corporate gear.',
-    products: ['Neat Bar Gen 2', 'Neat Bar Pro', 'Neat Board 50', 'Neat Board Pro 65', 'Neat Frame', 'Neat Pad controller'],
-    strengths: [
-      'Best-in-class design and aesthetics',
-      'Cutting-edge sensors: radar (wakeup), depth (ToF), ambient light',
-      '100MP dual-camera system (Bar Pro / Board Pro)',
-      'Neat Symmetry — equalizes remote and in-room participant sizes',
-      'Neat Boundary — virtual room dividers via depth sensor',
-      'Fastest feature development cycle in the industry',
-      'Google Meet certified (Jan 2026) — now supports Zoom, Teams, and Meet',
-      'BYOD mode available on Bar Gen 2, Bar Pro, Board 50, Board Pro',
-      'Android-based, frequent software updates'
-    ],
-    weaknesses: [
-      'Newer company — rapid innovation cycles with frequent feature releases',
-      'Google Meet recently added (Jan 2026) — expanding beyond native Zoom/Teams',
-      'Growing global support network — scaling with demand',
-      'Premium positioning — investment in advanced sensors and Scandinavian design',
-      'Early hardware generations refined through continuous software updates'
-    ],
-    website: 'https://neat.no',
-    founded: '2019',
-    headquarters: 'Oslo, Norway',
-    marketPosition: 'Challenger'
   },
   {
     id: 'yealink',
@@ -256,5 +256,4 @@ export const companyProfiles: CompanyProfile[] = [
     founded: '2017',
     headquarters: 'Guangzhou, China',
     marketPosition: 'Emerging'
-  }
-];
+  }];
