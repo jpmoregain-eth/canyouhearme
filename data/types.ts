@@ -2,7 +2,7 @@ export interface Product {
   id: string;
   name: string;
   company: string;
-  category: 'bar' | 'display' | 'companion';
+  category: 'bar' | 'display' | 'companion' | 'management';
   subCategory?: string; // huddle, small, medium, large room
 
   // Camera

@@ -27,5 +27,6 @@ export const categoryOptions = [
   { id: 'bar', label: 'Sound Bar Only', desc: 'Camera + mic + speaker bar — no screen' },
   { id: 'display', label: 'All-in-One Display', desc: 'Large touch screen with everything built in' },
   { id: 'companion', label: 'Room Companion', desc: '360° table-top camera for room coverage' },
+  { id: 'management', label: 'Management', desc: 'Device management platforms' },
   { id: 'any', label: 'Either / Not Sure', desc: 'Show me both' },
 ];
