@@ -105,11 +105,12 @@ export const companyProfiles: CompanyProfile[] = [
       'Neat Symmetry — equalizes remote and in-room participant sizes',
       'Neat Boundary — virtual room dividers via depth sensor',
       'Fastest feature development cycle in the industry',
+      'Google Meet certified (Jan 2026) — now supports Zoom, Teams, and Meet',
       'Android-based, frequent software updates'
     ],
     weaknesses: [
       'Young company — long-term support concerns vs Cisco/Logitech',
-      'Limited third-party platform support (Zoom/Teams only)',
+      'Google Meet support is newer (certified Jan 2026) vs Zoom/Teams native',
       'No BYOD mode on most devices',
       'Smaller global support/service network',
       'Higher price than Yealink/MAXHUB alternatives',
