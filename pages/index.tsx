@@ -15,6 +15,8 @@ export default function Home() {
   const [compareSelection, setCompareSelection] = useState<string[]>([]);
   const [sortBy, setSortBy] = useState<string>('name');
 
+  const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+
   const filtered = useMemo(() => {
     let list = products;
     if (viewMode !== 'all') {
@@ -140,79 +142,79 @@ export default function Home() {
       </Head>
 
       <header className="border-b border-slate-800 bg-slate-900/50 backdrop-blur sticky top-0 z-50">
-        <div className="max-w-7xl mx-auto px-4 py-4 flex items-center justify-between">
+        <div className="max-w-7xl mx-auto px-4 py-3 flex items-center justify-between">
           <div className="flex items-center gap-3">
-            <div className="w-10 h-10 rounded-xl bg-emerald-500/10 flex items-center justify-center">
-              <svg className="w-5 h-5 text-emerald-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <div className="w-9 h-9 rounded-xl bg-emerald-500/10 flex items-center justify-center">
+              <svg className="w-4 h-4 text-emerald-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 10l4.553-2.276A1 1 0 0121 8.618v6.764a1 1 0 01-1.447.894L15 14M5 18h8a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v8a2 2 0 002 2z" />
               </svg>
             </div>
             <div>
-              <h1 className="text-lg font-bold text-white">CanYouHearMe</h1>
-              <p className="text-xs text-slate-500">VC Product Comparison</p>
+              <h1 className="text-base font-bold text-white leading-tight">CanYouHearMe</h1>
+              <p className="text-[10px] text-slate-500 leading-tight">VC Compare</p>
             </div>
           </div>
-          <div className="flex gap-2 items-center">
-            <a
-              href="/wizard"
-              className="px-3 py-2 text-slate-400 hover:text-white text-sm transition-colors"
-            >
-              Wizard
-            </a>
-            <a
-              href="/company-compare"
-              className="px-3 py-2 text-slate-400 hover:text-white text-sm transition-colors"
-            >
-              Compare Co.
-            </a>
-            <a
-              href="/companies"
-              className="px-3 py-2 text-slate-400 hover:text-white text-sm transition-colors"
-            >
-              Companies
-            </a>
+
+          {/* Desktop Nav */}
+          <nav className="hidden md:flex gap-1 items-center">
+            <a href="/wizard" className="px-3 py-2 text-slate-400 hover:text-white text-sm transition-colors rounded-lg hover:bg-slate-800">Wizard</a>
+            <a href="/company-compare" className="px-3 py-2 text-slate-400 hover:text-white text-sm transition-colors rounded-lg hover:bg-slate-800">Compare Co.</a>
+            <a href="/companies" className="px-3 py-2 text-slate-400 hover:text-white text-sm transition-colors rounded-lg hover:bg-slate-800">Companies</a>
             {compareMode === 'none' ? (
-              <button
-                onClick={() => { setCompareMode('selecting'); setCompareSelection([]); }}
-                className="px-4 py-2 bg-emerald-600 hover:bg-emerald-500 text-white rounded-lg text-sm font-medium transition-colors"
-              >
-                Compare Products
-              </button>
+              <button onClick={() => { setCompareMode('selecting'); setCompareSelection([]); }}
+                className="px-4 py-2 bg-emerald-600 hover:bg-emerald-500 text-white rounded-lg text-sm font-medium transition-colors">Compare Products</button>
             ) : compareMode === 'selecting' ? (
               <div className="flex gap-2">
-                <span className="text-sm text-slate-400 self-center">{compareSelection.length}/4 selected</span>
-                <button
-                  onClick={() => { setCompareMode('none'); setCompareSelection([]); }}
-                  className="px-3 py-2 bg-slate-800 hover:bg-slate-700 text-slate-300 rounded-lg text-sm"
-                >
-                  Cancel
-                </button>
-                <button
-                  onClick={() => { if (compareSelection.length >= 2) setCompareMode('comparing'); }}
+                <span className="text-sm text-slate-400 self-center">{compareSelection.length}/4</span>
+                <button onClick={() => { setCompareMode('none'); setCompareSelection([]); }}
+                  className="px-3 py-2 bg-slate-800 hover:bg-slate-700 text-slate-300 rounded-lg text-sm">Cancel</button>
+                <button onClick={() => { if (compareSelection.length >= 2) setCompareMode('comparing'); }}
                   disabled={compareSelection.length < 2}
-                  className="px-4 py-2 bg-emerald-600 hover:bg-emerald-500 disabled:bg-slate-800 disabled:text-slate-600 text-white rounded-lg text-sm font-medium transition-colors"
-                >
-                  Compare ({compareSelection.length})
-                </button>
+                  className="px-4 py-2 bg-emerald-600 hover:bg-emerald-500 disabled:bg-slate-800 disabled:text-slate-600 text-white rounded-lg text-sm font-medium">Compare ({compareSelection.length})</button>
               </div>
             ) : (
               <div className="flex gap-2">
-                <button
-                  onClick={() => { setCompareMode('selecting'); }}
-                  className="px-3 py-2 bg-slate-800 hover:bg-slate-700 text-slate-300 rounded-lg text-sm"
-                >
-                  Reselect
-                </button>
-                <button
-                  onClick={() => { setCompareMode('none'); setCompareSelection([]); }}
-                  className="px-3 py-2 bg-slate-800 hover:bg-slate-700 text-slate-300 rounded-lg text-sm"
-                >
-                  Close
-                </button>
+                <button onClick={() => setCompareMode('selecting')}
+                  className="px-3 py-2 bg-slate-800 hover:bg-slate-700 text-slate-300 rounded-lg text-sm">Reselect</button>
+                <button onClick={() => { setCompareMode('none'); setCompareSelection([]); }}
+                  className="px-3 py-2 bg-slate-800 hover:bg-slate-700 text-slate-300 rounded-lg text-sm">Close</button>
               </div>
             )}
-          </div>
+          </nav>
+
+          {/* Mobile Hamburger */}
+          <button
+            onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
+            className="md:hidden w-9 h-9 flex items-center justify-center rounded-lg hover:bg-slate-800"
+          >
+            <svg className="w-5 h-5 text-slate-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              {mobileMenuOpen ? (
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
+              ) : (
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
+              )}
+            </svg>
+          </button>
         </div>
+
+        {/* Mobile Menu */}
+        {mobileMenuOpen && (
+          <div className="md:hidden border-t border-slate-800 bg-slate-900 px-4 py-3 space-y-1">
+            <a href="/wizard" className="block px-3 py-2 text-slate-400 hover:text-white hover:bg-slate-800 rounded-lg text-sm">Wizard</a>
+            <a href="/company-compare" className="block px-3 py-2 text-slate-400 hover:text-white hover:bg-slate-800 rounded-lg text-sm">Compare Companies</a>
+            <a href="/companies" className="block px-3 py-2 text-slate-400 hover:text-white hover:bg-slate-800 rounded-lg text-sm">Company Profiles</a>
+            <a href="/" className="block px-3 py-2 text-white bg-slate-800 rounded-lg text-sm">Products</a>
+            <div className="pt-2 border-t border-slate-800">
+              {compareMode === 'none' ? (
+                <button onClick={() => { setCompareMode('selecting'); setCompareSelection([]); setMobileMenuOpen(false); }}
+                  className="w-full px-4 py-2 bg-emerald-600 text-white rounded-lg text-sm font-medium">Compare Products</button>
+              ) : (
+                <button onClick={() => { setCompareMode('none'); setCompareSelection([]); setMobileMenuOpen(false); }}
+                  className="w-full px-4 py-2 bg-slate-800 text-slate-300 rounded-lg text-sm">Cancel Compare</button>
+              )}
+            </div>
+          </div>
+        )}
       </header>
 
       <main className="max-w-7xl mx-auto px-4 py-6">
@@ -252,7 +254,7 @@ export default function Home() {
                 <button
                   key={c}
                   onClick={() => toggleCompany(c)}
-                  className={`px-3 py-1.5 rounded-lg text-sm transition-colors ${
+                  className={`px-3 py-1.5 rounded-lg text-sm transition-colors whitespace-nowrap ${
                     selectedCompanies.includes(c)
                       ? 'bg-emerald-500/20 text-emerald-400 border border-emerald-500/30'
                       : 'bg-slate-800 text-slate-400 border border-slate-700 hover:border-slate-500'
@@ -272,7 +274,7 @@ export default function Home() {
                 <button
                   key={p}
                   onClick={() => togglePlatform(p)}
-                  className={`px-3 py-1.5 rounded-lg text-sm transition-colors ${
+                  className={`px-3 py-1.5 rounded-lg text-sm transition-colors whitespace-nowrap ${
                     selectedPlatforms.includes(p)
                       ? 'bg-blue-500/20 text-blue-400 border border-blue-500/30'
                       : 'bg-slate-800 text-slate-400 border border-slate-700 hover:border-slate-500'
@@ -337,7 +339,7 @@ export default function Home() {
           </h2>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
           {filtered.map(p => (
             <ProductCard key={p.id} p={p} />
           ))}
