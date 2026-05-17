@@ -419,20 +419,23 @@ const I18nContext = createContext<I18nContextType>({
 export function I18nProvider({ children }: { children: React.ReactNode }) {
   const [lang, setLangState] = useState<Lang>('en');
   
+  // Load saved preference after mount (client-side only)
+  useState(() => {
+    if (typeof window !== 'undefined') {
+      const saved = localStorage.getItem('canyouhearme-lang') as Lang | null;
+      if (saved && t[saved]) {
+        setLangState(saved);
+      }
+    }
+    return undefined;
+  });
+  
   const setLang = useCallback((l: Lang) => {
     setLangState(l);
     if (typeof window !== 'undefined') {
       localStorage.setItem('canyouhearme-lang', l);
     }
   }, []);
-
-  // Load saved lang on mount
-  useState(() => {
-    if (typeof window !== 'undefined') {
-      const saved = localStorage.getItem('canyouhearme-lang') as Lang | null;
-      if (saved && t[saved]) setLangState(saved);
-    }
-  });
 
   return (
     <I18nContext.Provider value={{ lang, setLang, tx: t[lang] }}>
