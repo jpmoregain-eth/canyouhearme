@@ -305,6 +305,11 @@ export default function Home() {
       </header>
 
       <main className="max-w-7xl mx-auto px-4 py-6">
+        {/* Hero Banner */}
+        <div className="mb-6 rounded-xl overflow-hidden border border-slate-800">
+          <img src="/neat-banner.jpg" alt="We love Neat's embarrassingly simple approach" className="w-full h-auto object-cover" />
+        </div>
+
         {/* Filters */}
         <div className="bg-slate-900 border border-slate-800 rounded-xl p-4 mb-6 space-y-4">
           {/* Search + View Mode */}
