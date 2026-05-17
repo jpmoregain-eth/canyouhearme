@@ -4,6 +4,7 @@ import { products } from '../data/products';
 import { roomSizes, platformOptions, priorities, categoryOptions } from '../data/wizard';
 import { Product } from '../data/types';
 import { useI18n, languages } from '../data/i18n';
+import { getWizardOptionLabel, getWizardOptionDesc } from '../data/i18n-wizard';
 
 interface Answer {
   roomSize: string;
@@ -200,22 +201,22 @@ export default function Wizard() {
 
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
               {currentKey === 'roomSize' && roomSizes.map(opt => (
-                <OptionCard key={opt.id} icon={opt.icon} label={opt.label} desc={opt.seats}
+                <OptionCard key={opt.id} icon={opt.icon} label={getWizardOptionLabel(lang, opt.id, 'room')} desc={getWizardOptionDesc(lang, opt.id, 'room')}
                   onClick={() => setAnswer(opt.id)}
                   selected={answers.roomSize === opt.id} />
               ))}
               {currentKey === 'platform' && platformOptions.map(opt => (
-                <OptionCard key={opt.id} icon={opt.icon} label={opt.label}
+                <OptionCard key={opt.id} icon={opt.icon} label={getWizardOptionLabel(lang, opt.id, 'platform')}
                   onClick={() => setAnswer(opt.id)}
                   selected={answers.platform === opt.id} />
               ))}
               {currentKey === 'priority' && priorities.map(opt => (
-                <OptionCard key={opt.id} icon={''} label={opt.label} desc={opt.desc}
+                <OptionCard key={opt.id} icon={''} label={getWizardOptionLabel(lang, opt.id, 'priority')} desc={getWizardOptionDesc(lang, opt.id, 'priority')}
                   onClick={() => setAnswer(opt.id)}
                   selected={answers.priority === opt.id} />
               ))}
               {currentKey === 'category' && categoryOptions.map(opt => (
-                <OptionCard key={opt.id} icon={''} label={opt.label} desc={opt.desc}
+                <OptionCard key={opt.id} icon={''} label={getWizardOptionLabel(lang, opt.id, 'category')} desc={getWizardOptionDesc(lang, opt.id, 'category')}
                   onClick={() => setAnswer(opt.id)}
                   selected={answers.category === opt.id} />
               ))}
@@ -237,10 +238,10 @@ export default function Wizard() {
             <div className="text-center space-y-2">
               <h2 className="text-2xl font-bold text-white">{tx.wizardResults}</h2>
               <p className="text-slate-400 text-sm">
-                {roomSizes.find(r => r.id === answers.roomSize)?.label} · 
-                {platformOptions.find(p => p.id === answers.platform)?.label} · 
-                {priorities.find(p => p.id === answers.priority)?.label} · 
-                {categoryOptions.find(c => c.id === answers.category)?.label}
+                {getWizardOptionLabel(lang, answers.roomSize || '', 'room')} · 
+                {getWizardOptionLabel(lang, answers.platform || '', 'platform')} · 
+                {getWizardOptionLabel(lang, answers.priority || '', 'priority')} · 
+                {getWizardOptionLabel(lang, answers.category || '', 'category')}
               </p>
               <button
                 onClick={() => { setShowResults(false); setStep(0); setAnswers({}); }}
@@ -252,7 +253,7 @@ export default function Wizard() {
 
             {recommendations.length === 0 ? (
               <div className="text-center py-12 text-slate-500">
-                No perfect matches found. Try adjusting your criteria.
+                {tx.noResults}
               </div>
             ) : (
               <div className="space-y-4">

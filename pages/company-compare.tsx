@@ -3,6 +3,7 @@ import Head from 'next/head';
 import { companyProfiles } from '../data/companies';
 import { CompanyProfile } from '../data/companies';
 import { useI18n, languages } from '../data/i18n';
+import { companyTranslations } from '../data/i18n-companies';
 
 export default function CompanyCompare() {
   const [selected, setSelected] = useState<string[]>([]);
@@ -18,7 +19,19 @@ export default function CompanyCompare() {
     });
   };
 
-  const compared = selected.map(id => companyProfiles.find(c => c.id === id)).filter(Boolean) as CompanyProfile[];
+  const getCompanyData = (company: CompanyProfile): CompanyProfile => {
+    const trans = companyTranslations[lang]?.[company.id];
+    if (!trans) return company;
+    return {
+      ...company,
+      tagline: trans.tagline,
+      description: trans.description,
+      strengths: trans.strengths,
+      weaknesses: trans.weaknesses,
+    };
+  };
+
+  const compared = selected.map(id => companyProfiles.find(c => c.id === id)).filter(Boolean).map(c => getCompanyData(c as CompanyProfile)) as CompanyProfile[];
 
   const rows = [
     { label: tx.marketPosition, key: 'marketPosition' },
