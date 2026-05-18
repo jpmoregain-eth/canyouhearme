@@ -3,7 +3,6 @@ import Head from 'next/head';
 import { products, companies, platforms } from '../data/products';
 import { Product } from '../data/types';
 import { useI18n, languages } from '../data/i18n';
-import vcNews from '../data/vc-news.json';
 
 type ViewMode = 'bars' | 'displays' | 'companions' | 'management' | 'all';
 type CompareMode = 'none' | 'selecting' | 'comparing';
@@ -189,6 +188,7 @@ export default function Home() {
 
           {/* Desktop Nav + Language */}
           <nav className="hidden md:flex gap-1 items-center">
+            <a href="/news" className="px-3 py-2 text-slate-400 hover:text-white text-sm transition-colors rounded-lg hover:bg-slate-800">{tx.navNews}</a>
             <a href="/company-compare" className="px-3 py-2 text-slate-400 hover:text-white text-sm transition-colors rounded-lg hover:bg-slate-800">{tx.navCompareCo}</a>
             <a href="/companies" className="px-3 py-2 text-slate-400 hover:text-white text-sm transition-colors rounded-lg hover:bg-slate-800">{tx.navCompanies}</a>
             {compareMode === 'none' ? (
@@ -289,6 +289,7 @@ export default function Home() {
         {/* Mobile Menu */}
         {mobileMenuOpen && (
           <div className="md:hidden border-t border-slate-800 bg-slate-900 px-4 py-3 space-y-1">
+            <a href="/news" className="block px-3 py-2 text-slate-400 hover:text-white hover:bg-slate-800 rounded-lg text-sm">{tx.navNews}</a>
             <a href="/company-compare" className="block px-3 py-2 text-slate-400 hover:text-white hover:bg-slate-800 rounded-lg text-sm">{tx.navCompareCo}</a>
             <a href="/companies" className="block px-3 py-2 text-slate-400 hover:text-white hover:bg-slate-800 rounded-lg text-sm">{tx.navCompanies}</a>
             <a href="/" className="block px-3 py-2 text-white bg-slate-800 rounded-lg text-sm">{tx.navProducts}</a>
