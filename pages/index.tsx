@@ -156,6 +156,9 @@ export default function Home() {
           {p.platformSupport?.slice(0, 3).map(pl => (
             <span key={pl} className="px-2 py-0.5 bg-slate-800 text-slate-400 rounded text-xs">{pl}</span>
           ))}
+          {(p.platformSupport?.length || 0) > 3 && (
+            <span className="px-2 py-0.5 bg-slate-800 text-slate-500 rounded text-xs">+{(p.platformSupport?.length || 0) - 3}</span>
+          )}
         </div>
       </div>
 
