@@ -150,10 +150,10 @@ export default function NewsPage() {
                     <span className="text-slate-500">
                       {new Date(article.created_at).toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' })}
                     </span>
-                    {article.keywords && (
+                    {article.keywords_matched && (
                       <>
                         <span className="text-slate-600">·</span>
-                        <span className="text-slate-500">{article.keywords}</span>
+                        <span className="text-slate-500">{article.keywords_matched}</span>
                       </>
                     )}
                   </div>
