@@ -147,18 +147,20 @@ export default function NewsPage() {
                   <h3 className="text-base font-medium text-slate-200 group-hover:text-white transition-colors leading-snug mb-2">
                     {article.title}
                   </h3>
-                  <div className="flex flex-wrap items-center gap-2 text-xs">
+                  <div className="flex flex-wrap items-center gap-x-3 gap-y-1.5 text-xs mt-1">
                     <span className="px-2 py-0.5 bg-emerald-500/10 text-emerald-400 rounded font-medium">
                       {article.source}
                     </span>
                     <span className="text-slate-600">·</span>
-                    <span className="text-slate-500">
-                      {new Date(article.created_at).toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' })}
+                    <span className="text-slate-400">
+                      {new Date(article.created_at).toLocaleDateString('en-US', { month: 'short', day: 'numeric' })}
                     </span>
                     {article.keywords_matched && (
                       <>
                         <span className="text-slate-600">·</span>
-                        <span className="text-slate-500">{article.keywords_matched}</span>
+                        <span className="text-slate-400 break-words max-w-[300px] sm:max-w-[500px]">
+                          {article.keywords_matched}
+                        </span>
                       </>
                     )}
                   </div>
