@@ -1,5 +1,15 @@
 [
   {
+    "title": "Android-based all-in-one room devices from Neat and Logitech certified for Google Meet",
+    "link": "https://workspaceupdates.googleblog.com/2026/05/android-all-in-one-devices-neat-logitech.html",
+    "source": "Google Workspace Updates",
+    "published_at": "May 15, 2026",
+    "summary": "Neat Board series (32, 50, Pro) and Logitech Rally Board 65 now certified for Google Meet as first Android-based all-in-one devices. Touch displays support video meetings and interactive whiteboarding via Figma, Lucid, Miro.",
+    "keywords_matched": "google meet(10), logitech(8), neat(10), video conferencing(10), android(5)",
+    "keyword_score": 33,
+    "created_at": "2026-05-18 14:26:45"
+  },
+  {
     "title": "Jabra Launches PanaCast U30 to Bring BYOD Video Into Small Rooms",
     "link": "https://www.uctoday.com/devices-workspace-tech/jabra-panacast-u30-byod-video-bar-small-meeting-rooms/",
     "source": "UC Today",
@@ -108,15 +118,5 @@
     "keywords_matched": "ucaas(10)",
     "keyword_score": 10,
     "created_at": "2026-05-18 12:24:32"
-  },
-  {
-    "title": "Huawei advances in robotics with “MATEROBOT” trademark application",
-    "link": "https://technode.com/2025/03/17/huawei-advances-in-robotics-with-materobot-trademark-application/",
-    "source": "TechNode",
-    "published_at": "Mon, 17 Mar 2025 08:05:17 +0000",
-    "summary": "<figure><img alt=\"\" class=\"attachment-rss-image-size size-rss-image-size wp-post-image\" height=\"683\" src=\"https://i0.wp.com/technode.com/wp-content/uploads/2023/12/183376582_l-scaled.jpg?fit=1024%2C683&amp;ssl=1\" width=\"1024\" /></figure>According to the Trademark Office of the China National Intellectual Property Administration, Huawei submitted a trademark application for &#8220;MATEROBOT&#8221; last month, and it is currently awaiting substantive examination. The trademark covers a broad range",
-    "keywords_matched": "telepresence(10)",
-    "keyword_score": 10,
-    "created_at": "2026-05-18 12:24:28"
   }
 ]
