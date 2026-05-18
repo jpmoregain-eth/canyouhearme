@@ -3,6 +3,11 @@ import Head from 'next/head';
 import vcNews from '../data/vc-news.json';
 import { useI18n, languages } from '../data/i18n';
 
+function stripHtml(html: string | null | undefined): string {
+  if (!html) return '';
+  return html.replace(/<[^>]*>/g, ' ').replace(/&lt;[^&]*&gt;/g, ' ').replace(/&amp;/g, '&').replace(/&lt;/g, '<').replace(/&gt;/g, '>').replace(/&quot;/g, '"').replace(/&#39;/g, "'").replace(/&nbsp;/g, ' ').replace(/\s+/g, ' ').trim();
+}
+
 export default function NewsPage() {
   const { lang, setLang, tx } = useI18n();
   const [langMenuOpen, setLangMenuOpen] = useState(false);
@@ -159,7 +164,7 @@ export default function NewsPage() {
                   </div>
                   {article.summary && (
                     <p className="text-sm text-slate-500 mt-2 line-clamp-2">
-                      {article.summary}
+                      {stripHtml(article.summary)}
                     </p>
                   )}
                 </div>
