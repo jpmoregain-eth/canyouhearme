@@ -131,7 +131,7 @@ export default function NewsPage() {
         </div>
 
         <div className="space-y-3">
-          {vcNews.map((article, idx) => (
+          {[...vcNews].sort((a, b) => new Date(b.created_at || 0).getTime() - new Date(a.created_at || 0).getTime()).map((article, idx) => (
             <a
               key={idx}
               href={article.link}
