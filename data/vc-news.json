@@ -1,5 +1,95 @@
 [
   {
+    "title": "Android-based all-in-one room devices from Neat and Logitech certified for Google Meet",
+    "link": "https://workspaceupdates.googleblog.com/2026/05/android-all-in-one-devices-neat-logitech.html",
+    "source": "Google Workspace Updates",
+    "published_at": "May 15, 2026",
+    "summary": "Neat Board series (32, 50, Pro) and Logitech Rally Board 65 now certified for Google Meet as first Android-based all-in-one devices. Touch displays support video meetings and interactive whiteboarding via Figma, Lucid, Miro.",
+    "keywords_matched": "google meet(10), logitech(8), neat(10), video conferencing(10), android(5)",
+    "keyword_score": 33,
+    "created_at": "2026-05-18 14:26:45"
+  },
+  {
+    "title": "Jabra Launches PanaCast U30 to Bring BYOD Video Into Small Rooms",
+    "link": "https://www.uctoday.com/devices-workspace-tech/jabra-panacast-u30-byod-video-bar-small-meeting-rooms/",
+    "source": "UC Today",
+    "published_at": "Mon, 18 May 2026 11:25:11 +0000",
+    "summary": "Jabra has launched the PanaCast U30, a compact USB video bar designed to make BYOD video collaboration easier in small meeting rooms and huddle spaces. On the surface, it is a straightforward devices story. Underneath, it reflects a bigger workplace reality: plenty of organisations have invested in hybrid work, but many of their smallest rooms [&#8230;]",
+    "keywords_matched": "meeting room(10), jabra(8), hybrid work(6)",
+    "keyword_score": 24,
+    "created_at": "2026-05-18 12:24:33"
+  },
+  {
+    "title": "Microsoft, Cisco illustrate two different UC approaches",
+    "link": "https://www.nojitter.com/infrastructure/microsoft-cisco-illustrate-two-different-uc-approaches",
+    "source": "No Jitter",
+    "published_at": "Wed, 06 May 2026 16:54:53 GMT",
+    "summary": "The strategies each company executed when bringing UCaaS services to market yield useful lessons in how to select and deploy a UC platform.",
+    "keywords_matched": "ucaas(10), cisco(8)",
+    "keyword_score": 18,
+    "created_at": "2026-05-18 12:24:32"
+  },
+  {
+    "title": "Zoom transitions to AI-driven future with corporate rebrand",
+    "link": "https://technode.com/2024/11/27/zoom-transitions-to-ai-driven-future-with-corporate-rebrand/",
+    "source": "TechNode",
+    "published_at": "Wed, 27 Nov 2024 09:03:00 +0000",
+    "summary": "<figure><img alt=\"Zoom transitions to AI-driven future with corporate rebrand\" class=\"attachment-rss-image-size size-rss-image-size wp-post-image\" height=\"576\" src=\"https://i0.wp.com/technode.com/wp-content/uploads/2024/11/1-scaled.jpeg?fit=1024%2C576&amp;ssl=1\" width=\"1024\" /></figure>Zoom Communications, Inc. announced its transformation into an AI-first company on Nov. 25, marking a shift from its video conferencing roots. In a blog post titled “Allow us to reintroduce ourselves”, CEO Eric Yu",
+    "keywords_matched": "video conferencing(10), zoom(2)",
+    "keyword_score": 12,
+    "created_at": "2026-05-18 12:24:28"
+  },
+  {
+    "title": "Post Office chair defends ‘inappropriate and harmful’ position on Capture appeals",
+    "link": "https://www.computerweekly.com/news/366643102/Post-Office-chair-defends-inappropriate-and-harmful-position-on-Capture-appeals",
+    "source": "Computer Weekly",
+    "published_at": "Fri, 15 May 2026 07:22:00 GMT",
+    "summary": "&lt;p&gt;Post Office chairman Nigel Railton has told an influential group of peers and academics that the Post Office’s controversial decision to contest Capture appeals is in “accordance with the rules and requirements” of the judicial system.&lt;/p&gt; \n&lt;p&gt;But his explanation was described as “unconvincing” by Horizon Compensation Advisory Board (HCAB) member &lt;a href=\"https://www.computerweekly.com/news/4500255862/James-Arbuthnot-takes-Post-Office-IT-fight-to-House-of-Lords\"&gt;peer J",
+    "keywords_matched": "microsoft teams(10), teams(2)",
+    "keyword_score": 12,
+    "created_at": "2026-05-18 12:24:09"
+  },
+  {
+    "title": "Accenture joins IBM in battle for £323m Post Office Horizon deal",
+    "link": "https://www.computerweekly.com/news/366642986/Accenture-joins-IBM-in-battle-for-323m-Post-Office-Horizon-deal",
+    "source": "Computer Weekly",
+    "published_at": "Thu, 14 May 2026 07:15:00 GMT",
+    "summary": "&lt;p&gt;Accenture is bidding to take over the controversial system at the centre of the &lt;a href=\"https://www.computerweekly.com/feature/Post-Office-Horizon-scandal-explained-everything-you-need-to-know\"&gt;Post Office Horizon scandal&lt;/a&gt;.&lt;/p&gt; \n&lt;p&gt;Computer Weekly has learned that the outsourcing giant is bidding for lot two of the Post Office Horizon replacement tender. The successful bidder for the £323m contract will take over the running of the current Horizon system, whe",
+    "keywords_matched": "microsoft teams(10), teams(2)",
+    "keyword_score": 12,
+    "created_at": "2026-05-18 12:24:09"
+  },
+  {
+    "title": "'Goodbye Together mode, hello simplified meeting layouts': Microsoft Teams is finally ditching its virtual room views in a farewell to a proper relic of the lockdown days",
+    "link": "https://www.techradar.com/pro/goodbye-together-mode-hello-simplified-meeting-layouts-microsoft-teams-is-finally-ditching-its-virtual-room-views-in-a-farewell-to-a-proper-relic-of-the-lockdown-days",
+    "source": "TechRadar",
+    "published_at": "Mon, 18 May 2026 10:20:00 +0000",
+    "summary": "It's curtains for Microsoft Teams Together Mode as the company looks to move forward in other areas.",
+    "keywords_matched": "microsoft teams(10), teams(2)",
+    "keyword_score": 12,
+    "created_at": "2026-05-18 12:23:59"
+  },
+  {
+    "title": "Cybercriminal Twins Caught After They Forgot to Turn Off Microsoft Teams Recording",
+    "link": "https://www.wired.com/story/security-news-this-week-cybercriminal-twins-caught-after-they-forgot-to-turn-off-microsoft-teams-recording/",
+    "source": "Wired",
+    "published_at": "Sat, 16 May 2026 10:30:00 +0000",
+    "summary": "Plus: Instructure’s Canvas ransomware debacle comes to a close, an alleged dark net market kingpin gets arrested, OpenAI workers fall victim to a supply chain attack, and more.",
+    "keywords_matched": "microsoft teams(10), teams(2)",
+    "keyword_score": 12,
+    "created_at": "2026-05-18 12:23:47"
+  },
+  {
+    "title": "Microsoft is retiring Teams’ Together Mode",
+    "link": "https://www.theverge.com/tech/932215/microsoft-teams-together-mode",
+    "source": "The Verge",
+    "published_at": "2026-05-17T17:15:28-04:00",
+    "summary": "Microsoft launched Teams' Together Mode during the pandemic to give the illusion of a bunch of people sitting in a conference room together, even if they were really sitting at home without pants on. But times have changed, and it's now being retired in favor of a more simplified Teams experience. The feature used AI [&#8230;]",
+    "keywords_matched": "conference room(10), teams(2)",
+    "keyword_score": 12,
+    "created_at": "2026-05-18 12:23:41"
+  },
+  {
     "title": "Four AI supply-chain attacks in 50 days exposed the release pipeline red teams aren't covering",
     "link": "https://venturebeat.com/security/supply-chain-incidents-openai-anthropic-meta-release-surface-vendor-questionnaire-matrix",
     "source": "VentureBeat",
@@ -10,33 +100,23 @@
     "created_at": "2026-05-19 00:30:14"
   },
   {
-    "title": "AWS nabs white hot gen AI media creation startup fal, becoming its preferred cloud provider",
-    "link": "https://venturebeat.com/infrastructure/aws-nabs-white-hot-gen-ai-media-creation-startup-fal-becoming-its-preferred-cloud-provider",
-    "source": "VentureBeat",
-    "published_at": "Wed, 20 May 2026 00:06:00 GMT",
-    "summary": "<p>Generative AI’s rapid transition from text-based chatbots to high-fidelity media—spanning images, video, spatial 3D, and audio—has exposed a glaring bottleneck in the modern tech stack: infrastructure. Rendering pixels in real-time requires a staggering amount of compute, and developers are increasingly struggling to manage fragmented GPU clusters just to keep their applications online.</p><p>Enter <a href=\"https://fal.ai/\">fal</a>, a generative media creation platform that has quietly become",
-    "keywords_matched": "cisco(8)",
-    "keyword_score": 8,
-    "created_at": "2026-05-20 00:30:31"
+    "title": "Avaya updates Avaya Infinity with CX-centric features",
+    "link": "https://www.nojitter.com/contact-centers/avaya-updates-avaya-infinity-with-cx-centric-features",
+    "source": "No Jitter",
+    "published_at": "Wed, 13 May 2026 17:21:42 GMT",
+    "summary": "The CX platform will provide real-time insights out-of-the-box, enable human and AI collaboration and access to third-party data systems.",
+    "keywords_matched": "avaya(10)",
+    "keyword_score": 10,
+    "created_at": "2026-05-18 12:24:32"
   },
   {
-    "title": "AI Won’t Replace You, The Person Mastering It Will",
-    "link": "https://www.uctoday.com/productivity-automation/ai-wont-replace-you-the-person-mastering-it-will/",
-    "source": "UC Today",
-    "published_at": "Tue, 19 May 2026 15:33:15 +0000",
-    "summary": "For two decades, workplace technology promised to unlock time. Email made messages instant. Collaboration platforms reduced meeting friction. Workflow tools improved visibility. Yet many organisations still feel ‘busy’, not productive. Now, AI changes the equation. It does not just accelerate tasks. It can reshape how work gets done, who does it, and what organisations expect [&#8230;]",
-    "keywords_matched": "collaboration platform(6)",
-    "keyword_score": 6,
-    "created_at": "2026-05-20 00:30:26"
-  },
-  {
-    "title": "How to Design a Workspace Device Strategy That Actually Supports Hybrid Work",
-    "link": "https://www.uctoday.com/devices-workspace-tech/hybrid-work-devices-workplace-device-strategy/",
-    "source": "UC Today",
-    "published_at": "Tue, 19 May 2026 09:06:54 +0000",
-    "summary": "Hybrid work succeeds or fails on the everyday details, and workplace device strategy is one of the biggest “silent” dealbreakers. A smart plan for hybrid work devices reduces friction across home, office, and travel. The goal is a consistent, secure experience that employees trust. That is why buyers now treat enterprise device management as a [&#8230;]",
-    "keywords_matched": "hybrid work(6)",
-    "keyword_score": 6,
-    "created_at": "2026-05-20 00:30:26"
+    "title": "Uniti Solutions demonstrates power of bundling in UCaaS",
+    "link": "https://www.nojitter.com/infrastructure/uniti-solutions-demonstrates-power-of-bundling-in-ucaas",
+    "source": "No Jitter",
+    "published_at": "Wed, 13 May 2026 15:31:48 GMT",
+    "summary": "In the latest installment of Eastern Management Group's analysis of UC vendors, John Malone looks at which customers benefit from combined services.",
+    "keywords_matched": "ucaas(10)",
+    "keyword_score": 10,
+    "created_at": "2026-05-18 12:24:32"
   }
 ]
