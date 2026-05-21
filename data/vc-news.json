@@ -10,16 +10,6 @@
     "created_at": "2026-05-21 00:30:38"
   },
   {
-    "title": "NanoClaw's creators are turning the secure, open source AI agent harness into an enterprise 'second brain'",
-    "link": "https://venturebeat.com/orchestration/nanoclaws-creators-are-turning-the-secure-open-source-ai-agent-harness-into-an-enterprise-second-brain",
-    "source": "VentureBeat",
-    "published_at": "Wed, 20 May 2026 14:12:00 GMT",
-    "summary": "<p>The creators of <a href=\"https://nanoclaw.dev/\">NanoClaw</a> — the hit open source, enterprise-friendly variant of autonomous AI agent harness OpenClaw — are moving towards commercializing their technology for enterprises at scale, aiming to provide them with secure AI agents, and an ever-updating library of workplace context, for each human employee the enterprise has approved.</p><p>The duo, including former <a href=\"https://www.wix.com/\">Wix.com</a> engineer Gavriel Cohen and his brother L",
-    "keywords_matched": "microsoft teams(10), teams(2), slack(2)",
-    "keyword_score": 14,
-    "created_at": "2026-05-21 00:30:42"
-  },
-  {
     "title": "Gamma Communications: The £1 Billion Battle for Britain’s UCaaS Backbone",
     "link": "https://www.uctoday.com/unified-communications/gamma-communications-the-1-billion-battle-for-britains-ucaas-backbone/",
     "source": "UC Today",
@@ -38,26 +28,6 @@
     "keywords_matched": "meeting room(10)",
     "keyword_score": 10,
     "created_at": "2026-05-21 00:30:38"
-  },
-  {
-    "title": "GitHub confirms 3,800 internal repos stolen through poisoned VS Code extension as supply chain worm hits Microsoft’s Python SDK",
-    "link": "https://venturebeat.com/security/github-confirms-3800-repos-stolen-poisoned-vs-code-extension-supply-chain-worm-microsoft-python-sdk",
-    "source": "VentureBeat",
-    "published_at": "Wed, 20 May 2026 17:21:49 GMT",
-    "summary": "<p>GitHub confirmed on May 20 that a poisoned VS Code extension installed on an employee’s device gave attackers access to roughly 3,800 internal repositories at the Microsoft-owned code storage and authorship platform. </p><p>The threat group TeamPCP, formally tracked by <a href=\"https://cloud.google.com/blog/topics/threat-intelligence/north-korea-threat-actor-targets-axios-npm-package\">Google Threat Intelligence Group</a> as UNC6780, claimed responsibility and is advertising the stolen reposit",
-    "keywords_matched": "cisco(8)",
-    "keyword_score": 8,
-    "created_at": "2026-05-21 00:30:42"
-  },
-  {
-    "title": "AWS nabs white hot gen AI media creation startup fal, becoming its preferred cloud provider",
-    "link": "https://venturebeat.com/infrastructure/aws-nabs-white-hot-gen-ai-media-creation-startup-fal-becoming-its-preferred-cloud-provider",
-    "source": "VentureBeat",
-    "published_at": "Wed, 20 May 2026 00:06:00 GMT",
-    "summary": "<p>Generative AI’s rapid transition from text-based chatbots to high-fidelity media—spanning images, video, spatial 3D, and audio—has exposed a glaring bottleneck in the modern tech stack: infrastructure. Rendering pixels in real-time requires a staggering amount of compute, and developers are increasingly struggling to manage fragmented GPU clusters just to keep their applications online.</p><p>Enter <a href=\"https://fal.ai/\">fal</a>, a generative media creation platform that has quietly become",
-    "keywords_matched": "cisco(8)",
-    "keyword_score": 8,
-    "created_at": "2026-05-20 00:30:31"
   },
   {
     "title": "AI Won’t Replace You, The Person Mastering It Will",
