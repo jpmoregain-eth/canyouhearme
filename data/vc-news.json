@@ -1,32 +1,12 @@
 [
   {
-    "title": "The $20 Hack Threatening Hybrid Work Security: Why a Stolen Laptop Is a Major UC Vulnerability",
-    "link": "https://www.uctoday.com/security-compliance-risk/hybrid-work-security-device-theft-uc-vulnerability/",
+    "title": "Is Your UCaaS Platform Creating More Noise Than Signal?",
+    "link": "https://www.uctoday.com/unified-communications/is-your-ucaas-platform-creating-more-noise-than-signal/",
     "source": "UC Today",
-    "published_at": "Wed, 20 May 2026 11:36:24 +0000",
-    "summary": "The shift to flexible work has decentralized the office, but it has also exposed a massive gap in hybrid work security. Workplace devices are now in cafes, trains, and living rooms, making device theft a highly lucrative vector for cybercriminals. For UC, this is a critical vulnerability. Platforms like Microsoft Teams, Zoom, and Webex cache [&#8230;]",
-    "keywords_matched": "microsoft teams(10), hybrid work(6), teams(2), zoom(2), webex(3)",
-    "keyword_score": 23,
-    "created_at": "2026-05-21 00:30:38"
-  },
-  {
-    "title": "Gamma Communications: The £1 Billion Battle for Britain’s UCaaS Backbone",
-    "link": "https://www.uctoday.com/unified-communications/gamma-communications-the-1-billion-battle-for-britains-ucaas-backbone/",
-    "source": "UC Today",
-    "published_at": "Wed, 20 May 2026 16:17:43 +0000",
-    "summary": "By the time most people in the UK channel heard the name Gamma Communications, they were already depending on it. The Newbury-based company sits behind platforms used by O2 Daisy, powers the voice infrastructure of over 1,500 resellers and MSPs, and operates across four European markets. Now, three private equity parties want to own it. [&#8230;]",
+    "published_at": "Mon, 25 May 2026 12:00:19 +0000",
+    "summary": "UCaaS sprawl can feel like progress. More channels, more integrations, more pings. Yet many CIOs discover the opposite outcome: less clarity. The real question in any UCaaS platform evaluation is not &#8220;Are people using it?&#8221; &#8211; it is &#8220;Are they finding what matters, fast?&#8221; That distinction defines a healthy signal-to-noise ratio in communication. When the [&#8230;]",
     "keywords_matched": "ucaas(10)",
     "keyword_score": 10,
-    "created_at": "2026-05-21 00:30:38"
-  },
-  {
-    "title": "Platform or Point Solution? 7 Questions Every IT Leader Should Ask Before Their Next AV Decision",
-    "link": "https://www.uctoday.com/devices-workspace-tech/platform-or-point-solution-7-questions-every-it-leader-should-ask-before-their-next-av-decision/",
-    "source": "UC Today",
-    "published_at": "Wed, 20 May 2026 14:30:45 +0000",
-    "summary": "Many enterprise AV decisions follow a familiar pattern. A brief arrives, usually scoped around meeting rooms. The procurement team evaluates devices, checks certifications, selects a vendor, and deploys.  The problem is that most organizations evaluate those decisions on the wrong criteria, at the wrong level, and with the wrong timeframe in mind. When the limitations eventually become [&#8230;]",
-    "keywords_matched": "meeting room(10)",
-    "keyword_score": 10,
-    "created_at": "2026-05-21 00:30:38"
+    "created_at": "2026-05-26 00:30:21"
   }
 ]
