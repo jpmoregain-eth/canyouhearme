@@ -5,7 +5,37 @@ import { useI18n, languages } from '../data/i18n';
 
 function stripHtml(html: string | null | undefined): string {
   if (!html) return '';
-  return html.replace(/<[^>]*>/g, ' ').replace(/&lt;[^&]*&gt;/g, ' ').replace(/&amp;/g, '&').replace(/&lt;/g, '<').replace(/&gt;/g, '>').replace(/&quot;/g, '"').replace(/&#39;/g, "'").replace(/&nbsp;/g, ' ').replace(/\s+/g, ' ').trim();
+  let text = html.replace(/<[^>]*>/g, ' ').replace(/&lt;[^&]*&gt;/g, ' ');
+  
+  // Decode all HTML entities including numeric ones
+  const textarea = typeof document !== 'undefined' ? document.createElement('textarea') : null;
+  if (textarea) {
+    textarea.innerHTML = text;
+    text = textarea.value;
+  } else {
+    // Server-side fallback: decode common entities
+    text = text
+      .replace(/&amp;/g, '&')
+      .replace(/&lt;/g, '<')
+      .replace(/&gt;/g, '>')
+      .replace(/&quot;/g, '"')
+      .replace(/&apos;/g, "'")
+      .replace(/&#39;/g, "'")
+      .replace(/&nbsp;/g, ' ')
+      .replace(/&#8216;/g, "'")   // left single quote
+      .replace(/&#8217;/g, "'")   // right single quote
+      .replace(/&#8220;/g, '"')  // left double quote
+      .replace(/&#8221;/g, '"')  // right double quote
+      .replace(/&#8230;/g, '...') // ellipsis
+      .replace(/&#8211;/g, '-')  // en dash
+      .replace(/&#8212;/g, '--')  // em dash
+      .replace(/&#x2018;/g, "'")
+      .replace(/&#x2019;/g, "'")
+      .replace(/&#x201C;/g, '"')
+      .replace(/&#x201D;/g, '"');
+  }
+  
+  return text.replace(/\s+/g, ' ').trim();
 }
 
 export default function NewsPage() {
@@ -145,7 +175,7 @@ export default function NewsPage() {
                 </div>
                 <div className="flex-1 min-w-0">
                   <h3 className="text-base font-medium text-slate-200 group-hover:text-white transition-colors leading-snug mb-2">
-                    {article.title}
+                    {stripHtml(article.title)}
                   </h3>
                   <div className="flex flex-wrap items-center gap-x-3 gap-y-1.5 text-xs mt-1">
                     <span className="px-2 py-0.5 bg-emerald-500/10 text-emerald-400 rounded font-medium">
