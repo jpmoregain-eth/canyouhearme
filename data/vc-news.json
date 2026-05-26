@@ -1,5 +1,85 @@
 [
   {
+    "title": "Android-based all-in-one room devices from Neat and Logitech certified for Google Meet",
+    "link": "https://workspaceupdates.googleblog.com/2026/05/android-all-in-one-devices-neat-logitech.html",
+    "source": "Google Workspace Updates",
+    "published_at": "May 15, 2026",
+    "summary": "Neat Board series (32, 50, Pro) and Logitech Rally Board 65 now certified for Google Meet as first Android-based all-in-one devices. Touch displays support video meetings and interactive whiteboarding via Figma, Lucid, Miro.",
+    "keywords_matched": "google meet(10), logitech(8), neat(10), video conferencing(10), android(5)",
+    "keyword_score": 33,
+    "created_at": "2026-05-18 14:26:45"
+  },
+  {
+    "title": "Jabra Launches PanaCast U30 to Bring BYOD Video Into Small Rooms",
+    "link": "https://www.uctoday.com/devices-workspace-tech/jabra-panacast-u30-byod-video-bar-small-meeting-rooms/",
+    "source": "UC Today",
+    "published_at": "Mon, 18 May 2026 11:25:11 +0000",
+    "summary": "Jabra has launched the PanaCast U30, a compact USB video bar designed to make BYOD video collaboration easier in small meeting rooms and huddle spaces. On the surface, it is a straightforward devices story. Underneath, it reflects a bigger workplace reality: plenty of organisations have invested in hybrid work, but many of their smallest rooms [&#8230;]",
+    "keywords_matched": "meeting room(10), jabra(8), hybrid work(6)",
+    "keyword_score": 24,
+    "created_at": "2026-05-18 12:24:33"
+  },
+  {
+    "title": "The $20 Hack Threatening Hybrid Work Security: Why a Stolen Laptop Is a Major UC Vulnerability",
+    "link": "https://www.uctoday.com/security-compliance-risk/hybrid-work-security-device-theft-uc-vulnerability/",
+    "source": "UC Today",
+    "published_at": "Wed, 20 May 2026 11:36:24 +0000",
+    "summary": "The shift to flexible work has decentralized the office, but it has also exposed a massive gap in hybrid work security. Workplace devices are now in cafes, trains, and living rooms, making device theft a highly lucrative vector for cybercriminals. For UC, this is a critical vulnerability. Platforms like Microsoft Teams, Zoom, and Webex cache [&#8230;]",
+    "keywords_matched": "microsoft teams(10), hybrid work(6), teams(2), zoom(2), webex(3)",
+    "keyword_score": 23,
+    "created_at": "2026-05-21 00:30:38"
+  },
+  {
+    "title": "Microsoft, Cisco illustrate two different UC approaches",
+    "link": "https://www.nojitter.com/infrastructure/microsoft-cisco-illustrate-two-different-uc-approaches",
+    "source": "No Jitter",
+    "published_at": "Wed, 06 May 2026 16:54:53 GMT",
+    "summary": "The strategies each company executed when bringing UCaaS services to market yield useful lessons in how to select and deploy a UC platform.",
+    "keywords_matched": "ucaas(10), cisco(8)",
+    "keyword_score": 18,
+    "created_at": "2026-05-18 12:24:32"
+  },
+  {
+    "title": "Zoom transitions to AI-driven future with corporate rebrand",
+    "link": "https://technode.com/2024/11/27/zoom-transitions-to-ai-driven-future-with-corporate-rebrand/",
+    "source": "TechNode",
+    "published_at": "Wed, 27 Nov 2024 09:03:00 +0000",
+    "summary": "<figure><img alt=\"Zoom transitions to AI-driven future with corporate rebrand\" class=\"attachment-rss-image-size size-rss-image-size wp-post-image\" height=\"576\" src=\"https://i0.wp.com/technode.com/wp-content/uploads/2024/11/1-scaled.jpeg?fit=1024%2C576&amp;ssl=1\" width=\"1024\" /></figure>Zoom Communications, Inc. announced its transformation into an AI-first company on Nov. 25, marking a shift from its video conferencing roots. In a blog post titled “Allow us to reintroduce ourselves”, CEO Eric Yu",
+    "keywords_matched": "video conferencing(10), zoom(2)",
+    "keyword_score": 12,
+    "created_at": "2026-05-18 12:24:28"
+  },
+  {
+    "title": "'Goodbye Together mode, hello simplified meeting layouts': Microsoft Teams is finally ditching its virtual room views in a farewell to a proper relic of the lockdown days",
+    "link": "https://www.techradar.com/pro/goodbye-together-mode-hello-simplified-meeting-layouts-microsoft-teams-is-finally-ditching-its-virtual-room-views-in-a-farewell-to-a-proper-relic-of-the-lockdown-days",
+    "source": "TechRadar",
+    "published_at": "Mon, 18 May 2026 10:20:00 +0000",
+    "summary": "It's curtains for Microsoft Teams Together Mode as the company looks to move forward in other areas.",
+    "keywords_matched": "microsoft teams(10), teams(2)",
+    "keyword_score": 12,
+    "created_at": "2026-05-18 12:23:59"
+  },
+  {
+    "title": "Cybercriminal Twins Caught After They Forgot to Turn Off Microsoft Teams Recording",
+    "link": "https://www.wired.com/story/security-news-this-week-cybercriminal-twins-caught-after-they-forgot-to-turn-off-microsoft-teams-recording/",
+    "source": "Wired",
+    "published_at": "Sat, 16 May 2026 10:30:00 +0000",
+    "summary": "Plus: Instructure’s Canvas ransomware debacle comes to a close, an alleged dark net market kingpin gets arrested, OpenAI workers fall victim to a supply chain attack, and more.",
+    "keywords_matched": "microsoft teams(10), teams(2)",
+    "keyword_score": 12,
+    "created_at": "2026-05-18 12:23:47"
+  },
+  {
+    "title": "Microsoft is retiring Teams’ Together Mode",
+    "link": "https://www.theverge.com/tech/932215/microsoft-teams-together-mode",
+    "source": "The Verge",
+    "published_at": "2026-05-17T17:15:28-04:00",
+    "summary": "Microsoft launched Teams' Together Mode during the pandemic to give the illusion of a bunch of people sitting in a conference room together, even if they were really sitting at home without pants on. But times have changed, and it's now being retired in favor of a more simplified Teams experience. The feature used AI [&#8230;]",
+    "keywords_matched": "conference room(10), teams(2)",
+    "keyword_score": 12,
+    "created_at": "2026-05-18 12:23:41"
+  },
+  {
     "title": "Is Your UCaaS Platform Creating More Noise Than Signal?",
     "link": "https://www.uctoday.com/unified-communications/is-your-ucaas-platform-creating-more-noise-than-signal/",
     "source": "UC Today",
@@ -8,5 +88,75 @@
     "keywords_matched": "ucaas(10)",
     "keyword_score": 10,
     "created_at": "2026-05-26 00:30:21"
+  },
+  {
+    "title": "Gamma Communications: The £1 Billion Battle for Britain’s UCaaS Backbone",
+    "link": "https://www.uctoday.com/unified-communications/gamma-communications-the-1-billion-battle-for-britains-ucaas-backbone/",
+    "source": "UC Today",
+    "published_at": "Wed, 20 May 2026 16:17:43 +0000",
+    "summary": "By the time most people in the UK channel heard the name Gamma Communications, they were already depending on it. The Newbury-based company sits behind platforms used by O2 Daisy, powers the voice infrastructure of over 1,500 resellers and MSPs, and operates across four European markets. Now, three private equity parties want to own it. [&#8230;]",
+    "keywords_matched": "ucaas(10)",
+    "keyword_score": 10,
+    "created_at": "2026-05-21 00:30:38"
+  },
+  {
+    "title": "Platform or Point Solution? 7 Questions Every IT Leader Should Ask Before Their Next AV Decision",
+    "link": "https://www.uctoday.com/devices-workspace-tech/platform-or-point-solution-7-questions-every-it-leader-should-ask-before-their-next-av-decision/",
+    "source": "UC Today",
+    "published_at": "Wed, 20 May 2026 14:30:45 +0000",
+    "summary": "Many enterprise AV decisions follow a familiar pattern. A brief arrives, usually scoped around meeting rooms. The procurement team evaluates devices, checks certifications, selects a vendor, and deploys.  The problem is that most organizations evaluate those decisions on the wrong criteria, at the wrong level, and with the wrong timeframe in mind. When the limitations eventually become [&#8230;]",
+    "keywords_matched": "meeting room(10)",
+    "keyword_score": 10,
+    "created_at": "2026-05-21 00:30:38"
+  },
+  {
+    "title": "Avaya updates Avaya Infinity with CX-centric features",
+    "link": "https://www.nojitter.com/contact-centers/avaya-updates-avaya-infinity-with-cx-centric-features",
+    "source": "No Jitter",
+    "published_at": "Wed, 13 May 2026 17:21:42 GMT",
+    "summary": "The CX platform will provide real-time insights out-of-the-box, enable human and AI collaboration and access to third-party data systems.",
+    "keywords_matched": "avaya(10)",
+    "keyword_score": 10,
+    "created_at": "2026-05-18 12:24:32"
+  },
+  {
+    "title": "Uniti Solutions demonstrates power of bundling in UCaaS",
+    "link": "https://www.nojitter.com/infrastructure/uniti-solutions-demonstrates-power-of-bundling-in-ucaas",
+    "source": "No Jitter",
+    "published_at": "Wed, 13 May 2026 15:31:48 GMT",
+    "summary": "In the latest installment of Eastern Management Group's analysis of UC vendors, John Malone looks at which customers benefit from combined services.",
+    "keywords_matched": "ucaas(10)",
+    "keyword_score": 10,
+    "created_at": "2026-05-18 12:24:32"
+  },
+  {
+    "title": "AI and integration are shaping UCaaS market",
+    "link": "https://www.nojitter.com/infrastructure/ai-and-integration-are-shaping-ucaas-market",
+    "source": "No Jitter",
+    "published_at": "Tue, 21 Apr 2026 16:26:47 GMT",
+    "summary": "Sticking with a status-quo UCaaS platform might hinder an enterprise's bottom line. Recent research shows that UCaaS reassessment gets rewarded.",
+    "keywords_matched": "ucaas(10)",
+    "keyword_score": 10,
+    "created_at": "2026-05-18 12:24:32"
+  },
+  {
+    "title": "Insta360 unveils Connect: an all-in-one video conferencing device with dual 4K cameras and AI features",
+    "link": "https://technode.com/2024/12/18/insta360-unveils-connect-an-all-in-one-video-conferencing-device-with-dual-4k-cameras-and-ai-features/",
+    "source": "TechNode",
+    "published_at": "Wed, 18 Dec 2024 08:47:35 +0000",
+    "summary": "<figure><img alt=\"Insta360’s new AI-phone stabilizer supports Apple camera’s auto face tracking\" class=\"attachment-rss-image-size size-rss-image-size wp-post-image\" height=\"399\" src=\"https://i0.wp.com/technode.com/wp-content/uploads/2024/06/Insta360-Logo.jpg?fit=635%2C399&amp;ssl=1\" width=\"635\" /></figure>Chinese camera brand Insta360 on Tuesday unveiled its latest product, Connect, an all-in-one video conferencing device that integrates dual 4K cameras, a 14-microphone array, and built-in speak",
+    "keywords_matched": "video conferencing(10)",
+    "keyword_score": 10,
+    "created_at": "2026-05-18 12:24:28"
+  },
+  {
+    "title": "Google appeals search monopoly ruling, says it won business &#8216;fair and square’",
+    "link": "https://www.theverge.com/policy/936175/google-search-monopoly-ruling-appeal",
+    "source": "The Verge",
+    "published_at": "2026-05-22T12:28:56-04:00",
+    "summary": "Google officially filed its appeal of the federal ruling deeming it an illegal search monopolist, arguing the decision \"crashed\" through legal guardrails. \"Google just prevailed in the marketplace fair and square,\" it writes in its legal filing. Google had already said it would appeal the ruling, which includes both the August 2024 decision about its [&#8230;]",
+    "keywords_matched": "poly(8)",
+    "keyword_score": 8,
+    "created_at": "2026-05-23 00:30:31"
   }
 ]
