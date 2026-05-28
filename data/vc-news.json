@@ -90,6 +90,16 @@
     "created_at": "2026-05-18 12:23:41"
   },
   {
+    "title": "Google Beam Adds 3D Group Meeting Support for Zoom and Google Meet",
+    "link": "https://www.uctoday.com/unified-communications/google-beam-adds-3d-group-meeting-support-for-zoom-and-google-meet/",
+    "source": "UC Today",
+    "published_at": "Wed, 27 May 2026 13:31:03 +0000",
+    "summary": "Google Beam makes remote participants appear life-size, seated as if in the same room, without a headset or glasses. A large light field display, six cameras, and an AI model do the work. It is the most convincing headset-free immersive video technology on the market, and until last week it only worked between two people. [&#8230;]",
+    "keywords_matched": "google meet(10), zoom(1)",
+    "keyword_score": 11,
+    "created_at": "2026-05-28 00:38:44"
+  },
+  {
     "title": "Zoom's fiscal Q1 results show how voice remains key to business",
     "link": "https://www.nojitter.com/infrastructure/zoom-fiscal-q1-results-show-how-voice-remains-key-to-business",
     "source": "No Jitter",
@@ -178,15 +188,5 @@
     "keywords_matched": "ucaas(10)",
     "keyword_score": 10,
     "created_at": "2026-05-18 12:24:32"
-  },
-  {
-    "title": "Insta360 unveils Connect: an all-in-one video conferencing device with dual 4K cameras and AI features",
-    "link": "https://technode.com/2024/12/18/insta360-unveils-connect-an-all-in-one-video-conferencing-device-with-dual-4k-cameras-and-ai-features/",
-    "source": "TechNode",
-    "published_at": "Wed, 18 Dec 2024 08:47:35 +0000",
-    "summary": "<figure><img alt=\"Insta360’s new AI-phone stabilizer supports Apple camera’s auto face tracking\" class=\"attachment-rss-image-size size-rss-image-size wp-post-image\" height=\"399\" src=\"https://i0.wp.com/technode.com/wp-content/uploads/2024/06/Insta360-Logo.jpg?fit=635%2C399&amp;ssl=1\" width=\"635\" /></figure>Chinese camera brand Insta360 on Tuesday unveiled its latest product, Connect, an all-in-one video conferencing device that integrates dual 4K cameras, a 14-microphone array, and built-in speak",
-    "keywords_matched": "video conferencing(10)",
-    "keyword_score": 10,
-    "created_at": "2026-05-18 12:24:28"
   }
 ]
