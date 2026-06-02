@@ -1,23 +1,13 @@
 [
   {
-    "title": "Android-based all-in-one room devices from Neat and Logitech certified for Google Meet",
-    "link": "https://workspaceupdates.googleblog.com/2026/05/android-all-in-one-devices-neat-logitech.html",
-    "source": "Google Workspace Updates",
-    "published_at": "May 15, 2026",
-    "summary": "Neat Board series (32, 50, Pro) and Logitech Rally Board 65 now certified for Google Meet as first Android-based all-in-one devices. Touch displays support video meetings and interactive whiteboarding via Figma, Lucid, Miro.",
-    "keywords_matched": "google meet(10), logitech(8), neat(10), video conferencing(10), android(5)",
-    "keyword_score": 33,
-    "created_at": "2026-05-18 14:26:45"
-  },
-  {
-    "title": "Jabra Launches PanaCast U30 to Bring BYOD Video Into Small Rooms",
-    "link": "https://www.uctoday.com/devices-workspace-tech/jabra-panacast-u30-byod-video-bar-small-meeting-rooms/",
+    "title": "Microsoft Teams Rooms on Android Can Soon Join Zoom and Webex via SIP: Here’s What Admins Need to Enable",
+    "link": "https://www.uctoday.com/unified-communications/microsoft-teams-rooms-on-android-can-soon-join-zoom-and-webex-via-sip-heres-what-admins-need-to-enable/",
     "source": "UC Today",
-    "published_at": "Mon, 18 May 2026 11:25:11 +0000",
-    "summary": "Jabra has launched the PanaCast U30, a compact USB video bar designed to make BYOD video collaboration easier in small meeting rooms and huddle spaces. On the surface, it is a straightforward devices story. Underneath, it reflects a bigger workplace reality: plenty of organisations have invested in hybrid work, but many of their smallest rooms [&#8230;]",
-    "keywords_matched": "meeting room(10), jabra(8), hybrid work(6)",
+    "published_at": "Mon, 01 Jun 2026 13:03:19 +0000",
+    "summary": "If your meeting rooms run on Android and you&#8217;ve been watching Windows Teams Rooms users get native SIP interop since 2024, that wait is nearly over. Microsoft has begun rolling out SIP-based cross-platform join for Teams Rooms on Android as of early June, with general availability worldwide expected by mid-August 2026. Once fully rolled out, [&#8230;]",
+    "keywords_matched": "meeting room(10), microsoft teams(10), teams(1), zoom(1), webex(2)",
     "keyword_score": 24,
-    "created_at": "2026-05-18 12:24:33"
+    "created_at": "2026-06-02 02:04:10"
   },
   {
     "title": "The $20 Hack Threatening Hybrid Work Security: Why a Stolen Laptop Is a Major UC Vulnerability",
@@ -28,16 +18,6 @@
     "keywords_matched": "microsoft teams(10), hybrid work(6), teams(2), zoom(2), webex(3)",
     "keyword_score": 23,
     "created_at": "2026-05-21 00:30:38"
-  },
-  {
-    "title": "Microsoft, Cisco illustrate two different UC approaches",
-    "link": "https://www.nojitter.com/infrastructure/microsoft-cisco-illustrate-two-different-uc-approaches",
-    "source": "No Jitter",
-    "published_at": "Wed, 06 May 2026 16:54:53 GMT",
-    "summary": "The strategies each company executed when bringing UCaaS services to market yield useful lessons in how to select and deploy a UC platform.",
-    "keywords_matched": "ucaas(10), cisco(8)",
-    "keyword_score": 18,
-    "created_at": "2026-05-18 12:24:32"
   },
   {
     "title": "How AI Is Reshaping Hybrid Work, Service Management & Connectivity",
@@ -58,46 +38,6 @@
     "keywords_matched": "microsoft teams(10), teams(1), slack(1)",
     "keyword_score": 12,
     "created_at": "2026-05-27 00:30:38"
-  },
-  {
-    "title": "Zoom transitions to AI-driven future with corporate rebrand",
-    "link": "https://technode.com/2024/11/27/zoom-transitions-to-ai-driven-future-with-corporate-rebrand/",
-    "source": "TechNode",
-    "published_at": "Wed, 27 Nov 2024 09:03:00 +0000",
-    "summary": "<figure><img alt=\"Zoom transitions to AI-driven future with corporate rebrand\" class=\"attachment-rss-image-size size-rss-image-size wp-post-image\" height=\"576\" src=\"https://i0.wp.com/technode.com/wp-content/uploads/2024/11/1-scaled.jpeg?fit=1024%2C576&amp;ssl=1\" width=\"1024\" /></figure>Zoom Communications, Inc. announced its transformation into an AI-first company on Nov. 25, marking a shift from its video conferencing roots. In a blog post titled “Allow us to reintroduce ourselves”, CEO Eric Yu",
-    "keywords_matched": "video conferencing(10), zoom(2)",
-    "keyword_score": 12,
-    "created_at": "2026-05-18 12:24:28"
-  },
-  {
-    "title": "'Goodbye Together mode, hello simplified meeting layouts': Microsoft Teams is finally ditching its virtual room views in a farewell to a proper relic of the lockdown days",
-    "link": "https://www.techradar.com/pro/goodbye-together-mode-hello-simplified-meeting-layouts-microsoft-teams-is-finally-ditching-its-virtual-room-views-in-a-farewell-to-a-proper-relic-of-the-lockdown-days",
-    "source": "TechRadar",
-    "published_at": "Mon, 18 May 2026 10:20:00 +0000",
-    "summary": "It's curtains for Microsoft Teams Together Mode as the company looks to move forward in other areas.",
-    "keywords_matched": "microsoft teams(10), teams(2)",
-    "keyword_score": 12,
-    "created_at": "2026-05-18 12:23:59"
-  },
-  {
-    "title": "Cybercriminal Twins Caught After They Forgot to Turn Off Microsoft Teams Recording",
-    "link": "https://www.wired.com/story/security-news-this-week-cybercriminal-twins-caught-after-they-forgot-to-turn-off-microsoft-teams-recording/",
-    "source": "Wired",
-    "published_at": "Sat, 16 May 2026 10:30:00 +0000",
-    "summary": "Plus: Instructure’s Canvas ransomware debacle comes to a close, an alleged dark net market kingpin gets arrested, OpenAI workers fall victim to a supply chain attack, and more.",
-    "keywords_matched": "microsoft teams(10), teams(2)",
-    "keyword_score": 12,
-    "created_at": "2026-05-18 12:23:47"
-  },
-  {
-    "title": "Microsoft is retiring Teams’ Together Mode",
-    "link": "https://www.theverge.com/tech/932215/microsoft-teams-together-mode",
-    "source": "The Verge",
-    "published_at": "2026-05-17T17:15:28-04:00",
-    "summary": "Microsoft launched Teams' Together Mode during the pandemic to give the illusion of a bunch of people sitting in a conference room together, even if they were really sitting at home without pants on. But times have changed, and it's now being retired in favor of a more simplified Teams experience. The feature used AI [&#8230;]",
-    "keywords_matched": "conference room(10), teams(2)",
-    "keyword_score": 12,
-    "created_at": "2026-05-18 12:23:41"
   },
   {
     "title": "Google Beam Adds 3D Group Meeting Support for Zoom and Google Meet",
@@ -180,23 +120,63 @@
     "created_at": "2026-05-21 00:30:38"
   },
   {
-    "title": "Avaya updates Avaya Infinity with CX-centric features",
-    "link": "https://www.nojitter.com/contact-centers/avaya-updates-avaya-infinity-with-cx-centric-features",
-    "source": "No Jitter",
-    "published_at": "Wed, 13 May 2026 17:21:42 GMT",
-    "summary": "The CX platform will provide real-time insights out-of-the-box, enable human and AI collaboration and access to third-party data systems.",
-    "keywords_matched": "avaya(10)",
-    "keyword_score": 10,
-    "created_at": "2026-05-18 12:24:32"
+    "title": "Google engineer accused of turning Year in Search secrets into Polymarket payday",
+    "link": "https://www.theregister.com/legal/2026/05/28/google-infosec-engineer-charged-with-insider-trading/5247745",
+    "source": "The Register",
+    "published_at": "Thu, 28 May 2026 12:50:48 +0200",
+    "summary": "Feds say insider used confidential search trend data to score $1.2M in prediction market profits",
+    "keywords_matched": "poly(8)",
+    "keyword_score": 8,
+    "created_at": "2026-05-29 00:30:53"
   },
   {
-    "title": "Uniti Solutions demonstrates power of bundling in UCaaS",
-    "link": "https://www.nojitter.com/infrastructure/uniti-solutions-demonstrates-power-of-bundling-in-ucaas",
-    "source": "No Jitter",
-    "published_at": "Wed, 13 May 2026 15:31:48 GMT",
-    "summary": "In the latest installment of Eastern Management Group's analysis of UC vendors, John Malone looks at which customers benefit from combined services.",
-    "keywords_matched": "ucaas(10)",
-    "keyword_score": 10,
-    "created_at": "2026-05-18 12:24:32"
+    "title": "A Google employee allegedly used inside information to win $1.2 million on Polymarket",
+    "link": "https://www.theverge.com/tech/938635/google-polymarket-insider-trading-prediction-market-bets",
+    "source": "The Verge",
+    "published_at": "2026-05-27T18:30:02-04:00",
+    "summary": "Federal prosecutors charged a Google employee with fraud after he allegedly made $1.2 million on Polymarket bets related to Search-related trends in 2025, as reported earlier by ABC News. In their now-unsealed complaint, prosecutors allege that Michele Spagnuolo \"knew the outcome of these wagers before the trading public did because he had accessed Google's confidential, [&#8230;]",
+    "keywords_matched": "poly(8)",
+    "keyword_score": 8,
+    "created_at": "2026-05-28 00:38:49"
+  },
+  {
+    "title": "Google Security Engineer Arrested in Million-Dollar Polymarket Trading Scheme",
+    "link": "https://www.wired.com/story/google-employee-accused-of-polymarket-one-million/",
+    "source": "Wired",
+    "published_at": "Wed, 27 May 2026 22:22:23 +0000",
+    "summary": "According to federal prosecutors, Michele Spagnuolo made more than $1 million on the prediction market platform using confidential information about Google Search traffic.",
+    "keywords_matched": "poly(8)",
+    "keyword_score": 8,
+    "created_at": "2026-05-28 00:38:48"
+  },
+  {
+    "title": "Logitech unveils a cushioned mouse for all-day use",
+    "link": "https://www.theregister.com/personal-tech/2026/05/26/logitech-unveils-a-cushioned-mouse-for-all-day-use/5246078",
+    "source": "The Register",
+    "published_at": "Tue, 26 May 2026 13:30:00 +0200",
+    "summary": "Ideal for aching palms – though only if you're right-handed",
+    "keywords_matched": "logitech(8)",
+    "keyword_score": 8,
+    "created_at": "2026-05-27 00:30:46"
+  },
+  {
+    "title": "Memory V re-creates the Memorymoog without the massive headaches or price tag",
+    "link": "https://www.theverge.com/entertainment/937054/arturia-memory-v-memorymoog-synthesizer",
+    "source": "The Verge",
+    "published_at": "2026-05-26T12:00:00-04:00",
+    "summary": "The Memorymoog is legendary for being an absolutely massive-sounding synth and being incredibly unreliable. But now you can enjoy its classic Moog sound without the headaches or the sky-high vintage price, thanks to Arturia's Memory V emulator. The Memorymoog was only made between 1982 and 1985, and was the last polyphonic synth made by Moog [&#8230;]",
+    "keywords_matched": "poly(8)",
+    "keyword_score": 8,
+    "created_at": "2026-05-27 00:30:44"
+  },
+  {
+    "title": "Google appeals search monopoly ruling, says it won business &#8216;fair and square’",
+    "link": "https://www.theverge.com/policy/936175/google-search-monopoly-ruling-appeal",
+    "source": "The Verge",
+    "published_at": "2026-05-22T12:28:56-04:00",
+    "summary": "Google officially filed its appeal of the federal ruling deeming it an illegal search monopolist, arguing the decision \"crashed\" through legal guardrails. \"Google just prevailed in the marketplace fair and square,\" it writes in its legal filing. Google had already said it would appeal the ruling, which includes both the August 2024 decision about its [&#8230;]",
+    "keywords_matched": "poly(8)",
+    "keyword_score": 8,
+    "created_at": "2026-05-23 00:30:31"
   }
 ]
