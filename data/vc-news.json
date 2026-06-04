@@ -1,5 +1,15 @@
 [
   {
+    "title": "Your UC Platform Isn’t Down: It’s Just Performing Badly Enough to Frustrate Everyone",
+    "link": "https://www.uctoday.com/service-management-connectivity/cx-network-latency-system-performance/",
+    "source": "UC Today",
+    "published_at": "Wed, 03 Jun 2026 09:00:36 +0000",
+    "summary": "Your collaboration tools might show perfect uptime while secretly destroying daily employee productivity. Unified communications performance often degrades silently without triggering traditional IT alarms. Workers suffer through lagging video meetings and delayed messages constantly. This hidden friction severely damages overall enterprise communications reliability. A green dashboard means absolutely nothing if Microsoft Teams performance feels incredibly [&#8230;]",
+    "keywords_matched": "unified communications(10), microsoft teams(10), collaboration tools(6), teams(1)",
+    "keyword_score": 27,
+    "created_at": "2026-06-04 00:30:46"
+  },
+  {
     "title": "Microsoft Teams Rooms on Android Can Soon Join Zoom and Webex via SIP: Here’s What Admins Need to Enable",
     "link": "https://www.uctoday.com/unified-communications/microsoft-teams-rooms-on-android-can-soon-join-zoom-and-webex-via-sip-heres-what-admins-need-to-enable/",
     "source": "UC Today",
@@ -8,16 +18,6 @@
     "keywords_matched": "meeting room(10), microsoft teams(10), teams(1), zoom(1), webex(2)",
     "keyword_score": 24,
     "created_at": "2026-06-02 02:04:10"
-  },
-  {
-    "title": "The $20 Hack Threatening Hybrid Work Security: Why a Stolen Laptop Is a Major UC Vulnerability",
-    "link": "https://www.uctoday.com/security-compliance-risk/hybrid-work-security-device-theft-uc-vulnerability/",
-    "source": "UC Today",
-    "published_at": "Wed, 20 May 2026 11:36:24 +0000",
-    "summary": "The shift to flexible work has decentralized the office, but it has also exposed a massive gap in hybrid work security. Workplace devices are now in cafes, trains, and living rooms, making device theft a highly lucrative vector for cybercriminals. For UC, this is a critical vulnerability. Platforms like Microsoft Teams, Zoom, and Webex cache [&#8230;]",
-    "keywords_matched": "microsoft teams(10), hybrid work(6), teams(2), zoom(2), webex(3)",
-    "keyword_score": 23,
-    "created_at": "2026-05-21 00:30:38"
   },
   {
     "title": "From Note-Taker to Co-Worker: How Infocomm 2026 Marks AI’s Next Step in UC",
@@ -120,24 +120,14 @@
     "created_at": "2026-05-26 00:30:21"
   },
   {
-    "title": "Gamma Communications: The £1 Billion Battle for Britain’s UCaaS Backbone",
-    "link": "https://www.uctoday.com/unified-communications/gamma-communications-the-1-billion-battle-for-britains-ucaas-backbone/",
+    "title": "Logitech Highlights Six Essential Workplace Data Points Every Enterprise Should Measure",
+    "link": "https://www.uctoday.com/workplace-management/logitech-6-essential-workplace-data-points/",
     "source": "UC Today",
-    "published_at": "Wed, 20 May 2026 16:17:43 +0000",
-    "summary": "By the time most people in the UK channel heard the name Gamma Communications, they were already depending on it. The Newbury-based company sits behind platforms used by O2 Daisy, powers the voice infrastructure of over 1,500 resellers and MSPs, and operates across four European markets. Now, three private equity parties want to own it. [&#8230;]",
-    "keywords_matched": "ucaas(10)",
-    "keyword_score": 10,
-    "created_at": "2026-05-21 00:30:38"
-  },
-  {
-    "title": "Platform or Point Solution? 7 Questions Every IT Leader Should Ask Before Their Next AV Decision",
-    "link": "https://www.uctoday.com/devices-workspace-tech/platform-or-point-solution-7-questions-every-it-leader-should-ask-before-their-next-av-decision/",
-    "source": "UC Today",
-    "published_at": "Wed, 20 May 2026 14:30:45 +0000",
-    "summary": "Many enterprise AV decisions follow a familiar pattern. A brief arrives, usually scoped around meeting rooms. The procurement team evaluates devices, checks certifications, selects a vendor, and deploys.  The problem is that most organizations evaluate those decisions on the wrong criteria, at the wrong level, and with the wrong timeframe in mind. When the limitations eventually become [&#8230;]",
-    "keywords_matched": "meeting room(10)",
-    "keyword_score": 10,
-    "created_at": "2026-05-21 00:30:38"
+    "published_at": "Wed, 03 Jun 2026 13:45:56 +0000",
+    "summary": "Logitech has just released a comprehensive new report detailing how organizations can finally find deeper insight into their office performance. For leaders seeking true enterprise workspace optimization, moving beyond basic badge swipes is now a critical requirement. The newly published guide emphasizes that upgrading workplace data analytics is a fundamental operational necessity today. By focusing [&#8230;]",
+    "keywords_matched": "logitech(8)",
+    "keyword_score": 8,
+    "created_at": "2026-06-04 00:30:46"
   },
   {
     "title": "Google engineer accused of turning Year in Search secrets into Polymarket payday",
@@ -198,5 +188,15 @@
     "keywords_matched": "poly(8)",
     "keyword_score": 8,
     "created_at": "2026-05-23 00:30:31"
+  },
+  {
+    "title": "The New Mobile Edge: Balancing Native UC Mobility with Next-Gen Voice Security",
+    "link": "https://www.uctoday.com/devices-workspace-tech/the-new-mobile-edge-balancing-native-uc-mobility-with-next-gen-voice-security-calltower/",
+    "source": "UC Today",
+    "published_at": "Wed, 03 Jun 2026 10:30:39 +0000",
+    "summary": "Kristian McCann is joined by William Rubio, Chief Revenue Officer at CallTower, and Craig Durr, Chief Analyst and Founder of The Collab Collective, to explore why traditional mobile UC models are struggling to keep pace with today’s enterprise demands. As hybrid work, AI-generated voice threats, and compliance pressures continue to reshape enterprise communications, organizations are [&#8230;]",
+    "keywords_matched": "hybrid work(6)",
+    "keyword_score": 6,
+    "created_at": "2026-06-04 00:30:46"
   }
 ]
