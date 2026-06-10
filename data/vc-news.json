@@ -60,16 +60,6 @@
     "created_at": "2026-05-29 00:30:45"
   },
   {
-    "title": "Your Collaboration Culture Isn’t Transparent. It’s Making Accountability Impossible to Enforce",
-    "link": "https://www.uctoday.com/unified-communications/collaboration-accountability/",
-    "source": "UC Today",
-    "published_at": "Tue, 26 May 2026 18:46:36 +0000",
-    "summary": "It’s easy for leaders to convince themselves they’ve got collaboration “handled”, because everyone can see everything. There are shared channels, shared documents, shared dashboards, and endless meeting recaps. But visibility isn’t the same as collaboration accountability. That’s the problem. Work appears scattered across Slack, Microsoft Teams, email, project boards, meetings and AI-generated notes, so it [&#8230;]",
-    "keywords_matched": "microsoft teams(10), teams(1), slack(1)",
-    "keyword_score": 12,
-    "created_at": "2026-05-27 00:30:38"
-  },
-  {
     "title": "Google Beam Adds 3D Group Meeting Support for Zoom and Google Meet",
     "link": "https://www.uctoday.com/unified-communications/google-beam-adds-3d-group-meeting-support-for-zoom-and-google-meet/",
     "source": "UC Today",
@@ -80,24 +70,14 @@
     "created_at": "2026-05-28 00:38:44"
   },
   {
-    "title": "Zoom's fiscal Q1 results show how voice remains key to business",
-    "link": "https://www.nojitter.com/infrastructure/zoom-fiscal-q1-results-show-how-voice-remains-key-to-business",
-    "source": "No Jitter",
-    "published_at": "Tue, 26 May 2026 13:41:29 GMT",
-    "summary": "Strong numbers for Zoom Phone and ZVA amplify a trend among UCaaS providers: Even as AI interest grows, voice persists.",
-    "keywords_matched": "ucaas(10), zoom(1)",
-    "keyword_score": 11,
-    "created_at": "2026-05-27 00:30:39"
-  },
-  {
-    "title": "Microsoft Teams Admits Its Meeting Controls Are Broken. Here’s How It’s Fixing Them.",
-    "link": "https://www.uctoday.com/unified-communications/microsoft-teams-admits-its-meeting-controls-are-broken-heres-how-its-fixing-them/",
+    "title": "What Does a Smart Meeting Room Actually Cost to Run in 2026? Why Hardware Is the Easy Part",
+    "link": "https://www.uctoday.com/unified-communications/what-does-a-smart-meeting-room-actually-cost-to-run-in-2026-why-hardware-is-the-easy-part/",
     "source": "UC Today",
-    "published_at": "Tue, 26 May 2026 14:22:04 +0000",
-    "summary": "Few companies admit their products are broken. But in a Message Center notice to IT admins this month, Microsoft acknowledged that its Teams meeting controls have &#8220;grown crowded, contributing to mis-clicks between high-impact actions like Share, Leave, and Raise hand, and to accidental shares of unintended content.&#8221; It&#8217;s a problem of Microsoft&#8217;s own making. Every capability [&#8230;]",
-    "keywords_matched": "microsoft teams(10), teams(1)",
-    "keyword_score": 11,
-    "created_at": "2026-05-27 00:30:38"
+    "published_at": "Tue, 09 Jun 2026 12:55:16 +0000",
+    "summary": "The hardware conversation around smart meeting rooms is well established. From video bars to beamforming microphones and AI cameras,most IT buyers have a reasonable sense of what those cost and what they get for the money. What tends to catch organisations off guard is what sits above the hardware, and how quickly it adds up. [&#8230;]",
+    "keywords_matched": "meeting room(10)",
+    "keyword_score": 10,
+    "created_at": "2026-06-10 00:30:26"
   },
   {
     "title": "How AI is reshaping UCaaS and CCaaS pricing",
@@ -128,16 +108,6 @@
     "keywords_matched": "meeting room(10)",
     "keyword_score": 10,
     "created_at": "2026-05-30 00:30:23"
-  },
-  {
-    "title": "Is Your Connectivity Strategy Just Adding Redundancy Instead of Reducing Risk?",
-    "link": "https://www.uctoday.com/service-management-connectivity/connectivity-resilience-strategy-vs-redundancy/",
-    "source": "UC Today",
-    "published_at": "Tue, 26 May 2026 14:37:38 +0000",
-    "summary": "Adding backup systems does not automatically secure your business against outages. Many leaders mistake simple duplication for a true connectivity resilience strategy. This flawed approach actually introduces severe network redundancy risks. Your enterprise connectivity design must actively address shared dependencies. Proper infrastructure risk management requires simplification and absolute control. Buying duplicate circuits just masks underlying [&#8230;]",
-    "keywords_matched": "enterprise connect(10)",
-    "keyword_score": 10,
-    "created_at": "2026-05-27 00:30:38"
   },
   {
     "title": "Polymarket and Kalshi Say Influencer Partners Can’t Deny Election Results, Actually",
@@ -200,23 +170,13 @@
     "created_at": "2026-05-28 00:38:48"
   },
   {
-    "title": "Logitech unveils a cushioned mouse for all-day use",
-    "link": "https://www.theregister.com/personal-tech/2026/05/26/logitech-unveils-a-cushioned-mouse-for-all-day-use/5246078",
-    "source": "The Register",
-    "published_at": "Tue, 26 May 2026 13:30:00 +0200",
-    "summary": "Ideal for aching palms – though only if you're right-handed",
-    "keywords_matched": "logitech(8)",
-    "keyword_score": 8,
-    "created_at": "2026-05-27 00:30:46"
-  },
-  {
-    "title": "Memory V re-creates the Memorymoog without the massive headaches or price tag",
-    "link": "https://www.theverge.com/entertainment/937054/arturia-memory-v-memorymoog-synthesizer",
-    "source": "The Verge",
-    "published_at": "2026-05-26T12:00:00-04:00",
-    "summary": "The Memorymoog is legendary for being an absolutely massive-sounding synth and being incredibly unreliable. But now you can enjoy its classic Moog sound without the headaches or the sky-high vintage price, thanks to Arturia's Memory V emulator. The Memorymoog was only made between 1982 and 1985, and was the last polyphonic synth made by Moog [&#8230;]",
-    "keywords_matched": "poly(8)",
-    "keyword_score": 8,
-    "created_at": "2026-05-27 00:30:44"
+    "title": "The New Mobile Edge: Balancing Native UC Mobility with Next-Gen Voice Security",
+    "link": "https://www.uctoday.com/devices-workspace-tech/the-new-mobile-edge-balancing-native-uc-mobility-with-next-gen-voice-security-calltower/",
+    "source": "UC Today",
+    "published_at": "Wed, 03 Jun 2026 10:30:39 +0000",
+    "summary": "Kristian McCann is joined by William Rubio, Chief Revenue Officer at CallTower, and Craig Durr, Chief Analyst and Founder of The Collab Collective, to explore why traditional mobile UC models are struggling to keep pace with today’s enterprise demands. As hybrid work, AI-generated voice threats, and compliance pressures continue to reshape enterprise communications, organizations are [&#8230;]",
+    "keywords_matched": "hybrid work(6)",
+    "keyword_score": 6,
+    "created_at": "2026-06-04 00:30:46"
   }
 ]
