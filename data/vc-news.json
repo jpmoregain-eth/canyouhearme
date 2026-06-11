@@ -30,6 +30,16 @@
     "created_at": "2026-06-02 02:04:10"
   },
   {
+    "title": "Can the Smart Meeting Room Finally Deliver on Meeting Equity? InfoComm 2026 Is Where That Question Gets Answered",
+    "link": "https://www.uctoday.com/unified-communications/can-the-smart-meeting-room-finally-deliver-on-meeting-equity-infocomm-2026-is-where-that-question-gets-answered/",
+    "source": "UC Today",
+    "published_at": "Wed, 10 Jun 2026 11:00:23 +0000",
+    "summary": "The promise has been consistent for most of the past decade. Smart meeting rooms, equipped with intelligent cameras, beamforming microphones, and AI-assisted platforms, will close the gap between people in the room and people calling in. Remote participants will be as visible, as audible, and as engaged as those around the table. The data suggests [&#8230;]",
+    "keywords_matched": "meeting room(10), infocomm(10)",
+    "keyword_score": 20,
+    "created_at": "2026-06-11 00:30:22"
+  },
+  {
     "title": "From Note-Taker to Co-Worker: How Infocomm 2026 Marks AI’s Next Step in UC",
     "link": "https://www.uctoday.com/unified-communications/from-note-taker-to-co-worker-how-infocomm-2026-marks-ais-next-step-in-uc/",
     "source": "UC Today",
@@ -60,14 +70,14 @@
     "created_at": "2026-05-29 00:30:45"
   },
   {
-    "title": "Google Beam Adds 3D Group Meeting Support for Zoom and Google Meet",
-    "link": "https://www.uctoday.com/unified-communications/google-beam-adds-3d-group-meeting-support-for-zoom-and-google-meet/",
-    "source": "UC Today",
-    "published_at": "Wed, 27 May 2026 13:31:03 +0000",
-    "summary": "Google Beam makes remote participants appear life-size, seated as if in the same room, without a headset or glasses. A large light field display, six cameras, and an AI model do the work. It is the most convincing headset-free immersive video technology on the market, and until last week it only worked between two people. [&#8230;]",
-    "keywords_matched": "google meet(10), zoom(1)",
+    "title": "Anthropic CEO calls for FAA-style regulation of powerful AI models: what enterprises should know",
+    "link": "https://venturebeat.com/technology/anthropic-ceo-calls-for-faa-style-regulation-of-powerful-ai-models-what-enterprises-should-know",
+    "source": "VentureBeat",
+    "published_at": "Wed, 10 Jun 2026 19:50:12 GMT",
+    "summary": "<p>In a sweeping new essay titled &quot;<a href=\"https://darioamodei.com/post/policy-on-the-ai-exponential\">Policy on the AI Exponential</a>,&quot; Anthropic co-founder and CEO Dario Amodei publicly calls for new government regulations governing the release of powerful AI models — specifically comparing AI industry to commercial aviation, which follows regulations enforced by the U.S. Federal Aviation Administration (FAA) — arguing that this is necessary to maintain public safety as AI capabilit",
+    "keywords_matched": "commercial av(10), teams(1)",
     "keyword_score": 11,
-    "created_at": "2026-05-28 00:38:44"
+    "created_at": "2026-06-11 00:30:26"
   },
   {
     "title": "What Does a Smart Meeting Room Actually Cost to Run in 2026? Why Hardware Is the Easy Part",
@@ -110,6 +120,26 @@
     "created_at": "2026-05-30 00:30:23"
   },
   {
+    "title": "Logitech knows when to fold 'em",
+    "link": "https://www.theregister.com/personal-tech/2026/06/10/logitech-knows-when-to-fold-em/5253196",
+    "source": "The Register",
+    "published_at": "Wed, 10 Jun 2026 09:01:00 +0200",
+    "summary": "Meet Mobi Fold - creased popster or clever portable mouse",
+    "keywords_matched": "logitech(8)",
+    "keyword_score": 8,
+    "created_at": "2026-06-11 00:30:29"
+  },
+  {
+    "title": "Logitech’s First Foldable Mouse Is Built for the Bag, Not the Desk",
+    "link": "https://www.uctoday.com/devices-workspace-tech/logitech-mobi-fold-foldable-mouse-hybrid-work/",
+    "source": "UC Today",
+    "published_at": "Wed, 10 Jun 2026 14:58:33 +0000",
+    "summary": "Logitech has unveiled its first foldable mouse – a device designed to support professionals working across multiple locations and devices. The new Mobi Fold and Mobi Fold for Business were announced this week as the company seeks to address what it describes as an &#8220;On-the-Go Productivity Gap&#8221; among modern workers. According to Logitech research cited [&#8230;]",
+    "keywords_matched": "logitech(8)",
+    "keyword_score": 8,
+    "created_at": "2026-06-11 00:30:22"
+  },
+  {
     "title": "Polymarket and Kalshi Say Influencer Partners Can’t Deny Election Results, Actually",
     "link": "https://www.wired.com/story/kalshi-polymarket-influencer-election-denial-spencer-pratt/",
     "source": "Wired",
@@ -150,24 +180,14 @@
     "created_at": "2026-05-29 00:30:53"
   },
   {
-    "title": "A Google employee allegedly used inside information to win $1.2 million on Polymarket",
-    "link": "https://www.theverge.com/tech/938635/google-polymarket-insider-trading-prediction-market-bets",
-    "source": "The Verge",
-    "published_at": "2026-05-27T18:30:02-04:00",
-    "summary": "Federal prosecutors charged a Google employee with fraud after he allegedly made $1.2 million on Polymarket bets related to Search-related trends in 2025, as reported earlier by ABC News. In their now-unsealed complaint, prosecutors allege that Michele Spagnuolo \"knew the outcome of these wagers before the trading public did because he had accessed Google's confidential, [&#8230;]",
-    "keywords_matched": "poly(8)",
-    "keyword_score": 8,
-    "created_at": "2026-05-28 00:38:49"
-  },
-  {
-    "title": "Google Security Engineer Arrested in Million-Dollar Polymarket Trading Scheme",
-    "link": "https://www.wired.com/story/google-employee-accused-of-polymarket-one-million/",
-    "source": "Wired",
-    "published_at": "Wed, 27 May 2026 22:22:23 +0000",
-    "summary": "According to federal prosecutors, Michele Spagnuolo made more than $1 million on the prediction market platform using confidential information about Google Search traffic.",
-    "keywords_matched": "poly(8)",
-    "keyword_score": 8,
-    "created_at": "2026-05-28 00:38:48"
+    "title": "Why Does Hybrid Work Feel Chaotic Even When Everyone Is “Following the Policy”?",
+    "link": "https://www.uctoday.com/workplace-management/hybrid-work-coordination-chaos/",
+    "source": "UC Today",
+    "published_at": "Wed, 10 Jun 2026 11:40:04 +0000",
+    "summary": "Many enterprises establish strict attendance rules but still struggle with daily operational chaos across their portfolios. A strong hybrid workplace strategy requires much more than simply mandating three days in the office without providing any structural support. Organizations must prioritize effective hybrid work coordination to ensure teams actually connect when they arrive on-site. Relying on [&#8230;]",
+    "keywords_matched": "hybrid work(6), teams(1)",
+    "keyword_score": 7,
+    "created_at": "2026-06-11 00:30:22"
   },
   {
     "title": "The New Mobile Edge: Balancing Native UC Mobility with Next-Gen Voice Security",
