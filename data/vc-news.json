@@ -20,16 +20,6 @@
     "created_at": "2026-06-04 00:30:46"
   },
   {
-    "title": "Microsoft Teams Rooms on Android Can Soon Join Zoom and Webex via SIP: Here’s What Admins Need to Enable",
-    "link": "https://www.uctoday.com/unified-communications/microsoft-teams-rooms-on-android-can-soon-join-zoom-and-webex-via-sip-heres-what-admins-need-to-enable/",
-    "source": "UC Today",
-    "published_at": "Mon, 01 Jun 2026 13:03:19 +0000",
-    "summary": "If your meeting rooms run on Android and you&#8217;ve been watching Windows Teams Rooms users get native SIP interop since 2024, that wait is nearly over. Microsoft has begun rolling out SIP-based cross-platform join for Teams Rooms on Android as of early June, with general availability worldwide expected by mid-August 2026. Once fully rolled out, [&#8230;]",
-    "keywords_matched": "meeting room(10), microsoft teams(10), teams(1), zoom(1), webex(2)",
-    "keyword_score": 24,
-    "created_at": "2026-06-02 02:04:10"
-  },
-  {
     "title": "The Invisible Meeting Room: Why the Best Smart Rooms Need Zero User Training",
     "link": "https://www.uctoday.com/devices-workspace-tech/the-invisible-meeting-room-why-the-best-smart-rooms-need-zero-user-training/",
     "source": "UC Today",
@@ -98,6 +88,16 @@
     "keywords_matched": "video conferencing(10), collaboration platform(6)",
     "keyword_score": 16,
     "created_at": "2026-06-05 00:30:43"
+  },
+  {
+    "title": "Microsoft Teams Is Getting a Dedicated Meeting Recap App This Month. Here’s What IT Teams Need to Do Before It Arrives.",
+    "link": "https://www.uctoday.com/unified-communications/microsoft-teams-is-getting-a-dedicated-meeting-recap-app-this-month-heres-what-it-teams-need-to-do-before-it-arrives/",
+    "source": "UC Today",
+    "published_at": "Mon, 15 Jun 2026 09:30:47 +0000",
+    "summary": "Teams has had meeting recap functionality for years. What changes in June 2026 is where it lives. Rather than hunting across calendar entries, chat histories, recordings, and the recap tab, users will find everything in a single dedicated app on the Teams left rail. The shift sounds small. For IT teams managing recording policies across [&#8230;]",
+    "keywords_matched": "microsoft teams(10), teams(1)",
+    "keyword_score": 11,
+    "created_at": "2026-06-16 00:30:27"
   },
   {
     "title": "Anthropic CEO calls for FAA-style regulation of powerful AI models: what enterprises should know",
