@@ -1,5 +1,25 @@
 [
   {
+    "title": "From Headsets to the Room: HP’s Collaboration Overhaul at InfoComm 2026",
+    "link": "https://www.uctoday.com/devices-workspace-tech/hp-poly-infocomm-2026/",
+    "source": "UC Today",
+    "published_at": "Fri, 19 Jun 2026 00:13:26 +0000",
+    "summary": "HP has unveiled one of its most expansive collaboration announcements in years at InfoComm 2026 – spanning headsets, video conferencing hardware, intelligent cameras, and a platform play that reframes how IT teams think about meeting room management. At the heart of it all is a concept Greg Baribault, VP of Product and Portfolio Management, calls [&#8230;]",
+    "keywords_matched": "video conferencing(10), meeting room(10), infocomm(10), teams(1)",
+    "keyword_score": 31,
+    "created_at": "2026-06-19 00:30:24"
+  },
+  {
+    "title": "Infocomm 2026: Logitech on AI-Enabled Meeting Rooms and Interoperability",
+    "link": "https://www.uctoday.com/unified-communications/infocomm-2026-logitech-on-ai-enabled-meeting-rooms-and-interoperability/",
+    "source": "UC Today",
+    "published_at": "Thu, 18 Jun 2026 03:50:43 +0000",
+    "summary": "At InfoComm 2026, Logitech for Business joined UC Today to discuss a major shift in enterprise collaboration. Meeting rooms are moving from connected spaces to intelligent, AI-enabled environments. The trend is no longer just about giving every room a camera and microphone. Organizations now want spaces that understand context. They also want rooms that support [&#8230;]",
+    "keywords_matched": "meeting room(10), logitech(8), infocomm(10)",
+    "keyword_score": 28,
+    "created_at": "2026-06-19 00:30:24"
+  },
+  {
     "title": "Logitech’s InfoComm 2026 Lineup Points to an AI Hardware Push",
     "link": "https://www.uctoday.com/devices-workspace-tech/logitechs-infocomm-2026-lineup-points-to-an-ai-hardware-push/",
     "source": "UC Today",
@@ -8,6 +28,26 @@
     "keywords_matched": "meeting room(10), logitech(8), infocomm(10)",
     "keyword_score": 28,
     "created_at": "2026-06-09 00:30:19"
+  },
+  {
+    "title": "Cisco and Zoom on Why Certified Hardware Changes Everything for the Agentic Workplace",
+    "link": "https://www.uctoday.com/unified-communications/cisco-and-zoom-on-why-certified-hardware-changes-everything-for-the-agentic-workplace/",
+    "source": "UC Today",
+    "published_at": "Thu, 18 Jun 2026 14:58:00 +0000",
+    "summary": "At InfoComm 2026 in Las Vegas, UC Today&#8217;s Marcus Law caught up with Espen Løberg, VP and GM for the Collaboration Devices business at Cisco, and Jeff Smith, Head of Product, Workplace at Zoom, to discuss the launch of Cisco Devices for Zoom Rooms and what it means for enterprise customers. The conversation covers what [&#8230;]",
+    "keywords_matched": "zoom rooms(10), cisco(5), infocomm(10), zoom(1)",
+    "keyword_score": 26,
+    "created_at": "2026-06-19 00:30:24"
+  },
+  {
+    "title": "Infocomm 2026: Cisco’s Espen Løberg Makes the Case for the Agentic Workplace",
+    "link": "https://www.uctoday.com/devices-workspace-tech/cisco-infocomm-2026-agentic-workplace-espen-loberg/",
+    "source": "UC Today",
+    "published_at": "Thu, 18 Jun 2026 19:43:22 +0000",
+    "summary": "Cisco used its Infocomm 2026 keynote in Las Vegas to argue that the AI era demands more than smart software – it demands intelligent physical infrastructure, all the way to the meeting room. Espen Løberg, VP and GM of Collaboration Devices, told attendees that devices represent the last mile of AI in the workplace, and [&#8230;]",
+    "keywords_matched": "meeting room(10), cisco(5), infocomm(10)",
+    "keyword_score": 25,
+    "created_at": "2026-06-19 00:30:24"
   },
   {
     "title": "The Invisible Meeting Room: Why the Best Smart Rooms Need Zero User Training",
@@ -60,16 +100,6 @@
     "created_at": "2026-06-12 00:30:18"
   },
   {
-    "title": "Why Frontline-First Communications Are Becoming Operational Infrastructure",
-    "link": "https://www.uctoday.com/unified-communications/why-frontline-first-communications-are-becoming-operational-infrastructure-mitel-cs-0046/",
-    "source": "UC Today",
-    "published_at": "Thu, 04 Jun 2026 15:01:20 +0000",
-    "summary": "For years, enterprise communications strategy has been shaped almost entirely around the needs of desk-based knowledge workers.   Collaboration platforms, video conferencing tools, and messaging apps have proliferated at pace – yet the workers who operate at the sharp end of the business, on hospital wards, in manufacturing plants, in retail stores, in logistics depots, have largely been left behind.  A recent survey from Mitel confirms [&#8230;]",
-    "keywords_matched": "video conferencing(10), collaboration platform(6)",
-    "keyword_score": 16,
-    "created_at": "2026-06-05 00:30:43"
-  },
-  {
     "title": "Microsoft Teams Is Getting a Dedicated Meeting Recap App This Month. Here’s What IT Teams Need to Do Before It Arrives.",
     "link": "https://www.uctoday.com/unified-communications/microsoft-teams-is-getting-a-dedicated-meeting-recap-app-this-month-heres-what-it-teams-need-to-do-before-it-arrives/",
     "source": "UC Today",
@@ -88,6 +118,16 @@
     "keywords_matched": "commercial av(10), teams(1)",
     "keyword_score": 11,
     "created_at": "2026-06-11 00:30:26"
+  },
+  {
+    "title": "AV Meets IT at Infocomm 2026: The Collaboration Shift Transforming the Modern Workplace",
+    "link": "https://www.uctoday.com/devices-workspace-tech/av-meets-it-infocomm-2026-collaboration-shift-modern-workplace/",
+    "source": "UC Today",
+    "published_at": "Thu, 18 Jun 2026 14:12:57 +0000",
+    "summary": "The lines between AV and IT have never been blurrier – and according to Justin Watts, Global End User Services Lead and Brand Ambassador at AMD, that is very much a good thing. &#8220;Everything that I&#8217;ve seen has been something new that I really didn&#8217;t expect to see,&#8221; he said. &#8220;There&#8217;s been a huge focus [&#8230;]",
+    "keywords_matched": "infocomm(10)",
+    "keyword_score": 10,
+    "created_at": "2026-06-19 00:30:24"
   },
   {
     "title": "InfoComm highlights AI transformation of AV",
