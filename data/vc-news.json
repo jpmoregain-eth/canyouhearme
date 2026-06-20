@@ -1,5 +1,15 @@
 [
   {
+    "title": "InfoComm 2026: Microsoft’s Keynote, AI, and the Rise of UC",
+    "link": "https://www.uctoday.com/unified-communications/infocomm-2026-microsofts-keynote-ai-and-the-rise-of-uc/",
+    "source": "UC Today",
+    "published_at": "Fri, 19 Jun 2026 20:06:03 +0000",
+    "summary": "At InfoComm 2026, the conversation around meeting rooms is moving far beyond cameras, bars, and displays. In this UC Today interview, Marcus Law speaks with Neil Fluester, Head of Portfolio &#38; Alliances &#8211; Logitech For Business EU, about why InfoComm now feels like a major unified communications (UC) event, not just a traditional AV showcase. [&#8230;]",
+    "keywords_matched": "unified communications(10), meeting room(10), logitech(8), infocomm(10)",
+    "keyword_score": 38,
+    "created_at": "2026-06-20 00:30:10"
+  },
+  {
     "title": "From Headsets to the Room: HP’s Collaboration Overhaul at InfoComm 2026",
     "link": "https://www.uctoday.com/devices-workspace-tech/hp-poly-infocomm-2026/",
     "source": "UC Today",
@@ -28,6 +38,16 @@
     "keywords_matched": "meeting room(10), logitech(8), infocomm(10)",
     "keyword_score": 28,
     "created_at": "2026-06-09 00:30:19"
+  },
+  {
+    "title": "InfoComm 2026: Mariana Atencio on Trust, AI, and Hybrid Work",
+    "link": "https://www.uctoday.com/unified-communications/infocomm-2026-mariana-atencio-on-trust-ai-and-hybrid-work/",
+    "source": "UC Today",
+    "published_at": "Fri, 19 Jun 2026 18:22:47 +0000",
+    "summary": "At InfoComm 2026, UC Today spoke with Mariana Atencio, Journalist, Public Speaker, and Trust Expert, about why trust has become one of the defining issues for collaboration technology, hybrid work, artificial intelligence, and ProAV. The conversation followed Mariana’s keynote at the AVIXA Women’s Breakfast, where she explored how authenticity, communication, and human connection can help [&#8230;]",
+    "keywords_matched": "hybrid work(6), infocomm(10), avixa(10)",
+    "keyword_score": 26,
+    "created_at": "2026-06-20 00:30:10"
   },
   {
     "title": "Cisco and Zoom on Why Certified Hardware Changes Everything for the Agentic Workplace",
@@ -120,6 +140,16 @@
     "created_at": "2026-06-11 00:30:26"
   },
   {
+    "title": "From Rooms to Experiences: The Biggest Takeaways from InfoComm 2026",
+    "link": "https://www.uctoday.com/unified-communications/from-rooms-to-experiences-the-biggest-takeaways-from-infocomm-2026/",
+    "source": "UC Today",
+    "published_at": "Fri, 19 Jun 2026 22:16:49 +0000",
+    "summary": "InfoComm 2026 was full of AI. That was expected. The more interesting question was whether any of it will make rooms, workplaces and shared spaces meaningfully better. Across the show floor in Las Vegas, vendors launched the usual mix of cameras, microphones, displays, headsets, room systems and management platforms. But the stronger theme was not [&#8230;]",
+    "keywords_matched": "infocomm(10)",
+    "keyword_score": 10,
+    "created_at": "2026-06-20 00:30:10"
+  },
+  {
     "title": "AV Meets IT at Infocomm 2026: The Collaboration Shift Transforming the Modern Workplace",
     "link": "https://www.uctoday.com/devices-workspace-tech/av-meets-it-infocomm-2026-collaboration-shift-modern-workplace/",
     "source": "UC Today",
@@ -208,16 +238,6 @@
     "keywords_matched": "poly(8)",
     "keyword_score": 8,
     "created_at": "2026-06-09 00:30:24"
-  },
-  {
-    "title": "Logitech G512 X 98 Review: A Hybrid Mish-Mash",
-    "link": "https://www.wired.com/review/logitech-g512-x-98/",
-    "source": "Wired",
-    "published_at": "Fri, 05 Jun 2026 16:10:56 +0000",
-    "summary": "The Logitech G512 X 98 lets you swap between mechanical and analog switches in an attempt to achieve the best of both worlds. Unfortunately, its solution isn't as well thought out as I’d hoped.",
-    "keywords_matched": "logitech(8)",
-    "keyword_score": 8,
-    "created_at": "2026-06-06 00:30:25"
   },
   {
     "title": "Why Does Hybrid Work Feel Chaotic Even When Everyone Is “Following the Policy”?",
