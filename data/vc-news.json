@@ -30,16 +30,6 @@
     "created_at": "2026-06-19 00:30:24"
   },
   {
-    "title": "Logitech’s InfoComm 2026 Lineup Points to an AI Hardware Push",
-    "link": "https://www.uctoday.com/devices-workspace-tech/logitechs-infocomm-2026-lineup-points-to-an-ai-hardware-push/",
-    "source": "UC Today",
-    "published_at": "Mon, 08 Jun 2026 12:15:45 +0000",
-    "summary": "Logitech is bringing a range of new enterprise products to InfoComm 2026 next week, with AI integration running through most of what the company will put in front of buyers and integrators. The portfolio spans meeting room cameras, enterprise headsets, and peripherals, each with some form of AI functionality built in. The question for the [&#8230;]",
-    "keywords_matched": "meeting room(10), logitech(8), infocomm(10)",
-    "keyword_score": 28,
-    "created_at": "2026-06-09 00:30:19"
-  },
-  {
     "title": "InfoComm 2026: Mariana Atencio on Trust, AI, and Hybrid Work",
     "link": "https://www.uctoday.com/unified-communications/infocomm-2026-mariana-atencio-on-trust-ai-and-hybrid-work/",
     "source": "UC Today",
@@ -140,6 +130,16 @@
     "created_at": "2026-06-11 00:30:26"
   },
   {
+    "title": "InfoComm 2026: What Law Firms Can Teach the AV Industry About Cybersecurity",
+    "link": "https://www.uctoday.com/devices-workspace-tech/infocomm-2026-what-law-firms-can-teach-the-av-industry-about-cybersecurity/",
+    "source": "UC Today",
+    "published_at": "Mon, 22 Jun 2026 09:38:43 +0000",
+    "summary": "When Nyere Hollingsworth describes InfoComm as &#8220;summer camp,&#8221; he means it as a compliment. For the Managing Director of Endpoints and Workplace Experience Technologies at law firm Winston Taylor, the annual AV industry gathering in Las Vegas is a chance to reconnect with peers, absorb new ideas, and take stock of where the industry is [&#8230;]",
+    "keywords_matched": "infocomm(10)",
+    "keyword_score": 10,
+    "created_at": "2026-06-23 00:30:15"
+  },
+  {
     "title": "From Rooms to Experiences: The Biggest Takeaways from InfoComm 2026",
     "link": "https://www.uctoday.com/unified-communications/from-rooms-to-experiences-the-biggest-takeaways-from-infocomm-2026/",
     "source": "UC Today",
@@ -180,14 +180,14 @@
     "created_at": "2026-06-10 00:30:26"
   },
   {
-    "title": "How AI is reshaping UCaaS and CCaaS pricing",
-    "link": "https://www.nojitter.com/ai-automation/how-ai-is-reshaping-ucaas-and-ccaas-pricing",
-    "source": "No Jitter",
-    "published_at": "Mon, 08 Jun 2026 14:42:36 GMT",
-    "summary": "We celebrate when employees produce more high-quality work. But if an AI teammate does the same, we may need to check whether we can afford it.",
-    "keywords_matched": "ucaas(10)",
-    "keyword_score": 10,
-    "created_at": "2026-06-09 00:30:20"
+    "title": "HiBob Launches Slack Integration to Bring HR Intelligence Into AI Workflows",
+    "link": "https://www.uctoday.com/talent-hcm-platforms/hibob-launches-slack-integration-to-bring-hr-intelligence-into-ai-workflows/",
+    "source": "UC Today",
+    "published_at": "Mon, 22 Jun 2026 10:05:22 +0000",
+    "summary": "HiBob has announced a new MCP integration between its Bob platform and Slack, aiming to bring workforce information and HR actions directly into the collaboration platform. The integration enables employees, managers, and HR teams to access workforce information and complete tasks using AI within Slack through Slackbot. The move not only opens access to core [&#8230;]",
+    "keywords_matched": "collaboration platform(6), teams(1), slack(1)",
+    "keyword_score": 8,
+    "created_at": "2026-06-23 00:30:15"
   },
   {
     "title": "Polymarket reportedly paid creators to post deceptive videos about fake bets",
@@ -238,15 +238,5 @@
     "keywords_matched": "logitech(8)",
     "keyword_score": 8,
     "created_at": "2026-06-11 00:30:29"
-  },
-  {
-    "title": "Logitech’s First Foldable Mouse Is Built for the Bag, Not the Desk",
-    "link": "https://www.uctoday.com/devices-workspace-tech/logitech-mobi-fold-foldable-mouse-hybrid-work/",
-    "source": "UC Today",
-    "published_at": "Wed, 10 Jun 2026 14:58:33 +0000",
-    "summary": "Logitech has unveiled its first foldable mouse – a device designed to support professionals working across multiple locations and devices. The new Mobi Fold and Mobi Fold for Business were announced this week as the company seeks to address what it describes as an &#8220;On-the-Go Productivity Gap&#8221; among modern workers. According to Logitech research cited [&#8230;]",
-    "keywords_matched": "logitech(8)",
-    "keyword_score": 8,
-    "created_at": "2026-06-11 00:30:22"
   }
 ]
