@@ -110,6 +110,26 @@
     "created_at": "2026-06-12 00:30:18"
   },
   {
+    "title": "Cisco and Zoom Have a Problem to Solve Together. Here’s What That Actually Looks Like.",
+    "link": "https://www.uctoday.com/unified-communications/cisco-and-zoom-have-a-problem-to-solve-together-heres-what-that-actually-looks-like/",
+    "source": "UC Today",
+    "published_at": "Tue, 23 Jun 2026 14:17:38 +0000",
+    "summary": "Most large enterprises don&#8217;t run one meeting platform. They run several, across an estate of rooms kitted out at different times, by different teams, with hardware chosen to match whatever the dominant platform was that year. For IT, the result is a support and management headache that&#8217;s only grown as AI features have started to [&#8230;]",
+    "keywords_matched": "cisco(5), meeting platform(6), teams(1), zoom(1)",
+    "keyword_score": 13,
+    "created_at": "2026-06-24 00:30:14"
+  },
+  {
+    "title": "Is Your Collaboration Stack Slowing Teams Down?",
+    "link": "https://www.uctoday.com/unified-communications/is-your-collaboration-stack-slowing-teams-down/",
+    "source": "UC Today",
+    "published_at": "Tue, 23 Jun 2026 15:00:48 +0000",
+    "summary": "Most organizations have invested heavily in collaboration technology. Messaging platforms, video conferencing, project management suites, document environments &#8211; the average enterprise runs them all. Yet despite this investment, teams frequently struggle to stay aligned, decisions get lost in transit, and coordination overhead continues to climb. The problem is rarely any single tool. It is the [&#8230;]",
+    "keywords_matched": "video conferencing(10), teams(1)",
+    "keyword_score": 11,
+    "created_at": "2026-06-24 00:30:14"
+  },
+  {
     "title": "Microsoft Teams Is Getting a Dedicated Meeting Recap App This Month. Here’s What IT Teams Need to Do Before It Arrives.",
     "link": "https://www.uctoday.com/unified-communications/microsoft-teams-is-getting-a-dedicated-meeting-recap-app-this-month-heres-what-it-teams-need-to-do-before-it-arrives/",
     "source": "UC Today",
@@ -128,6 +148,36 @@
     "keywords_matched": "commercial av(10), teams(1)",
     "keyword_score": 11,
     "created_at": "2026-06-11 00:30:26"
+  },
+  {
+    "title": "InfoComm 2026: Stop Chasing the Hype – Stanford Medicine’s Justin Scord on Using AI the Right Way in AV",
+    "link": "https://www.uctoday.com/devices-workspace-tech/infocomm-2026-stop-chasing-the-hype-stanford-medicines-justin-scord-on-using-ai-the-right-way-in-av/",
+    "source": "UC Today",
+    "published_at": "Tue, 23 Jun 2026 14:47:04 +0000",
+    "summary": "Managing AV and collaboration technology across hospitals, clinics, classrooms, and event spaces is no small task, and for Justin Scord, Senior Manager, Collaboration &#38; Media Services at Stanford Medicine, the challenge isn&#8217;t just keeping the lights on. It&#8217;s knowing where to start. &#8220;There&#8217;s always so much change, so much technology, so many different manufacturers,&#8221; Scord [&#8230;]",
+    "keywords_matched": "infocomm(10)",
+    "keyword_score": 10,
+    "created_at": "2026-06-24 00:30:14"
+  },
+  {
+    "title": "Shokz at InfoComm 2026: Why Bone Conduction Is the Future of the Office Headset",
+    "link": "https://www.uctoday.com/devices-workspace-tech/shokz-at-infocomm-2026-why-bone-conduction-is-the-future-of-the-office-headset/",
+    "source": "UC Today",
+    "published_at": "Tue, 23 Jun 2026 14:41:27 +0000",
+    "summary": "InfoComm 2026 in Las Vegas was the stage for the global debut of the OpenMeet 2 UC. Ray Cheng, Product Manager at Shokz, says the device represents the company&#8217;s second generation of bone conduction technology for the office. The OpenMeet 2 UC is built around bone conduction technology, an approach that sits firmly outside the [&#8230;]",
+    "keywords_matched": "infocomm(10)",
+    "keyword_score": 10,
+    "created_at": "2026-06-24 00:30:14"
+  },
+  {
+    "title": "InfoComm 2026: Iowa State’s Mike Pedersen on Why Higher Ed AV Must Embrace AI Fast",
+    "link": "https://www.uctoday.com/devices-workspace-tech/infocomm-2026-mike-pedersen-iowa-state-higher-ed-av-ai/",
+    "source": "UC Today",
+    "published_at": "Tue, 23 Jun 2026 14:29:51 +0000",
+    "summary": "For Mike Pedersen, Infocomm always feels like coming home. &#8220;It&#8217;s a little bit like a family reunion,&#8221; he told UC Today at this year&#8217;s show in Las Vegas. &#8220;I get to see so many people I know and acquaintances I&#8217;ve made.&#8221; But beyond the networking, Pedersen, Audiovisual Experience Manager at Iowa State University, had serious [&#8230;]",
+    "keywords_matched": "infocomm(10)",
+    "keyword_score": 10,
+    "created_at": "2026-06-24 00:30:14"
   },
   {
     "title": "InfoComm 2026: What Law Firms Can Teach the AV Industry About Cybersecurity",
@@ -170,16 +220,6 @@
     "created_at": "2026-06-17 00:30:15"
   },
   {
-    "title": "What Does a Smart Meeting Room Actually Cost to Run in 2026? Why Hardware Is the Easy Part",
-    "link": "https://www.uctoday.com/unified-communications/what-does-a-smart-meeting-room-actually-cost-to-run-in-2026-why-hardware-is-the-easy-part/",
-    "source": "UC Today",
-    "published_at": "Tue, 09 Jun 2026 12:55:16 +0000",
-    "summary": "The hardware conversation around smart meeting rooms is well established. From video bars to beamforming microphones and AI cameras,most IT buyers have a reasonable sense of what those cost and what they get for the money. What tends to catch organisations off guard is what sits above the hardware, and how quickly it adds up. [&#8230;]",
-    "keywords_matched": "meeting room(10)",
-    "keyword_score": 10,
-    "created_at": "2026-06-10 00:30:26"
-  },
-  {
     "title": "HiBob Launches Slack Integration to Bring HR Intelligence Into AI Workflows",
     "link": "https://www.uctoday.com/talent-hcm-platforms/hibob-launches-slack-integration-to-bring-hr-intelligence-into-ai-workflows/",
     "source": "UC Today",
@@ -188,55 +228,5 @@
     "keywords_matched": "collaboration platform(6), teams(1), slack(1)",
     "keyword_score": 8,
     "created_at": "2026-06-23 00:30:15"
-  },
-  {
-    "title": "Polymarket reportedly paid creators to post deceptive videos about fake bets",
-    "link": "https://techcrunch.com/2026/06/21/polymarket-reportedly-paid-creators-to-post-deceptive-videos-about-fake-bets/",
-    "source": "TechCrunch",
-    "published_at": "Sun, 21 Jun 2026 16:35:00 +0000",
-    "summary": "Many of those videos were reportedly filmed on “near-perfect copies” of the Polymarket website, while featuring trades and winnings that were not real.",
-    "keywords_matched": "poly(8)",
-    "keyword_score": 8,
-    "created_at": "2026-06-22 00:30:18"
-  },
-  {
-    "title": "Polymarket reportedly paid people to post fake videos of themselves placing bets",
-    "link": "https://www.theverge.com/tech/953285/polymarket-fake-viral-video-bets",
-    "source": "The Verge",
-    "published_at": "2026-06-21T10:19:46-04:00",
-    "summary": "According to a Wall Street Journal investigation, Polymarket has been paying people to film themselves placing fake bets and celebrating fake wins on social media. WSJ identified over 1,100 deceptive clips and talked to creators who, despite not stating as such in their videos, confirmed the company paid them to create the clips. The videos [&#8230;]",
-    "keywords_matched": "poly(8)",
-    "keyword_score": 8,
-    "created_at": "2026-06-22 00:30:17"
-  },
-  {
-    "title": "Logitech’s awesome MX Master 3S mouse drops to under $100",
-    "link": "https://www.theverge.com/gadgets/948204/logitech-mx-master-3s-mouse-sale-deal",
-    "source": "The Verge",
-    "published_at": "2026-06-11T16:00:00-04:00",
-    "summary": "The platform-agnostic Logitech MX Master 3S wireless mouse is discounted to $89.99 at Amazon ($30 off), matching the best price we’ve seen so far this year. While it may look like a somewhat ordinary mouse, it has a unique second scroll wheel near the left thumb that’s surprisingly useful for horizontal scrolling in spreadsheets. You [&#8230;]",
-    "keywords_matched": "logitech(8)",
-    "keyword_score": 8,
-    "created_at": "2026-06-12 00:30:24"
-  },
-  {
-    "title": "Americans Are Trading Billions of Dollars on Polymarket’s Banned Offshore Platform",
-    "link": "https://www.wired.com/story/polymarket-study-illegal-trades-offshore-billions/",
-    "source": "Wired",
-    "published_at": "Thu, 11 Jun 2026 11:00:00 +0000",
-    "summary": "It’s the first estimate of how many Americans are sneaking onto Polymarket’s banned crypto-based platform.",
-    "keywords_matched": "poly(8)",
-    "keyword_score": 8,
-    "created_at": "2026-06-12 00:30:23"
-  },
-  {
-    "title": "Logitech knows when to fold 'em",
-    "link": "https://www.theregister.com/personal-tech/2026/06/10/logitech-knows-when-to-fold-em/5253196",
-    "source": "The Register",
-    "published_at": "Wed, 10 Jun 2026 09:01:00 +0200",
-    "summary": "Meet Mobi Fold - creased popster or clever portable mouse",
-    "keywords_matched": "logitech(8)",
-    "keyword_score": 8,
-    "created_at": "2026-06-11 00:30:29"
   }
 ]
