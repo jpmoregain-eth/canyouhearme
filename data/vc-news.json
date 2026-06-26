@@ -60,16 +60,6 @@
     "created_at": "2026-06-19 00:30:24"
   },
   {
-    "title": "The Invisible Meeting Room: Why the Best Smart Rooms Need Zero User Training",
-    "link": "https://www.uctoday.com/devices-workspace-tech/the-invisible-meeting-room-why-the-best-smart-rooms-need-zero-user-training/",
-    "source": "UC Today",
-    "published_at": "Thu, 11 Jun 2026 09:02:12 +0000",
-    "summary": "Hybrid work is no longer a trend or a temporary adjustment. According to an Owl Labs study, approximately 86% of all corporate meetings now include at least one remote participant, making the hybrid meeting the new baseline for collaboration. In that environment, the meeting room is no longer just a physical space. It is a [&#8230;]",
-    "keywords_matched": "meeting room(10), hybrid meeting(6), hybrid work(6)",
-    "keyword_score": 22,
-    "created_at": "2026-06-12 00:30:18"
-  },
-  {
     "title": "InfoComm 2026: Utah State University’s Zoom Rooms Strategy for Higher Education",
     "link": "https://www.uctoday.com/unified-communications/infocomm-2026-utah-state-universitys-zoom-rooms-strategy-for-higher-education/",
     "source": "UC Today",
@@ -78,6 +68,16 @@
     "keywords_matched": "zoom rooms(10), infocomm(10), zoom(1)",
     "keyword_score": 21,
     "created_at": "2026-06-25 00:30:20"
+  },
+  {
+    "title": "Securing the Smart Meeting Room: The New Risk Surface Hiding in Plain Sight",
+    "link": "https://www.uctoday.com/devices-workspace-tech/securing-the-smart-meeting-room-the-new-risk-surface-hiding-in-plain-sight/",
+    "source": "UC Today",
+    "published_at": "Thu, 25 Jun 2026 14:55:15 +0000",
+    "summary": "Walk into any modern conference room and the technology is watching before you&#8217;ve taken your seat. A wide-angle camera tracks whoever is speaking, a ceiling microphone array captures every word, a room sensor logs how many people are present, and somewhere in the background a cloud-connected AI agent is already drafting a summary it will [&#8230;]",
+    "keywords_matched": "meeting room(10), conference room(10)",
+    "keyword_score": 20,
+    "created_at": "2026-06-26 00:30:12"
   },
   {
     "title": "Sennheiser Launches TeamConnect Ceiling M Plus and Expands DeviceHub",
@@ -100,26 +100,6 @@
     "created_at": "2026-06-25 00:30:20"
   },
   {
-    "title": "Why Is Your UC Reliability Only as Strong as the Weakest Network You Don’t Own?",
-    "link": "https://www.uctoday.com/service-management-connectivity/third-party-network-visibility-uc-reliability/",
-    "source": "UC Today",
-    "published_at": "Thu, 11 Jun 2026 09:51:22 +0000",
-    "summary": "Unified communications reliability often fails for a simple reason. Organizations rely heavily on external infrastructure they do not own. Moving to the cloud introduces massive enterprise connectivity risk as IT leaders lose control over the actual routing paths. A strong UC observability strategy is necessary to monitor public internets. Without proper third-party network visibility, finding [&#8230;]",
-    "keywords_matched": "unified communications(10), enterprise connect(10)",
-    "keyword_score": 20,
-    "created_at": "2026-06-12 00:30:18"
-  },
-  {
-    "title": "InfoComm 2026: The UC Trends You’ll Be Chasing Next Year",
-    "link": "https://www.uctoday.com/unified-communications/infocomm-2026-the-uc-trends-youll-be-chasing-next-year/",
-    "source": "UC Today",
-    "published_at": "Thu, 11 Jun 2026 08:00:11 +0000",
-    "summary": "UC leaders are heading into a new buying cycle with a familiar problem. AI is everywhere, but not every AI feature is ready for the real world. That is one of the key themes in this UC Today interview, as we speak with Jenn Heinold, Senior Vice President of Expositions for the Americas at AVIXA, [&#8230;]",
-    "keywords_matched": "infocomm(10), avixa(10)",
-    "keyword_score": 20,
-    "created_at": "2026-06-12 00:30:18"
-  },
-  {
     "title": "Inside InfoComm 2026’s Smart Workplace Experience",
     "link": "https://www.uctoday.com/unified-communications/inside-infocomm-2026s-smart-workplace-experience/",
     "source": "UC Today",
@@ -130,16 +110,6 @@
     "created_at": "2026-06-25 00:30:20"
   },
   {
-    "title": "Galaxy XR’s Most Unexpected Enterprise Use Case? The Blood Donation Clinic",
-    "link": "https://www.uctoday.com/immersive-workplace-xr-tech/samsung-galaxy-xr-enterprise-blood-donation/",
-    "source": "UC Today",
-    "published_at": "Thu, 11 Jun 2026 12:05:45 +0000",
-    "summary": "Samsung&#8217;s Galaxy XR has been making a strong case for enterprise adoption since Android Enterprise support landed earlier this year. But the company&#8217;s latest real-world deployment makes a different kind of argument – one built not on productivity dashboards or virtual meeting rooms, but on blood donation anxiety. Samsung and global healthcare company Abbott partnered [&#8230;]",
-    "keywords_matched": "meeting room(10), virtual meeting(6)",
-    "keyword_score": 16,
-    "created_at": "2026-06-12 00:30:18"
-  },
-  {
     "title": "Cisco and Zoom Have a Problem to Solve Together. Here’s What That Actually Looks Like.",
     "link": "https://www.uctoday.com/unified-communications/cisco-and-zoom-have-a-problem-to-solve-together-heres-what-that-actually-looks-like/",
     "source": "UC Today",
@@ -148,6 +118,16 @@
     "keywords_matched": "cisco(5), meeting platform(6), teams(1), zoom(1)",
     "keyword_score": 13,
     "created_at": "2026-06-24 00:30:14"
+  },
+  {
+    "title": "From Zoom Classrooms to Pro-Level Arenas: Why Higher Ed Is Testing the Future of UC Rooms",
+    "link": "https://www.uctoday.com/unified-communications/from-zoom-classrooms-to-pro-level-arenas-why-higher-ed-is-testing-the-future-of-uc-rooms/",
+    "source": "UC Today",
+    "published_at": "Thu, 25 Jun 2026 10:11:56 +0000",
+    "summary": "A corporate meeting room has to do one thing well: support a meeting. A university campus has to do everything at once. Hybrid lecture halls, rural learning centres, faculty offices, student collaboration areas, sports arenas, commencement venues, retail spaces. One estate, hundreds of room problems, all running on the same budget and the same support [&#8230;]",
+    "keywords_matched": "meeting room(10), zoom(1)",
+    "keyword_score": 11,
+    "created_at": "2026-06-26 00:30:12"
   },
   {
     "title": "Is Your Collaboration Stack Slowing Teams Down?",
@@ -228,5 +208,25 @@
     "keywords_matched": "infocomm(10)",
     "keyword_score": 10,
     "created_at": "2026-06-20 00:30:10"
+  },
+  {
+    "title": "AV Meets IT at Infocomm 2026: The Collaboration Shift Transforming the Modern Workplace",
+    "link": "https://www.uctoday.com/devices-workspace-tech/av-meets-it-infocomm-2026-collaboration-shift-modern-workplace/",
+    "source": "UC Today",
+    "published_at": "Thu, 18 Jun 2026 14:12:57 +0000",
+    "summary": "The lines between AV and IT have never been blurrier – and according to Justin Watts, Global End User Services Lead and Brand Ambassador at AMD, that is very much a good thing. &#8220;Everything that I&#8217;ve seen has been something new that I really didn&#8217;t expect to see,&#8221; he said. &#8220;There&#8217;s been a huge focus [&#8230;]",
+    "keywords_matched": "infocomm(10)",
+    "keyword_score": 10,
+    "created_at": "2026-06-19 00:30:24"
+  },
+  {
+    "title": "InfoComm highlights AI transformation of AV",
+    "link": "https://www.nojitter.com/ai-automation/infocomm-highlights-ai-transformation-of-av",
+    "source": "No Jitter",
+    "published_at": "Tue, 16 Jun 2026 17:29:23 GMT",
+    "summary": "Enterprise collaboration hardware and platforms are adjusting to the newest tools for conferencing and digital work.",
+    "keywords_matched": "infocomm(10)",
+    "keyword_score": 10,
+    "created_at": "2026-06-17 00:30:15"
   }
 ]
