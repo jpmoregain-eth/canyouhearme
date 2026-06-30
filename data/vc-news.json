@@ -10,6 +10,16 @@
     "created_at": "2026-06-20 00:30:10"
   },
   {
+    "title": "InfoComm 2026: Q-SYS Exposes the Biggest Meeting Room Trap",
+    "link": "https://www.uctoday.com/devices-workspace-tech/infocomm-2026-q-sys-exposes-the-biggest-meeting-room-trap-q-sys/",
+    "source": "UC Today",
+    "published_at": "Mon, 29 Jun 2026 13:30:20 +0000",
+    "summary": "In this InfoComm 2026 interview, Marcus Law sits down with Josh Arnold, Director of Collaboration Product Strategy at Q-SYS, to uncover why IT and facilities leaders must rethink their collaboration spaces. With the launch of the RoomSuite Collaboration Bar and new scheduling panels, Q-SYS is transforming how organizations deploy Microsoft Teams Rooms. Learn how to [&#8230;]",
+    "keywords_matched": "meeting room(10), microsoft teams(10), infocomm(10), teams(1)",
+    "keyword_score": 31,
+    "created_at": "2026-06-30 00:30:35"
+  },
+  {
     "title": "From Headsets to the Room: HP’s Collaboration Overhaul at InfoComm 2026",
     "link": "https://www.uctoday.com/devices-workspace-tech/hp-poly-infocomm-2026/",
     "source": "UC Today",
@@ -58,6 +68,16 @@
     "keywords_matched": "meeting room(10), cisco(5), infocomm(10)",
     "keyword_score": 25,
     "created_at": "2026-06-19 00:30:24"
+  },
+  {
+    "title": "Why The New Meeting Room War Is Interoperability",
+    "link": "https://www.uctoday.com/unified-communications/why-the-new-meeting-room-war-is-interoperability/",
+    "source": "UC Today",
+    "published_at": "Mon, 29 Jun 2026 15:47:17 +0000",
+    "summary": "The meeting room used to be built around an assumption: the organisation had a preferred platform, and the room would follow it. The data shows how rarely that holds. Cisco research suggests up to 85% of enterprise IT teams support two or more meeting platforms. They do so to cover separate business units, specific use [&#8230;]",
+    "keywords_matched": "meeting room(10), cisco(5), meeting platform(6), teams(1)",
+    "keyword_score": 22,
+    "created_at": "2026-06-30 00:30:35"
   },
   {
     "title": "InfoComm 2026: Utah State University’s Zoom Rooms Strategy for Higher Education",
@@ -130,6 +150,16 @@
     "created_at": "2026-06-25 00:30:20"
   },
   {
+    "title": "Cisco TMS Sunset: Why the Obvious Next Step Isn’t Always “the Cloud”",
+    "link": "https://www.uctoday.com/security-compliance-risk/cisco-tms-sunset-why-the-obvious-next-step-isnt-always-the-cloud/",
+    "source": "UC Today",
+    "published_at": "Mon, 29 Jun 2026 09:08:52 +0000",
+    "summary": "Cisco’s TelePresence Management Suite (TMS) reaching end of life marks a significant inflection point for organizations that have relied on it for over a decade. What was once a cornerstone of enterprise video infrastructure is now being phased out, forcing IT leaders to reassess how they manage devices, calls, and collaboration environments going forward. This [&#8230;]",
+    "keywords_matched": "telepresence(10), cisco(5)",
+    "keyword_score": 15,
+    "created_at": "2026-06-30 00:30:35"
+  },
+  {
     "title": "Cisco and Zoom Have a Problem to Solve Together. Here’s What That Actually Looks Like.",
     "link": "https://www.uctoday.com/unified-communications/cisco-and-zoom-have-a-problem-to-solve-together-heres-what-that-actually-looks-like/",
     "source": "UC Today",
@@ -158,16 +188,6 @@
     "keywords_matched": "video conferencing(10), teams(1)",
     "keyword_score": 11,
     "created_at": "2026-06-24 00:30:14"
-  },
-  {
-    "title": "Microsoft Teams Is Getting a Dedicated Meeting Recap App This Month. Here’s What IT Teams Need to Do Before It Arrives.",
-    "link": "https://www.uctoday.com/unified-communications/microsoft-teams-is-getting-a-dedicated-meeting-recap-app-this-month-heres-what-it-teams-need-to-do-before-it-arrives/",
-    "source": "UC Today",
-    "published_at": "Mon, 15 Jun 2026 09:30:47 +0000",
-    "summary": "Teams has had meeting recap functionality for years. What changes in June 2026 is where it lives. Rather than hunting across calendar entries, chat histories, recordings, and the recap tab, users will find everything in a single dedicated app on the Teams left rail. The shift sounds small. For IT teams managing recording policies across [&#8230;]",
-    "keywords_matched": "microsoft teams(10), teams(1)",
-    "keyword_score": 11,
-    "created_at": "2026-06-16 00:30:27"
   },
   {
     "title": "InfoComm 2026: Why St. Thomas Chose Panasonic for Its New Arena",
@@ -208,25 +228,5 @@
     "keywords_matched": "infocomm(10)",
     "keyword_score": 10,
     "created_at": "2026-06-24 00:30:14"
-  },
-  {
-    "title": "InfoComm 2026: What Law Firms Can Teach the AV Industry About Cybersecurity",
-    "link": "https://www.uctoday.com/devices-workspace-tech/infocomm-2026-what-law-firms-can-teach-the-av-industry-about-cybersecurity/",
-    "source": "UC Today",
-    "published_at": "Mon, 22 Jun 2026 09:38:43 +0000",
-    "summary": "When Nyere Hollingsworth describes InfoComm as &#8220;summer camp,&#8221; he means it as a compliment. For the Managing Director of Endpoints and Workplace Experience Technologies at law firm Winston Taylor, the annual AV industry gathering in Las Vegas is a chance to reconnect with peers, absorb new ideas, and take stock of where the industry is [&#8230;]",
-    "keywords_matched": "infocomm(10)",
-    "keyword_score": 10,
-    "created_at": "2026-06-23 00:30:15"
-  },
-  {
-    "title": "From Rooms to Experiences: The Biggest Takeaways from InfoComm 2026",
-    "link": "https://www.uctoday.com/unified-communications/from-rooms-to-experiences-the-biggest-takeaways-from-infocomm-2026/",
-    "source": "UC Today",
-    "published_at": "Fri, 19 Jun 2026 22:16:49 +0000",
-    "summary": "InfoComm 2026 was full of AI. That was expected. The more interesting question was whether any of it will make rooms, workplaces and shared spaces meaningfully better. Across the show floor in Las Vegas, vendors launched the usual mix of cameras, microphones, displays, headsets, room systems and management platforms. But the stronger theme was not [&#8230;]",
-    "keywords_matched": "infocomm(10)",
-    "keyword_score": 10,
-    "created_at": "2026-06-20 00:30:10"
   }
 ]
