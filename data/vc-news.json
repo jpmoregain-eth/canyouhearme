@@ -150,6 +150,16 @@
     "created_at": "2026-06-25 00:30:20"
   },
   {
+    "title": "The AI Meeting Room: How Intelligent Cameras, Audio and Assistants Are Changing the Hybrid Experience",
+    "link": "https://www.uctoday.com/unified-communications/the-ai-meeting-room-how-intelligent-cameras-audio-and-assistants-are-changing-the-hybrid-experience/",
+    "source": "UC Today",
+    "published_at": "Tue, 30 Jun 2026 15:28:07 +0000",
+    "summary": "The smart meeting room has spent a decade being sold on connection. Get a camera and a microphone into every space, the argument went, and the remote worker is in the meeting. The pitch has now run out of road. The conversation has moved from connecting people to understanding what happens once they are connected. [&#8230;]",
+    "keywords_matched": "meeting room(10), remote work(5)",
+    "keyword_score": 15,
+    "created_at": "2026-07-01 00:30:15"
+  },
+  {
     "title": "Cisco TMS Sunset: Why the Obvious Next Step Isn’t Always “the Cloud”",
     "link": "https://www.uctoday.com/security-compliance-risk/cisco-tms-sunset-why-the-obvious-next-step-isnt-always-the-cloud/",
     "source": "UC Today",
@@ -168,6 +178,16 @@
     "keywords_matched": "cisco(5), meeting platform(6), teams(1), zoom(1)",
     "keyword_score": 13,
     "created_at": "2026-06-24 00:30:14"
+  },
+  {
+    "title": "Microsoft Teams to Block External Bots Automatically as AI Notetaker Crackdown Hardens",
+    "link": "https://www.uctoday.com/unified-communications/microsoft-teams-to-block-external-bots-automatically-as-ai-notetaker-crackdown-hardens/",
+    "source": "UC Today",
+    "published_at": "Tue, 30 Jun 2026 10:29:06 +0000",
+    "summary": "An AI notetaker turning up uninvited in a Teams meeting has become an ordinary occurrence. Someone on the call once granted a third-party app access to their calendar, and now its bot joins everything, recording and transcribing in the background while the host has no idea who, or what, is listening. Microsoft&#8217;s answer until now [&#8230;]",
+    "keywords_matched": "microsoft teams(10), teams(1)",
+    "keyword_score": 11,
+    "created_at": "2026-07-01 00:30:15"
   },
   {
     "title": "From Zoom Classrooms to Pro-Level Arenas: Why Higher Ed Is Testing the Future of UC Rooms",
@@ -190,6 +210,16 @@
     "created_at": "2026-06-24 00:30:14"
   },
   {
+    "title": "Why Are You Rebuilding the Office in XR Instead of Redesigning Work Entirely?",
+    "link": "https://www.uctoday.com/immersive-workplace-xr-tech/xr-workflow-design-immersive-workplace-transformation/",
+    "source": "UC Today",
+    "published_at": "Tue, 30 Jun 2026 09:28:38 +0000",
+    "summary": "XR workflow design should not look like a floor plan. Yet the most common mistake in enterprise immersive programs is exactly that: organizations spend significant budget recreating the office in virtual space, complete with meeting rooms, desk layouts, whiteboards, and conference tables. The technology changes. The thinking does not. And that is precisely why so [&#8230;]",
+    "keywords_matched": "meeting room(10)",
+    "keyword_score": 10,
+    "created_at": "2026-07-01 00:30:15"
+  },
+  {
     "title": "InfoComm 2026: Why St. Thomas Chose Panasonic for Its New Arena",
     "link": "https://www.uctoday.com/unified-communications/infocomm-2026-why-st-thomas-chose-panasonic-for-its-new-arena/",
     "source": "UC Today",
@@ -198,35 +228,5 @@
     "keywords_matched": "infocomm(10)",
     "keyword_score": 10,
     "created_at": "2026-06-25 00:30:20"
-  },
-  {
-    "title": "InfoComm 2026: Stop Chasing the Hype – Stanford Medicine’s Justin Scord on Using AI the Right Way in AV",
-    "link": "https://www.uctoday.com/devices-workspace-tech/infocomm-2026-stop-chasing-the-hype-stanford-medicines-justin-scord-on-using-ai-the-right-way-in-av/",
-    "source": "UC Today",
-    "published_at": "Tue, 23 Jun 2026 14:47:04 +0000",
-    "summary": "Managing AV and collaboration technology across hospitals, clinics, classrooms, and event spaces is no small task, and for Justin Scord, Senior Manager, Collaboration &#38; Media Services at Stanford Medicine, the challenge isn&#8217;t just keeping the lights on. It&#8217;s knowing where to start. &#8220;There&#8217;s always so much change, so much technology, so many different manufacturers,&#8221; Scord [&#8230;]",
-    "keywords_matched": "infocomm(10)",
-    "keyword_score": 10,
-    "created_at": "2026-06-24 00:30:14"
-  },
-  {
-    "title": "Shokz at InfoComm 2026: Why Bone Conduction Is the Future of the Office Headset",
-    "link": "https://www.uctoday.com/devices-workspace-tech/shokz-at-infocomm-2026-why-bone-conduction-is-the-future-of-the-office-headset/",
-    "source": "UC Today",
-    "published_at": "Tue, 23 Jun 2026 14:41:27 +0000",
-    "summary": "InfoComm 2026 in Las Vegas was the stage for the global debut of the OpenMeet 2 UC. Ray Cheng, Product Manager at Shokz, says the device represents the company&#8217;s second generation of bone conduction technology for the office. The OpenMeet 2 UC is built around bone conduction technology, an approach that sits firmly outside the [&#8230;]",
-    "keywords_matched": "infocomm(10)",
-    "keyword_score": 10,
-    "created_at": "2026-06-24 00:30:14"
-  },
-  {
-    "title": "InfoComm 2026: Iowa State’s Mike Pedersen on Why Higher Ed AV Must Embrace AI Fast",
-    "link": "https://www.uctoday.com/devices-workspace-tech/infocomm-2026-mike-pedersen-iowa-state-higher-ed-av-ai/",
-    "source": "UC Today",
-    "published_at": "Tue, 23 Jun 2026 14:29:51 +0000",
-    "summary": "For Mike Pedersen, Infocomm always feels like coming home. &#8220;It&#8217;s a little bit like a family reunion,&#8221; he told UC Today at this year&#8217;s show in Las Vegas. &#8220;I get to see so many people I know and acquaintances I&#8217;ve made.&#8221; But beyond the networking, Pedersen, Audiovisual Experience Manager at Iowa State University, had serious [&#8230;]",
-    "keywords_matched": "infocomm(10)",
-    "keyword_score": 10,
-    "created_at": "2026-06-24 00:30:14"
   }
 ]
