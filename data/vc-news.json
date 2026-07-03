@@ -20,26 +20,6 @@
     "created_at": "2026-06-30 00:30:35"
   },
   {
-    "title": "From Headsets to the Room: HP’s Collaboration Overhaul at InfoComm 2026",
-    "link": "https://www.uctoday.com/devices-workspace-tech/hp-poly-infocomm-2026/",
-    "source": "UC Today",
-    "published_at": "Fri, 19 Jun 2026 00:13:26 +0000",
-    "summary": "HP has unveiled one of its most expansive collaboration announcements in years at InfoComm 2026 – spanning headsets, video conferencing hardware, intelligent cameras, and a platform play that reframes how IT teams think about meeting room management. At the heart of it all is a concept Greg Baribault, VP of Product and Portfolio Management, calls [&#8230;]",
-    "keywords_matched": "video conferencing(10), meeting room(10), infocomm(10), teams(1)",
-    "keyword_score": 31,
-    "created_at": "2026-06-19 00:30:24"
-  },
-  {
-    "title": "Infocomm 2026: Logitech on AI-Enabled Meeting Rooms and Interoperability",
-    "link": "https://www.uctoday.com/unified-communications/infocomm-2026-logitech-on-ai-enabled-meeting-rooms-and-interoperability/",
-    "source": "UC Today",
-    "published_at": "Thu, 18 Jun 2026 03:50:43 +0000",
-    "summary": "At InfoComm 2026, Logitech for Business joined UC Today to discuss a major shift in enterprise collaboration. Meeting rooms are moving from connected spaces to intelligent, AI-enabled environments. The trend is no longer just about giving every room a camera and microphone. Organizations now want spaces that understand context. They also want rooms that support [&#8230;]",
-    "keywords_matched": "meeting room(10), logitech(8), infocomm(10)",
-    "keyword_score": 28,
-    "created_at": "2026-06-19 00:30:24"
-  },
-  {
     "title": "InfoComm 2026: Mariana Atencio on Trust, AI, and Hybrid Work",
     "link": "https://www.uctoday.com/unified-communications/infocomm-2026-mariana-atencio-on-trust-ai-and-hybrid-work/",
     "source": "UC Today",
@@ -48,26 +28,6 @@
     "keywords_matched": "hybrid work(6), infocomm(10), avixa(10)",
     "keyword_score": 26,
     "created_at": "2026-06-20 00:30:10"
-  },
-  {
-    "title": "Cisco and Zoom on Why Certified Hardware Changes Everything for the Agentic Workplace",
-    "link": "https://www.uctoday.com/unified-communications/cisco-and-zoom-on-why-certified-hardware-changes-everything-for-the-agentic-workplace/",
-    "source": "UC Today",
-    "published_at": "Thu, 18 Jun 2026 14:58:00 +0000",
-    "summary": "At InfoComm 2026 in Las Vegas, UC Today&#8217;s Marcus Law caught up with Espen Løberg, VP and GM for the Collaboration Devices business at Cisco, and Jeff Smith, Head of Product, Workplace at Zoom, to discuss the launch of Cisco Devices for Zoom Rooms and what it means for enterprise customers. The conversation covers what [&#8230;]",
-    "keywords_matched": "zoom rooms(10), cisco(5), infocomm(10), zoom(1)",
-    "keyword_score": 26,
-    "created_at": "2026-06-19 00:30:24"
-  },
-  {
-    "title": "Infocomm 2026: Cisco’s Espen Løberg Makes the Case for the Agentic Workplace",
-    "link": "https://www.uctoday.com/devices-workspace-tech/cisco-infocomm-2026-agentic-workplace-espen-loberg/",
-    "source": "UC Today",
-    "published_at": "Thu, 18 Jun 2026 19:43:22 +0000",
-    "summary": "Cisco used its Infocomm 2026 keynote in Las Vegas to argue that the AI era demands more than smart software – it demands intelligent physical infrastructure, all the way to the meeting room. Espen Løberg, VP and GM of Collaboration Devices, told attendees that devices represent the last mile of AI in the workplace, and [&#8230;]",
-    "keywords_matched": "meeting room(10), cisco(5), infocomm(10)",
-    "keyword_score": 25,
-    "created_at": "2026-06-19 00:30:24"
   },
   {
     "title": "Why The New Meeting Room War Is Interoperability",
@@ -88,6 +48,16 @@
     "keywords_matched": "zoom rooms(10), infocomm(10), zoom(1)",
     "keyword_score": 21,
     "created_at": "2026-06-25 00:30:20"
+  },
+  {
+    "title": "The Future of AV Networking in Higher Ed: Takeaways from InfoComm 2026",
+    "link": "https://www.uctoday.com/devices-workspace-tech/av-networking-higher-education-infocomm-2026/",
+    "source": "UC Today",
+    "published_at": "Thu, 02 Jul 2026 12:17:29 +0000",
+    "summary": "InfoComm 2026 brought together some of the brightest minds in the audiovisual industry, and for Jamison Vandenberg, Academic Technology Specialist at the University of Wisconsin-Green Bay, the event was as much about people as it was about technology. Vandenberg, who has been immersed in AV since the age of twelve, now oversees in-house AV integrations [&#8230;]",
+    "keywords_matched": "av integration(10), infocomm(10)",
+    "keyword_score": 20,
+    "created_at": "2026-07-03 00:30:24"
   },
   {
     "title": "The AI Meeting Room Is Becoming an Enterprise Data Problem",
@@ -228,5 +198,35 @@
     "keywords_matched": "meeting room(10)",
     "keyword_score": 10,
     "created_at": "2026-07-02 00:30:18"
+  },
+  {
+    "title": "InfoComm 2026 Recap: Irwin Lazar on AI’s Growing Role in AV & Workplace Collaboration",
+    "link": "https://www.uctoday.com/devices-workspace-tech/infocomm-2026-recap-irwin-lazar-ai-av-workplace-collaboration/",
+    "source": "UC Today",
+    "published_at": "Wed, 01 Jul 2026 09:28:43 +0000",
+    "summary": "Infocomm 2026 in Las Vegas has come and gone, but the conversations it sparked are far from over. To make sense of the event&#8217;s biggest themes, UC Today sat down with Irwin Lazar, President &#38; Principal Analyst at Metrigy, to get his take on what stood out – and what it means for the industry [&#8230;]",
+    "keywords_matched": "infocomm(10)",
+    "keyword_score": 10,
+    "created_at": "2026-07-02 00:30:18"
+  },
+  {
+    "title": "Why Are You Rebuilding the Office in XR Instead of Redesigning Work Entirely?",
+    "link": "https://www.uctoday.com/immersive-workplace-xr-tech/xr-workflow-design-immersive-workplace-transformation/",
+    "source": "UC Today",
+    "published_at": "Tue, 30 Jun 2026 09:28:38 +0000",
+    "summary": "XR workflow design should not look like a floor plan. Yet the most common mistake in enterprise immersive programs is exactly that: organizations spend significant budget recreating the office in virtual space, complete with meeting rooms, desk layouts, whiteboards, and conference tables. The technology changes. The thinking does not. And that is precisely why so [&#8230;]",
+    "keywords_matched": "meeting room(10)",
+    "keyword_score": 10,
+    "created_at": "2026-07-01 00:30:15"
+  },
+  {
+    "title": "InfoComm 2026: Why St. Thomas Chose Panasonic for Its New Arena",
+    "link": "https://www.uctoday.com/unified-communications/infocomm-2026-why-st-thomas-chose-panasonic-for-its-new-arena/",
+    "source": "UC Today",
+    "published_at": "Wed, 24 Jun 2026 10:10:13 +0000",
+    "summary": "How do you build AV for a university arena that must serve sport, education, events, and the wider community? At InfoComm 2026 in Las Vegas, UC Today spoke with Patrick Eisenhauer, Director of Audio Visual and Event Services at the University of St. Thomas, discussing the university’s arena project with Panasonic Projector &#38; Display Americas. [&#8230;]",
+    "keywords_matched": "infocomm(10)",
+    "keyword_score": 10,
+    "created_at": "2026-06-25 00:30:20"
   }
 ]
