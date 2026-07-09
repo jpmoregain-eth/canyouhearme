@@ -30,14 +30,14 @@
     "created_at": "2026-06-30 00:30:35"
   },
   {
-    "title": "InfoComm 2026: Utah State University’s Zoom Rooms Strategy for Higher Education",
-    "link": "https://www.uctoday.com/unified-communications/infocomm-2026-utah-state-universitys-zoom-rooms-strategy-for-higher-education/",
+    "title": "Big UC Update: Theta Lake’s Governance Playbook",
+    "link": "https://www.uctoday.com/security-compliance-risk/big-uc-update-theta-lakes-governance-playbook-thetalake-cs-0172/",
     "source": "UC Today",
-    "published_at": "Wed, 24 Jun 2026 09:39:34 +0000",
-    "summary": "How do you scale classroom technology when students and faculty are spread across cities, rural communities, and dozens of campus locations? In this UC Today interview from InfoComm 2026, we speak with Kevin Reeve, Academic Technology Officer at Utah State University. They discuss how the university is using Zoom Rooms to support distance education across [&#8230;]",
-    "keywords_matched": "zoom rooms(10), infocomm(10), zoom(1)",
-    "keyword_score": 21,
-    "created_at": "2026-06-25 00:30:20"
+    "published_at": "Wed, 08 Jul 2026 14:04:02 +0000",
+    "summary": "In this Big UC Update interview for UC Today, Marcus Law speaks with Dan Nadir, Chief Product Officer at Theta Lake, about how enterprises are rethinking compliance, security, and archiving for modern communications. Dan explains how Theta Lake helps regulated organizations capture, archive, and supervise communications across collaboration platforms, including Zoom, Microsoft Teams, Webex, RingCentral, [&#8230;]",
+    "keywords_matched": "microsoft teams(10), collaboration platform(6), teams(1), zoom(1), webex(2)",
+    "keyword_score": 20,
+    "created_at": "2026-07-09 00:30:21"
   },
   {
     "title": "The Future of AV Networking in Higher Ed: Takeaways from InfoComm 2026",
@@ -80,26 +80,6 @@
     "created_at": "2026-06-26 00:30:12"
   },
   {
-    "title": "Sennheiser Launches TeamConnect Ceiling M Plus and Expands DeviceHub",
-    "link": "https://www.uctoday.com/devices-workspace-tech/sennheiser-teamconnect-ceiling-m-plus-devicehub-infocomm-2026/",
-    "source": "UC Today",
-    "published_at": "Wed, 24 Jun 2026 16:08:43 +0000",
-    "summary": "Sennheiser has introduced the TeamConnect Ceiling M Plus (TCC M Plus), a new ceiling microphone aimed at enterprise meeting rooms, alongside expanded capabilities for its DeviceHub cloud management platform. The announcements were made at InfoComm 2026 last week, and reflect a continuing push by the company to address the operational challenges facing AV and IT [&#8230;]",
-    "keywords_matched": "meeting room(10), infocomm(10)",
-    "keyword_score": 20,
-    "created_at": "2026-06-25 00:30:20"
-  },
-  {
-    "title": "InfoComm 2026: Microsoft, Q-SYS, and the AI Meeting Room Reckoning",
-    "link": "https://www.uctoday.com/unified-communications/infocomm-2026-microsoft-q-sys-and-the-ai-meeting-room-reckoning/",
-    "source": "UC Today",
-    "published_at": "Wed, 24 Jun 2026 11:14:07 +0000",
-    "summary": "At InfoComm 2026, UC Today spoke with Sohail Tariq, Senior Director of Product Management at Microsoft, and Nathan Glotfelty, Senior Director of Alliances at Q-SYS, after the two companies appeared together on the Innovation Stage. The discussion focused on how meeting spaces must evolve as agentic AI becomes a practical reality for enterprise collaboration. Nathan [&#8230;]",
-    "keywords_matched": "meeting room(10), infocomm(10)",
-    "keyword_score": 20,
-    "created_at": "2026-06-25 00:30:20"
-  },
-  {
     "title": "The Invisible Workplace: What Meeting Room Behaviour Reveals About Hybrid Work",
     "link": "https://www.uctoday.com/workplace-management/the-invisible-workplace-what-meeting-room-behaviour-reveals-about-hybrid-work-voss-cs-0063/",
     "source": "UC Today",
@@ -108,16 +88,6 @@
     "keywords_matched": "meeting room(10), hybrid work(6)",
     "keyword_score": 16,
     "created_at": "2026-07-02 00:30:18"
-  },
-  {
-    "title": "Inside InfoComm 2026’s Smart Workplace Experience",
-    "link": "https://www.uctoday.com/unified-communications/inside-infocomm-2026s-smart-workplace-experience/",
-    "source": "UC Today",
-    "published_at": "Wed, 24 Jun 2026 09:01:57 +0000",
-    "summary": "Workplace leaders are no longer asking whether hybrid work is here to stay. They are asking how to remove friction between people, places, platforms, and meeting experiences. At InfoComm 2026 in Las Vegas, UC Today’s Marcus Law spoke with Keith Yandell, EVP of Innovation at FORTÉ. The interview took place inside the Smart Workplace Experience [&#8230;]",
-    "keywords_matched": "hybrid work(6), infocomm(10)",
-    "keyword_score": 16,
-    "created_at": "2026-06-25 00:30:20"
   },
   {
     "title": "The AI Meeting Room: How Intelligent Cameras, Audio and Assistants Are Changing the Hybrid Experience",
@@ -180,6 +150,16 @@
     "created_at": "2026-06-26 00:30:12"
   },
   {
+    "title": "Understanding the Invisible Workplace: Why Meeting Room Analytics Must Go Beyond Bookings",
+    "link": "https://www.uctoday.com/workplace-management/understanding-the-invisible-workplace-why-meeting-room-analytics-must-go-beyond-bookings-voss-cs-0063/",
+    "source": "UC Today",
+    "published_at": "Wed, 08 Jul 2026 08:19:51 +0000",
+    "summary": "Most organisations feel reasonably confident about their meeting rooms. There is a booking system, utilization reports look plausible and demand appears manageable. The problem is that booking data only shows what people planned to do. It says very little about what actually happened.  Research consistently shows a significant gap between booked and actual meeting room occupancy across enterprise organisations: in many cases, [&#8230;]",
+    "keywords_matched": "meeting room(10)",
+    "keyword_score": 10,
+    "created_at": "2026-07-09 00:30:21"
+  },
+  {
     "title": "Brussels shows how to remove friction from collaboration",
     "link": "https://www.theregister.com/applications/2026/07/07/brussels-shows-how-to-remove-friction-from-collaboration/5267449",
     "source": "The Register",
@@ -220,16 +200,6 @@
     "created_at": "2026-07-01 00:30:15"
   },
   {
-    "title": "InfoComm 2026: Why St. Thomas Chose Panasonic for Its New Arena",
-    "link": "https://www.uctoday.com/unified-communications/infocomm-2026-why-st-thomas-chose-panasonic-for-its-new-arena/",
-    "source": "UC Today",
-    "published_at": "Wed, 24 Jun 2026 10:10:13 +0000",
-    "summary": "How do you build AV for a university arena that must serve sport, education, events, and the wider community? At InfoComm 2026 in Las Vegas, UC Today spoke with Patrick Eisenhauer, Director of Audio Visual and Event Services at the University of St. Thomas, discussing the university’s arena project with Panasonic Projector &#38; Display Americas. [&#8230;]",
-    "keywords_matched": "infocomm(10)",
-    "keyword_score": 10,
-    "created_at": "2026-06-25 00:30:20"
-  },
-  {
     "title": "This might be the new best smart speaker",
     "link": "https://www.theverge.com/tech/958127/google-home-speaker-star-fox-installer",
     "source": "The Verge",
@@ -238,5 +208,15 @@
     "keywords_matched": "poly(8)",
     "keyword_score": 8,
     "created_at": "2026-06-28 00:30:33"
+  },
+  {
+    "title": "Polymarket says hackers stole users’ funds",
+    "link": "https://techcrunch.com/2026/06/25/polymarket-says-hackers-stole-users-funds/",
+    "source": "TechCrunch",
+    "published_at": "Thu, 25 Jun 2026 19:58:46 +0000",
+    "summary": "The prediction market giant Polymarket said it's refunding users who had funds stolen due to a third-party breach.",
+    "keywords_matched": "poly(8)",
+    "keyword_score": 8,
+    "created_at": "2026-06-26 00:30:18"
   }
 ]
