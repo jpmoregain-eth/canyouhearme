@@ -70,16 +70,6 @@
     "created_at": "2026-06-27 00:30:13"
   },
   {
-    "title": "Securing the Smart Meeting Room: The New Risk Surface Hiding in Plain Sight",
-    "link": "https://www.uctoday.com/devices-workspace-tech/securing-the-smart-meeting-room-the-new-risk-surface-hiding-in-plain-sight/",
-    "source": "UC Today",
-    "published_at": "Thu, 25 Jun 2026 14:55:15 +0000",
-    "summary": "Walk into any modern conference room and the technology is watching before you&#8217;ve taken your seat. A wide-angle camera tracks whoever is speaking, a ceiling microphone array captures every word, a room sensor logs how many people are present, and somewhere in the background a cloud-connected AI agent is already drafting a summary it will [&#8230;]",
-    "keywords_matched": "meeting room(10), conference room(10)",
-    "keyword_score": 20,
-    "created_at": "2026-06-26 00:30:12"
-  },
-  {
     "title": "The Invisible Workplace: What Meeting Room Behaviour Reveals About Hybrid Work",
     "link": "https://www.uctoday.com/workplace-management/the-invisible-workplace-what-meeting-room-behaviour-reveals-about-hybrid-work-voss-cs-0063/",
     "source": "UC Today",
@@ -138,16 +128,6 @@
     "keywords_matched": "microsoft teams(10), teams(1)",
     "keyword_score": 11,
     "created_at": "2026-07-01 00:30:15"
-  },
-  {
-    "title": "From Zoom Classrooms to Pro-Level Arenas: Why Higher Ed Is Testing the Future of UC Rooms",
-    "link": "https://www.uctoday.com/unified-communications/from-zoom-classrooms-to-pro-level-arenas-why-higher-ed-is-testing-the-future-of-uc-rooms/",
-    "source": "UC Today",
-    "published_at": "Thu, 25 Jun 2026 10:11:56 +0000",
-    "summary": "A corporate meeting room has to do one thing well: support a meeting. A university campus has to do everything at once. Hybrid lecture halls, rural learning centres, faculty offices, student collaboration areas, sports arenas, commencement venues, retail spaces. One estate, hundreds of room problems, all running on the same budget and the same support [&#8230;]",
-    "keywords_matched": "meeting room(10), zoom(1)",
-    "keyword_score": 11,
-    "created_at": "2026-06-26 00:30:12"
   },
   {
     "title": "Understanding the Invisible Workplace: Why Meeting Room Analytics Must Go Beyond Bookings",
@@ -210,13 +190,23 @@
     "created_at": "2026-06-28 00:30:33"
   },
   {
-    "title": "Polymarket says hackers stole users’ funds",
-    "link": "https://techcrunch.com/2026/06/25/polymarket-says-hackers-stole-users-funds/",
-    "source": "TechCrunch",
-    "published_at": "Thu, 25 Jun 2026 19:58:46 +0000",
-    "summary": "The prediction market giant Polymarket said it's refunding users who had funds stolen due to a third-party breach.",
-    "keywords_matched": "poly(8)",
-    "keyword_score": 8,
-    "created_at": "2026-06-26 00:30:18"
+    "title": "Infuriating Google commercial imagines the founding fathers embracing AI",
+    "link": "https://www.theverge.com/ai-artificial-intelligence/961468/google-ai-commercial-founding-fathers-declaration-of-independence",
+    "source": "The Verge",
+    "published_at": "2026-07-05T10:23:11-04:00",
+    "summary": "\"Group project, but make it 1776.\" That's how a new commercial for Google Workspace opens. And things only get cringier from there. The clip imagines what it would be like if the founding fathers turned to Google's collaboration tools and Gemini to help them draft the Declaration of Independence. Ben Franklin texts Thomas Jefferson to [&#8230;]",
+    "keywords_matched": "collaboration tools(6)",
+    "keyword_score": 6,
+    "created_at": "2026-07-06 00:30:24"
+  },
+  {
+    "title": "Hybrid Work, AI Workplace: Why Collaboration Infrastructure Is the Missing Link",
+    "link": "https://www.uctoday.com/devices-workspace-tech/hybrid-work-ai-workplace-why-collaboration-infrastructure-is-the-missing-link-shure-cs-0052/",
+    "source": "UC Today",
+    "published_at": "Wed, 01 Jul 2026 14:45:24 +0000",
+    "summary": "&#160; In this UC Today interview, host Kristian McCann sits down with Irwin Lazar, President and Principal Analyst at Metrigy, and Josh Blalock, Global Director of Alliances &#38; Engagement at Shure, to unpack a growing issue in enterprise collaboration: why AI-powered productivity tools are failing to deliver without the right infrastructure underneath. AI is transforming [&#8230;]",
+    "keywords_matched": "hybrid work(6)",
+    "keyword_score": 6,
+    "created_at": "2026-07-02 00:30:18"
   }
 ]
