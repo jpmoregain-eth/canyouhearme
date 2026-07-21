@@ -1,15 +1,5 @@
 [
   {
-    "title": "The Hidden Risks of Hybrid Work for UC Security",
-    "link": "https://www.uctoday.com/security-compliance-risk/the-hidden-risks-of-hybrid-work-for-uc-security/",
-    "source": "UC Today",
-    "published_at": "Mon, 06 Jul 2026 09:40:58 +0000",
-    "summary": "Hybrid work has fundamentally altered the way businesses operate. Over the last few years, collaboration platforms such as Microsoft Teams and Zoom have become essential infrastructure for everyday communication, enabling employees to work across offices, homes, and remote locations. While this flexibility has improved productivity and employee satisfaction, it has also created new challenges for [&#8230;]",
-    "keywords_matched": "microsoft teams(10), hybrid work(6), collaboration platform(6), teams(1), zoom(1)",
-    "keyword_score": 24,
-    "created_at": "2026-07-07 00:30:24"
-  },
-  {
     "title": "Big UC Update: Theta Lake’s Governance Playbook",
     "link": "https://www.uctoday.com/security-compliance-risk/big-uc-update-theta-lakes-governance-playbook-thetalake-cs-0172/",
     "source": "UC Today",
@@ -78,6 +68,16 @@
     "keywords_matched": "meeting room(10)",
     "keyword_score": 10,
     "created_at": "2026-07-08 00:30:27"
+  },
+  {
+    "title": "Could ASML Become Europe’s First Trillion-Dollar Company?",
+    "link": "https://www.uctoday.com/productivity-automation/asml-ai-chip-boom-europe-trillion-dollar-valuation/",
+    "source": "UC Today",
+    "published_at": "Mon, 20 Jul 2026 15:40:50 +0000",
+    "summary": "ASML, the Dutch company that holds a global monopoly on the extreme ultraviolet lithography machines required to manufacture the world&#8217;s most advanced chips, is closing in on a $700 billion market valuation after its shares surged 60% in 2026. Following blowout second-quarter earnings, analysts and investors are now openly asking whether it could become Europe&#8217;s [&#8230;]",
+    "keywords_matched": "poly(8)",
+    "keyword_score": 8,
+    "created_at": "2026-07-20 16:15:56"
   },
   {
     "title": "Polymarket’s Corporate Structure Is a Mystery—Even to Some of Its Former Employees",
