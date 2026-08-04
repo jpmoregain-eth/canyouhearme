@@ -1,5 +1,15 @@
 [
   {
+    "title": "Gamma Communications’ UCaaS Innovation Arc: From Cloud Phones to AI-Ready Operations",
+    "link": "https://www.uctoday.com/unified-communications/gamma-communications-ucaas/",
+    "source": "UC Today",
+    "published_at": "Thu, 30 Jul 2026 15:52:37 +0000",
+    "summary": "Gamma Communications&#8216; 2026 UCaaS story is becoming much easier to read. Horizon with Webex covers repeatable, voice-led migrations; Webex for Gamma handles deeper collaboration and workflow needs; Microsoft Teams Phone, PhoneLine+, and GammaUCX cover the routes between. Edge Migrate, Red Cactus, and an AI-led CX deployment at JD Sports extend the argument: Gamma is betting [&#8230;]",
+    "keywords_matched": "ucaas(10), microsoft teams(10), teams(1), webex(2)",
+    "keyword_score": 23,
+    "created_at": "2026-08-04 00:30:25"
+  },
+  {
     "title": "Five Signs Your Communications Stack Is Costing You More Than You Think",
     "link": "https://www.uctoday.com/unified-communications/five-signs-your-communications-stack-is-costing-you-more-than-you-think/",
     "source": "UC Today",
@@ -8,6 +18,26 @@
     "keywords_matched": "unified communications(10), collaboration platform(6)",
     "keyword_score": 16,
     "created_at": "2026-07-22 00:30:12"
+  },
+  {
+    "title": "Avaya hires new CEO",
+    "link": "https://www.nojitter.com/contact-centers/avaya-hires-new-ceo",
+    "source": "No Jitter",
+    "published_at": "Mon, 03 Aug 2026 19:42:53 GMT",
+    "summary": "Jeff Clarke will become Avaya’s third CEO in four years, as Patrick Dennis transitions to executive chair.",
+    "keywords_matched": "avaya(10)",
+    "keyword_score": 10,
+    "created_at": "2026-08-04 00:30:27"
+  },
+  {
+    "title": "UC Onboarding Is Still Too Slow, and Partners Are Paying the Price",
+    "link": "https://www.uctoday.com/service-management-connectivity/uc-onboarding-is-still-too-slow-and-partners-are-paying-the-price-nuwave-cs-0182/",
+    "source": "UC Today",
+    "published_at": "Mon, 03 Aug 2026 14:33:25 +0000",
+    "summary": "The unified communications market has spent a decade moving to the cloud. Buying has become simpler, licensing has become subscription-based, and services can be consumed from anywhere. Yet for the partners and service providers delivering those services, one part of the journey remains stubbornly stuck in the past: onboarding.  Getting a new customer live on a cloud phone system still often [&#8230;]",
+    "keywords_matched": "unified communications(10)",
+    "keyword_score": 10,
+    "created_at": "2026-08-04 00:30:25"
   },
   {
     "title": "Google meets the neighbors and gets both barrels over its new UK datacenter",
@@ -38,6 +68,16 @@
     "keywords_matched": "unified communications(10)",
     "keyword_score": 10,
     "created_at": "2026-07-22 00:30:12"
+  },
+  {
+    "title": "Palworld’s expanding to mobile with a new MMORPG",
+    "link": "https://www.theverge.com/games/974450/palworld-online-mobile-mmo",
+    "source": "The Verge",
+    "published_at": "2026-08-03T10:50:29-04:00",
+    "summary": "After its 1.0 launch last month, Palworld is coming to iOS and Android with a new open-world MMORPG launching later this year, Polygon reports. Garena, the developer behind the new game, says in its announcement that Palworld Online \"reimagines the depth, freedom, and scale of the original PC survival creature-collecting title for mobile.\" The core [&#8230;]",
+    "keywords_matched": "poly(8)",
+    "keyword_score": 8,
+    "created_at": "2026-08-04 00:30:31"
   },
   {
     "title": "NASA’s Curiosity rover found a ‘sea of polygons’ on Mars",
@@ -108,16 +148,6 @@
     "keywords_matched": "logitech(8)",
     "keyword_score": 8,
     "created_at": "2026-07-23 00:30:12"
-  },
-  {
-    "title": "Could ASML Become Europe’s First Trillion-Dollar Company?",
-    "link": "https://www.uctoday.com/productivity-automation/asml-ai-chip-boom-europe-trillion-dollar-valuation/",
-    "source": "UC Today",
-    "published_at": "Mon, 20 Jul 2026 15:40:50 +0000",
-    "summary": "ASML, the Dutch company that holds a global monopoly on the extreme ultraviolet lithography machines required to manufacture the world&#8217;s most advanced chips, is closing in on a $700 billion market valuation after its shares surged 60% in 2026. Following blowout second-quarter earnings, analysts and investors are now openly asking whether it could become Europe&#8217;s [&#8230;]",
-    "keywords_matched": "poly(8)",
-    "keyword_score": 8,
-    "created_at": "2026-07-20 16:15:56"
   },
   {
     "title": "Enterprise WeChat opens beta testing of AI assistant Dayuan",
