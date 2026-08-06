@@ -60,6 +60,16 @@
     "created_at": "2026-07-24 00:31:07"
   },
   {
+    "title": "Elon pledges to give Nvidia a virtual monopoly over the stars",
+    "link": "https://www.theregister.com/systems/2026/08/05/elon-pledges-to-give-nvidia-a-virtual-monopoly-over-the-stars/5283605",
+    "source": "The Register",
+    "published_at": "Wed, 05 Aug 2026 19:55:59 +0200",
+    "summary": "In space, no one can hear you scream when the LLMs hallucinate",
+    "keywords_matched": "poly(8)",
+    "keyword_score": 8,
+    "created_at": "2026-08-06 00:30:34"
+  },
+  {
     "title": "Palworld’s expanding to mobile with a new MMORPG",
     "link": "https://www.theverge.com/games/974450/palworld-online-mobile-mmo",
     "source": "The Verge",
@@ -128,16 +138,6 @@
     "keywords_matched": "poly(8)",
     "keyword_score": 8,
     "created_at": "2026-07-28 00:57:38"
-  },
-  {
-    "title": "Fetching Trouble: The Ad That Called Logitech Customers Dogs",
-    "link": "https://www.uctoday.com/devices-workspace-tech/logitech-china-distributor-ad-fine-customers-dogs/",
-    "source": "UC Today",
-    "published_at": "Wed, 22 Jul 2026 11:23:58 +0000",
-    "summary": "Shanghai Baishide Electronics Company, a core authorised agent for Logitech in China has been penalised by the market supervisory authority in Shanghai&#8217;s Jingan district following an investigation into a video advertisement published on March 25 on a leading short-form video platform. Last month the distributor was hit with a  200,000 yuan (US$30,000) fine for the [&#8230;]",
-    "keywords_matched": "logitech(8)",
-    "keyword_score": 8,
-    "created_at": "2026-07-23 00:30:12"
   },
   {
     "title": "Enterprise WeChat opens beta testing of AI assistant Dayuan",
