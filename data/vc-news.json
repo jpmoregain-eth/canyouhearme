@@ -1,5 +1,35 @@
 [
   {
+    "title": "Beyond the Cable: Why Microsoft Teams Rooms Need a Wireless Evolution",
+    "link": "https://uctoday.com/beyond-the-cable-why-microsoft-teams-rooms-need-a-wireless-evolution-barco-cs-0183",
+    "source": "UC Today",
+    "published_at": "Thu, 27 Aug 2026 10:07:44 GMT",
+    "summary": "Hybrid work has raised expectations for meeting rooms. UC Today looks at Microsoft Teams Rooms, Barco ClickShare, Logitech and wireless BYOD.",
+    "keywords_matched": "meeting room(10), microsoft teams(10), logitech(8), barco(10), hybrid work(6), teams(1)",
+    "keyword_score": 45,
+    "created_at": "2026-09-05 00:31:11"
+  },
+  {
+    "title": "How Barco and Logitech Are Redefining Microsoft Teams Rooms",
+    "link": "https://uctoday.com/how-barco-and-logitech-are-redefining-microsoft-teams-rooms-barco-cs-0183",
+    "source": "UC Today",
+    "published_at": "Thu, 03 Sep 2026 09:31:00 GMT",
+    "summary": "Hybrid rooms must start fast and stay secure. UC Today explores Barco, Logitech and Microsoft Teams Rooms certification, AI-ready AV, BYOD and analytics.",
+    "keywords_matched": "microsoft teams(10), logitech(8), barco(10), teams(1)",
+    "keyword_score": 29,
+    "created_at": "2026-09-05 00:31:11"
+  },
+  {
+    "title": "The Crestron Flex Roadmap and The AI-Ready Meeting Room Bet",
+    "link": "https://uctoday.com/the-crestron-flex-roadmap-and-the-ai-ready-meeting-room-bet",
+    "source": "UC Today",
+    "published_at": "Mon, 31 Aug 2026 08:23:50 GMT",
+    "summary": "Crestron is moving off fixed Flex kits toward a component architecture built on Collab Compute, and July's end-of-sale notices confirm the direction. Direct USB-C BYOD conferencing is still marked Coming Soon, which matters if that is your room standard.",
+    "keywords_matched": "meeting room(10), crestron(10)",
+    "keyword_score": 20,
+    "created_at": "2026-09-05 00:31:11"
+  },
+  {
     "title": "Microsoft Teams Has Become a Haven for Scammers in China",
     "link": "https://www.wired.com/story/microsoft-teams-is-becoming-a-haven-for-chinese-scammers/",
     "source": "Wired",
@@ -10,6 +40,26 @@
     "created_at": "2026-08-29 00:30:49"
   },
   {
+    "title": "Google Buys Spirit's Teams Data: What If Your Company Folds?",
+    "link": "https://uctoday.com/google-buys-teams-data-what-if-your-company-folds",
+    "source": "UC Today",
+    "published_at": "Thu, 20 Aug 2026 09:34:45 GMT",
+    "summary": "Why it matters: a bankrupt Spirit Airlines archive with 500 million Microsoft Teams chats is being sold to Google, raising Teams governance and AI training ques",
+    "keywords_matched": "microsoft teams(10), teams(1)",
+    "keyword_score": 11,
+    "created_at": "2026-09-05 00:31:11"
+  },
+  {
+    "title": "How Crestron Keeps Espai Barça Running After The Final Whistle",
+    "link": "https://uctoday.com/how-crestron-keeps-espai-bar-a-running-after-the-final-whistle-crestron-cs-0232",
+    "source": "UC Today",
+    "published_at": "Tue, 25 Aug 2026 10:59:41 GMT",
+    "summary": "Crestron AV and control now help Espai Barça reset Spotify Camp Nou after matchday for meetings and events. Published on UC Today.",
+    "keywords_matched": "crestron(10)",
+    "keyword_score": 10,
+    "created_at": "2026-09-05 00:31:11"
+  },
+  {
     "title": "What’s next for Avaya?",
     "link": "https://www.nojitter.com/contact-centers/what-is-next-for-avaya",
     "source": "No Jitter",
@@ -18,6 +68,16 @@
     "keywords_matched": "avaya(10)",
     "keyword_score": 10,
     "created_at": "2026-08-25 00:31:08"
+  },
+  {
+    "title": "HP Q3 Earnings: Poly Moves Into Workplace Platform",
+    "link": "https://uctoday.com/hp-q3-earnings-poly-moves-into-workplace-platform",
+    "source": "UC Today",
+    "published_at": "Thu, 27 Aug 2026 15:39:45 GMT",
+    "summary": "HP Q3 earnings saw PC shipments fall 16% as HP integrated Poly Lens into WXP, bringing PCs, printers and collaboration devices into one workplace platform.",
+    "keywords_matched": "poly(8)",
+    "keyword_score": 8,
+    "created_at": "2026-09-05 00:31:11"
   },
   {
     "title": "Polymarket reportedly raises $300 million from Donald Trump Jr.’s investment fund",
@@ -48,5 +108,15 @@
     "keywords_matched": "logitech(8)",
     "keyword_score": 8,
     "created_at": "2026-08-25 00:31:15"
+  },
+  {
+    "title": "Women In Telecoms Beyond Balance: Navigating Family Life",
+    "link": "https://uctoday.com/women-in-telecoms-podcast-ep-4-beyond-balance-navigating-family-life",
+    "source": "UC Today",
+    "published_at": "Thu, 20 Aug 2026 14:43:02 GMT",
+    "summary": "Why it matters: childcare, parental leave and hybrid work shape retention in telecoms. Published on UC Today, the podcast tackles flexibility and support.",
+    "keywords_matched": "hybrid work(6)",
+    "keyword_score": 6,
+    "created_at": "2026-09-05 00:31:11"
   }
 ]
