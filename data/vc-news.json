@@ -60,16 +60,6 @@
     "created_at": "2026-09-10 00:30:17"
   },
   {
-    "title": "Microsoft Teams Has Become a Haven for Scammers in China",
-    "link": "https://www.wired.com/story/microsoft-teams-is-becoming-a-haven-for-chinese-scammers/",
-    "source": "Wired",
-    "published_at": "Fri, 28 Aug 2026 18:23:17 +0000",
-    "summary": "Fraudsters are exploiting enterprise chat apps like Teams and Webex to trick Chinese victims into transferring large sums of money, fueling a wave of complaints.",
-    "keywords_matched": "microsoft teams(10), teams(1), webex(2)",
-    "keyword_score": 13,
-    "created_at": "2026-08-29 00:30:49"
-  },
-  {
     "title": "Google Buys Spirit's Teams Data: What If Your Company Folds?",
     "link": "https://uctoday.com/google-buys-teams-data-what-if-your-company-folds",
     "source": "UC Today",
@@ -80,6 +70,16 @@
     "created_at": "2026-09-05 00:31:11"
   },
   {
+    "title": "6 highlights on how AI pricing shifts from access to outcomes",
+    "link": "https://www.nojitter.com/ai-automation/6-articles-on-the-shift-to-consumption-or-outcome-based",
+    "source": "No Jitter",
+    "published_at": "Fri, 11 Sep 2026 13:43:12 GMT",
+    "summary": "AI has affected how providers set pricing models, bringing new challenges to CRM, UCaaS and CCaaS.",
+    "keywords_matched": "ucaas(10)",
+    "keyword_score": 10,
+    "created_at": "2026-09-12 00:30:55"
+  },
+  {
     "title": "How Crestron Keeps Espai Barça Running After The Final Whistle",
     "link": "https://uctoday.com/how-crestron-keeps-espai-bar-a-running-after-the-final-whistle-crestron-cs-0232",
     "source": "UC Today",
@@ -88,6 +88,16 @@
     "keywords_matched": "crestron(10)",
     "keyword_score": 10,
     "created_at": "2026-09-05 00:31:11"
+  },
+  {
+    "title": "The US Government Launched 3 Previously Unreported Investigations of Polymarket Trades",
+    "link": "https://www.wired.com/story/polymarket-investigations-iran-biden-google-foia/",
+    "source": "Wired",
+    "published_at": "Fri, 11 Sep 2026 19:21:34 +0000",
+    "summary": "The agency that oversees prediction markets has investigated Polymarket trades on Biden pardons and the Iran war—and even more potential insider trading at Google, documents obtained by WIRED show.",
+    "keywords_matched": "poly(8)",
+    "keyword_score": 8,
+    "created_at": "2026-09-12 00:30:59"
   },
   {
     "title": "Can Logitech MX Keypad Simplify AI Coding Workflows?",
