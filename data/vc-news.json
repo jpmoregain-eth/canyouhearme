@@ -60,6 +60,16 @@
     "created_at": "2026-09-10 00:30:17"
   },
   {
+    "title": "Microsoft Teams & Copilot: What's New in September 2026",
+    "link": "https://uctoday.com/microsoft-teams-copilot-whats-new-in-september-2026",
+    "source": "UC Today",
+    "published_at": "Mon, 14 Sep 2026 11:01:00 GMT",
+    "summary": "Teams AI is moving from prompt-led to proactive. UC Today covers Facilitator web search, third-party agents in the Teams admin centre, and device updates.",
+    "keywords_matched": "microsoft teams(10), teams(1)",
+    "keyword_score": 11,
+    "created_at": "2026-09-15 00:30:27"
+  },
+  {
     "title": "Google Buys Spirit's Teams Data: What If Your Company Folds?",
     "link": "https://uctoday.com/google-buys-teams-data-what-if-your-company-folds",
     "source": "UC Today",
@@ -68,6 +78,16 @@
     "keywords_matched": "microsoft teams(10), teams(1)",
     "keyword_score": 11,
     "created_at": "2026-09-05 00:31:11"
+  },
+  {
+    "title": "Why eSIM holds the key to unlocking true mobile UCaaS",
+    "link": "https://www.nojitter.com/infrastructure/why-esim-holds-the-key-to-unlocking-true-mobile-ucaas",
+    "source": "No Jitter",
+    "published_at": "Mon, 14 Sep 2026 12:07:47 GMT",
+    "summary": "Not only would this solve a big problem for SMBs, but it helps extend a business-grade user experience to mobile devices.",
+    "keywords_matched": "ucaas(10)",
+    "keyword_score": 10,
+    "created_at": "2026-09-15 00:30:28"
   },
   {
     "title": "6 highlights on how AI pricing shifts from access to outcomes",
@@ -118,16 +138,6 @@
     "keywords_matched": "poly(8)",
     "keyword_score": 8,
     "created_at": "2026-09-05 00:31:11"
-  },
-  {
-    "title": "Polymarket reportedly raises $300 million from Donald Trump Jr.’s investment fund",
-    "link": "https://techcrunch.com/2026/08/31/polymarket-reportedly-raises-300-million-from-donald-trump-jr-s-investment-fund/",
-    "source": "TechCrunch",
-    "published_at": "Mon, 31 Aug 2026 23:41:10 +0000",
-    "summary": "The firm, 1789 Capital, led the funding round that reportedly will total around $1 billion.",
-    "keywords_matched": "poly(8)",
-    "keyword_score": 8,
-    "created_at": "2026-09-01 00:30:45"
   },
   {
     "title": "Bending Spoons to buy collaboration tools maker Miro for $1.36B, 90% less than its 2022 valuation",
