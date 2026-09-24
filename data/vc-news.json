@@ -20,24 +20,14 @@
     "created_at": "2026-09-22 00:30:34"
   },
   {
-    "title": "How to secure hybrid meeting rooms without sacrificing user experience",
-    "link": "https://www.theregister.com/security/2026/09/08/sponsored-how-to-secure-hybrid-meeting-rooms-without-sacrificing-user-experience/5294440",
-    "source": "The Register",
-    "published_at": "Tue, 08 Sep 2026 17:00:00 +0200",
-    "summary": "SPONSORED FEATURE: With regulators tightening rules and attack surfaces widening, meeting-room kit must bake in security without pushing users toward workarounds",
-    "keywords_matched": "meeting room(10), hybrid meeting(6)",
-    "keyword_score": 16,
-    "created_at": "2026-09-10 00:30:26"
-  },
-  {
-    "title": "The $130 Million Problem That Is Hiding in Your Calendar",
-    "link": "https://uctoday.com/the-130-million-problem-that-is-hiding-in-your-calendar-jabra-cs-0207",
+    "title": "The Cloud Voice Migration Trap Most IT Teams Still Miss",
+    "link": "https://uctoday.com/the-cloud-voice-migration-trap-most-it-teams-still-miss-tatacommunications-cs-0242",
     "source": "UC Today",
-    "published_at": "Tue, 08 Sep 2026 12:31:00 GMT",
-    "summary": "Bad meetings are costing organisations time and money. Jabra’s study of 2,300 workers shows the impact on hybrid meetings, IT and inclusion.",
-    "keywords_matched": "jabra(8), hybrid meeting(6)",
-    "keyword_score": 14,
-    "created_at": "2026-09-10 00:30:17"
+    "published_at": "Tue, 22 Sep 2026 12:31:00 GMT",
+    "summary": "Why cloud voice projects fail: legacy PBX, UCaaS, Teams, PSTN, SIP trunking and local regulation all shape migration at scale. UC Today explains.",
+    "keywords_matched": "ucaas(10), teams(1)",
+    "keyword_score": 11,
+    "created_at": "2026-09-23 00:30:33"
   },
   {
     "title": "What Apple's iPhone Duo Means for the Meeting Room",
@@ -60,6 +50,16 @@
     "created_at": "2026-09-15 00:30:27"
   },
   {
+    "title": "From Features to Lifecycle Trust: Securing UC Hardware",
+    "link": "https://uctoday.com/from-features-to-lifecycle-trust-securing-uc-hardware-yealink-cs-0227",
+    "source": "UC Today",
+    "published_at": "Wed, 23 Sep 2026 13:16:00 GMT",
+    "summary": "Why UC hardware security now hinges on lifecycle trust: Yealink’s S.A.F.E.R. framework, Secure by Design, PSIRT, CISA pledge and encryption.",
+    "keywords_matched": "yealink(10)",
+    "keyword_score": 10,
+    "created_at": "2026-09-24 00:30:24"
+  },
+  {
     "title": "Why eSIM holds the key to unlocking true mobile UCaaS",
     "link": "https://www.nojitter.com/infrastructure/why-esim-holds-the-key-to-unlocking-true-mobile-ucaas",
     "source": "No Jitter",
@@ -78,6 +78,26 @@
     "keywords_matched": "ucaas(10)",
     "keyword_score": 10,
     "created_at": "2026-09-12 00:30:55"
+  },
+  {
+    "title": "Logitech Spot Now Integrates With 10 Workplace Platforms",
+    "link": "https://uctoday.com/logitech-spot-now-integrates-with-10-workplace-platforms",
+    "source": "UC Today",
+    "published_at": "Tue, 22 Sep 2026 14:01:00 GMT",
+    "summary": "Logitech Spot now integrates with 10 partners, from Appspace to Zoom, turning sensor data into automated workplace actions and insights.",
+    "keywords_matched": "logitech(8), zoom(1)",
+    "keyword_score": 9,
+    "created_at": "2026-09-23 00:30:33"
+  },
+  {
+    "title": "She’s 28, Loves God and Her Family, and Might Be the Reason You Can’t Have Kids",
+    "link": "https://www.wired.com/story/emma-waters-fertility-tech/",
+    "source": "Wired",
+    "published_at": "Wed, 23 Sep 2026 10:00:00 +0000",
+    "summary": "No IVF. No surrogacy. No polygenic tests. Emma Waters is leading a national fight against fertility tech—with her hot husband’s permission, of course.",
+    "keywords_matched": "poly(8)",
+    "keyword_score": 8,
+    "created_at": "2026-09-24 00:30:29"
   },
   {
     "title": "The hidden monopoly behind your TI graphing calculator",
@@ -148,15 +168,5 @@
     "keywords_matched": "collaboration tools(6)",
     "keyword_score": 6,
     "created_at": "2026-09-11 00:31:38"
-  },
-  {
-    "title": "Why VergeSense and Pointr Partnered on Office Planning",
-    "link": "https://uctoday.com/vergesense-pointr-partnership",
-    "source": "UC Today",
-    "published_at": "Tue, 08 Sep 2026 14:01:00 GMT",
-    "summary": "VergeSense and Pointr's new partnership tackles hybrid work's biggest space planning blind spot with predictive, data-driven modeling.",
-    "keywords_matched": "hybrid work(6)",
-    "keyword_score": 6,
-    "created_at": "2026-09-10 00:30:17"
   }
 ]
