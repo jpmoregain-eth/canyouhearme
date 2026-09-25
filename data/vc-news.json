@@ -1,15 +1,5 @@
 [
   {
-    "title": "The IT Leader's Guide to Scalable, Wireless Microsoft Teams Rooms",
-    "link": "https://uctoday.com/the-it-leaders-guide-to-scalable-wireless-microsoft-teams-rooms-barco-cs-0183",
-    "source": "UC Today",
-    "published_at": "Thu, 10 Sep 2026 09:39:15 GMT",
-    "summary": "Teams Rooms standardisation is only part of the answer. UC Today looks at Logitech, Barco ClickShare and certified Microsoft Teams Rooms for wireless BYOD, audi",
-    "keywords_matched": "microsoft teams(10), logitech(8), barco(10), teams(1)",
-    "keyword_score": 29,
-    "created_at": "2026-09-11 00:31:29"
-  },
-  {
     "title": "This Week in UC&C: AI Agents, Revenue Tools, New Defaults",
     "link": "https://uctoday.com/this-week-in-uc-c-ai-agents-revenue-tools-new-defaults",
     "source": "UC Today",
@@ -18,6 +8,16 @@
     "keywords_matched": "google meet(10), cisco(5), zoom(1)",
     "keyword_score": 16,
     "created_at": "2026-09-22 00:30:34"
+  },
+  {
+    "title": "The Untapped Spaces Your Teams Rooms Rollout Hasn't Reached",
+    "link": "https://uctoday.com/the-untapped-spaces-your-teams-rooms-deployment-has-not-reached-yet-qsc-cs-0233",
+    "source": "UC Today",
+    "published_at": "Thu, 24 Sep 2026 09:31:00 GMT",
+    "summary": "Boardrooms are done; shared spaces now expose fragmented support and higher costs. UC Today looks at Microsoft Teams Rooms, QSC and Q-SYS.",
+    "keywords_matched": "microsoft teams(10), teams(1)",
+    "keyword_score": 11,
+    "created_at": "2026-09-25 00:30:17"
   },
   {
     "title": "The Cloud Voice Migration Trap Most IT Teams Still Miss",
@@ -148,25 +148,5 @@
     "keywords_matched": "poly(8)",
     "keyword_score": 8,
     "created_at": "2026-09-12 00:30:59"
-  },
-  {
-    "title": "Can Logitech MX Keypad Simplify AI Coding Workflows?",
-    "link": "https://uctoday.com/can-logitech-mx-keypad-simplify-ai-coding-workflows",
-    "source": "UC Today",
-    "published_at": "Thu, 10 Sep 2026 08:51:00 GMT",
-    "summary": "Logitech MX Keypad brings programmable physical controls to GitHub Copilot, coding agents, and multi-app developer workflows",
-    "keywords_matched": "logitech(8)",
-    "keyword_score": 8,
-    "created_at": "2026-09-11 00:31:29"
-  },
-  {
-    "title": "Bending Spoons to buy collaboration tools maker Miro for $1.36B, 90% less than its 2022 valuation",
-    "link": "https://techcrunch.com/2026/09/10/bending-spoons-to-buy-collaboration-tools-maker-miro-for-1-36b-90-less-than-its-2022-valuation/",
-    "source": "TechCrunch",
-    "published_at": "Thu, 10 Sep 2026 14:34:09 +0000",
-    "summary": "Bending Spoons is buying Miro for $1.36 billion, a huge dip in valuation for the workplace collaboration startup, which was valued at $17.5 billion in late 2021.",
-    "keywords_matched": "collaboration tools(6)",
-    "keyword_score": 6,
-    "created_at": "2026-09-11 00:31:38"
   }
 ]
