@@ -1,5 +1,15 @@
 [
   {
+    "title": "Cisco vs Microsoft Teams Rooms: The Room Management Battle",
+    "link": "https://uctoday.com/cisco-vs-microsoft-teams-rooms-meeting-room-management-battle",
+    "source": "UC Today",
+    "published_at": "Fri, 25 Sep 2026 12:31:00 GMT",
+    "summary": "Buyer demand is shifting from smart rooms to fewer IT handoffs. Cisco Webex Control Hub and Microsoft Teams Rooms Pro Management now overlap in deployment, AI f",
+    "keywords_matched": "microsoft teams(10), cisco webex(10), cisco(5), teams(1), webex(2)",
+    "keyword_score": 28,
+    "created_at": "2026-09-26 00:30:19"
+  },
+  {
     "title": "This Week in UC&C: AI Agents, Revenue Tools, New Defaults",
     "link": "https://uctoday.com/this-week-in-uc-c-ai-agents-revenue-tools-new-defaults",
     "source": "UC Today",
@@ -70,16 +80,6 @@
     "created_at": "2026-09-15 00:30:28"
   },
   {
-    "title": "6 highlights on how AI pricing shifts from access to outcomes",
-    "link": "https://www.nojitter.com/ai-automation/6-articles-on-the-shift-to-consumption-or-outcome-based",
-    "source": "No Jitter",
-    "published_at": "Fri, 11 Sep 2026 13:43:12 GMT",
-    "summary": "AI has affected how providers set pricing models, bringing new challenges to CRM, UCaaS and CCaaS.",
-    "keywords_matched": "ucaas(10)",
-    "keyword_score": 10,
-    "created_at": "2026-09-12 00:30:55"
-  },
-  {
     "title": "Logitech Spot Now Integrates With 10 Workplace Platforms",
     "link": "https://uctoday.com/logitech-spot-now-integrates-with-10-workplace-platforms",
     "source": "UC Today",
@@ -138,15 +138,5 @@
     "keywords_matched": "jabra(8)",
     "keyword_score": 8,
     "created_at": "2026-09-17 00:30:11"
-  },
-  {
-    "title": "The US Government Launched 3 Previously Unreported Investigations of Polymarket Trades",
-    "link": "https://www.wired.com/story/polymarket-investigations-iran-biden-google-foia/",
-    "source": "Wired",
-    "published_at": "Fri, 11 Sep 2026 19:21:34 +0000",
-    "summary": "The agency that oversees prediction markets has investigated Polymarket trades on Biden pardons and the Iran war—and even more potential insider trading at Google, documents obtained by WIRED show.",
-    "keywords_matched": "poly(8)",
-    "keyword_score": 8,
-    "created_at": "2026-09-12 00:30:59"
   }
 ]
