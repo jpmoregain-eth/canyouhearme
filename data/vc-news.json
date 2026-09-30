@@ -40,16 +40,6 @@
     "created_at": "2026-09-23 00:30:33"
   },
   {
-    "title": "What Apple's iPhone Duo Means for the Meeting Room",
-    "link": "https://uctoday.com/what-apples-iphone-duo-means-for-the-meeting-room",
-    "source": "UC Today",
-    "published_at": "Tue, 15 Sep 2026 14:01:00 GMT",
-    "summary": "Apple’s foldable iPhone Duo hints at where meeting room hardware is heading, with split-screen collaboration that matter to Zoom buyers, UC Today reports",
-    "keywords_matched": "meeting room(10), zoom(1)",
-    "keyword_score": 11,
-    "created_at": "2026-09-16 00:30:45"
-  },
-  {
     "title": "From Features to Lifecycle Trust: Securing UC Hardware",
     "link": "https://uctoday.com/from-features-to-lifecycle-trust-securing-uc-hardware-yealink-cs-0227",
     "source": "UC Today",
@@ -118,5 +108,15 @@
     "keywords_matched": "jabra(8)",
     "keyword_score": 8,
     "created_at": "2026-09-17 00:30:11"
+  },
+  {
+    "title": "How Can Companies Tame the Chaos Hybrid Work Created?",
+    "link": "https://uctoday.com/why-the-workplace-finally-needs-a-system-of-record",
+    "source": "UC Today",
+    "published_at": "Tue, 29 Sep 2026 08:21:00 GMT",
+    "summary": "Hybrid work is making office demand harder to predict as businesses balance real-estate costs with the need to make in-person work more effective",
+    "keywords_matched": "hybrid work(6)",
+    "keyword_score": 6,
+    "created_at": "2026-09-30 00:30:42"
   }
 ]
