@@ -10,6 +10,16 @@
     "created_at": "2026-09-26 00:30:19"
   },
   {
+    "title": "Beyond the Meeting Room: Spaces that Maximize Teams",
+    "link": "https://uctoday.com/beyond-the-meeting-room-spaces-that-maximize-teams-qsc-cs-0233",
+    "source": "UC Today",
+    "published_at": "Wed, 30 Sep 2026 12:31:00 GMT",
+    "summary": "Smaller Teams rooms can undermine consistency, so QSC is extending Microsoft Teams Rooms with Q-SYS, Reflect and Express Install. UC Today explains why.",
+    "keywords_matched": "meeting room(10), microsoft teams(10), teams(1)",
+    "keyword_score": 21,
+    "created_at": "2026-10-01 00:30:57"
+  },
+  {
     "title": "This Week in UC&C: AI Agents, Revenue Tools, New Defaults",
     "link": "https://uctoday.com/this-week-in-uc-c-ai-agents-revenue-tools-new-defaults",
     "source": "UC Today",
@@ -38,6 +48,16 @@
     "keywords_matched": "ucaas(10), teams(1)",
     "keyword_score": 11,
     "created_at": "2026-09-23 00:30:33"
+  },
+  {
+    "title": "Show colleagues how much you care by sending an AI avatar to your Google Meet call",
+    "link": "https://www.theregister.com/ai-and-ml/2026/09/30/show-colleagues-how-much-you-care-by-sending-an-ai-avatar-to-your-google-meet-call/5300205",
+    "source": "The Register",
+    "published_at": "Wed, 30 Sep 2026 18:03:07 +0200",
+    "summary": "MeetTwins is still in development, but it's a genius idea if the goal is to prove more time-wasting calls should just be emails",
+    "keywords_matched": "google meet(10)",
+    "keyword_score": 10,
+    "created_at": "2026-10-01 00:31:06"
   },
   {
     "title": "From Features to Lifecycle Trust: Securing UC Hardware",
@@ -78,36 +98,6 @@
     "keywords_matched": "poly(8)",
     "keyword_score": 8,
     "created_at": "2026-09-21 00:30:24"
-  },
-  {
-    "title": "Logitech releases the MX Keypad to keep idle fingers busy",
-    "link": "https://www.theregister.com/personal-tech/2026/09/16/logitech-releases-the-mx-keypad-to-keep-idle-fingers-busy/5296573",
-    "source": "The Register",
-    "published_at": "Wed, 16 Sep 2026 13:15:00 +0200",
-    "summary": "It looks like you're trying to write some code. Perhaps a shortcut is in order?",
-    "keywords_matched": "logitech(8)",
-    "keyword_score": 8,
-    "created_at": "2026-09-17 00:30:19"
-  },
-  {
-    "title": "How Fortell is using AI (and $163M) to crack a hearing aid monopoly",
-    "link": "https://techcrunch.com/video/how-fortell-is-using-ai-and-163m-to-crack-a-hearing-aid-monopoly/",
-    "source": "TechCrunch",
-    "published_at": "Wed, 16 Sep 2026 16:00:00 +0000",
-    "summary": "“Why do I have to beg my grandparents to put on their hearing aids, but no one has ever needed to ask me to put on my glasses?”&#160; That’s&#160;the question that drove&#160;Matthew de Jonge&#160;to spend six years building&#160;Fortell, an AI hearing aid startup that&#160;recently&#160;raised $163&#160;million from the likes of Founders Fund, Thrive Capital, and&#160;Valor Equity [&#8230;]",
-    "keywords_matched": "poly(8)",
-    "keyword_score": 8,
-    "created_at": "2026-09-17 00:30:17"
-  },
-  {
-    "title": "One Size Doesn't Fit All: The Case for Role-Based Headsets",
-    "link": "https://uctoday.com/one-size-doesnt-fit-all-the-case-for-role-based-headsets-jabra-cs-0207",
-    "source": "UC Today",
-    "published_at": "Wed, 16 Sep 2026 12:31:00 GMT",
-    "summary": "One headset for every worker is costing organisations productivity and AI accuracy. UC Today looks at Jabra role-based headsets for desk, open-office and hybrid",
-    "keywords_matched": "jabra(8)",
-    "keyword_score": 8,
-    "created_at": "2026-09-17 00:30:11"
   },
   {
     "title": "How Can Companies Tame the Chaos Hybrid Work Created?",
