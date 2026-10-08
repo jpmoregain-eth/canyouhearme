@@ -10,6 +10,26 @@
     "created_at": "2026-09-26 00:30:19"
   },
   {
+    "title": "WebexOne 2026: Cisco Bets on AI to Redefine the Meeting Room",
+    "link": "https://uctoday.com/webexone-2026-cisco-bets-on-ai-to-redefine-the-meeting-room",
+    "source": "UC Today",
+    "published_at": "Wed, 07 Oct 2026 20:15:24 GMT",
+    "summary": "Espen Løberg explains what RoomOS 27, native Google Meet, the AI room assistant and Ceiling Speaker Pro mean for Cisco's device strategy",
+    "keywords_matched": "meeting room(10), google meet(10), cisco(5), webex(2)",
+    "keyword_score": 27,
+    "created_at": "2026-10-08 00:30:20"
+  },
+  {
+    "title": "From the Meeting Room to Your High-Performance Workplace",
+    "link": "https://uctoday.com/from-the-meeting-room-to-your-high-performance-workplace-qsc-cs-0233",
+    "source": "UC Today",
+    "published_at": "Wed, 07 Oct 2026 12:31:00 GMT",
+    "summary": "A complete Teams estate changes IT planning. UC Today looks at QSC, Microsoft Teams Rooms, EC1 and AI-ready workplace monitoring across every space.",
+    "keywords_matched": "meeting room(10), microsoft teams(10), teams(1)",
+    "keyword_score": 21,
+    "created_at": "2026-10-08 00:30:20"
+  },
+  {
     "title": "Beyond the Meeting Room: Spaces that Maximize Teams",
     "link": "https://uctoday.com/beyond-the-meeting-room-spaces-that-maximize-teams-qsc-cs-0233",
     "source": "UC Today",
@@ -40,6 +60,16 @@
     "created_at": "2026-10-03 00:31:04"
   },
   {
+    "title": "From reactive to proactive: How endpoint monitoring is fixing broken meeting rooms",
+    "link": "https://www.theregister.com/on-prem/2026/10/07/sponsored-from-reactive-to-proactive-how-endpoint-monitoring-is-fixing-broken-meeting-rooms/5287777",
+    "source": "The Register",
+    "published_at": "Wed, 07 Oct 2026 10:00:00 +0200",
+    "summary": "SPONSORED FEATURE: Cloud-based telemetry is turning meeting rooms into managed endpoints, letting IT teams anticipate failures rather than scramble once users complain",
+    "keywords_matched": "meeting room(10), teams(1)",
+    "keyword_score": 11,
+    "created_at": "2026-10-08 00:30:27"
+  },
+  {
     "title": "Microsoft’s Office and Teams chief is leaving",
     "link": "https://www.theverge.com/news/1003515/microsoft-ryan-roslansky-office-teams-linkedin-leaving",
     "source": "The Verge",
@@ -68,26 +98,6 @@
     "keywords_matched": "google meet(10)",
     "keyword_score": 10,
     "created_at": "2026-10-01 00:31:06"
-  },
-  {
-    "title": "From Features to Lifecycle Trust: Securing UC Hardware",
-    "link": "https://uctoday.com/from-features-to-lifecycle-trust-securing-uc-hardware-yealink-cs-0227",
-    "source": "UC Today",
-    "published_at": "Wed, 23 Sep 2026 13:16:00 GMT",
-    "summary": "Why UC hardware security now hinges on lifecycle trust: Yealink’s S.A.F.E.R. framework, Secure by Design, PSIRT, CISA pledge and encryption.",
-    "keywords_matched": "yealink(10)",
-    "keyword_score": 10,
-    "created_at": "2026-09-24 00:30:24"
-  },
-  {
-    "title": "She’s 28, Loves God and Her Family, and Might Be the Reason You Can’t Have Kids",
-    "link": "https://www.wired.com/story/emma-waters-fertility-tech/",
-    "source": "Wired",
-    "published_at": "Wed, 23 Sep 2026 10:00:00 +0000",
-    "summary": "No IVF. No surrogacy. No polygenic tests. Emma Waters is leading a national fight against fertility tech—with her hot husband’s permission, of course.",
-    "keywords_matched": "poly(8)",
-    "keyword_score": 8,
-    "created_at": "2026-09-24 00:30:29"
   },
   {
     "title": "How Can Companies Tame the Chaos Hybrid Work Created?",
