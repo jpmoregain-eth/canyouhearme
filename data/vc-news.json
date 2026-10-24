@@ -10,26 +10,6 @@
     "created_at": "2026-10-11 00:30:35"
   },
   {
-    "title": "This Week in UC&C: Cisco Goes Open at WebexOne 2026",
-    "link": "https://uctoday.com/this-week-in-uc-c-cisco-goes-open-at-webexone-2026",
-    "source": "UC Today",
-    "published_at": "Fri, 09 Oct 2026 14:01:00 GMT",
-    "summary": "Cisco opened Webex to Claude and its rooms to Google Meet at WebexOne 2026. What Cisco execs told UC Today, plus the rest of the UC&amp;C week",
-    "keywords_matched": "google meet(10), cisco(5), webex(2)",
-    "keyword_score": 17,
-    "created_at": "2026-10-10 00:30:28"
-  },
-  {
-    "title": "Zoom Rooms on Cisco Hits a Delay & Room Data Battle Heats Up",
-    "link": "https://uctoday.com/zoom-rooms-on-cisco-hits-a-delay-room-data-battle-heats-up",
-    "source": "UC Today",
-    "published_at": "Fri, 09 Oct 2026 12:31:00 GMT",
-    "summary": "Zoom Rooms on Cisco has slipped to Q4 2026, leaving buyers to choose between native and interop while Zoom and Cisco split room management and analytics.",
-    "keywords_matched": "zoom rooms(10), cisco(5), zoom(1)",
-    "keyword_score": 16,
-    "created_at": "2026-10-10 00:30:28"
-  },
-  {
     "title": "This Week: Apple Puts AI at the Heart of Shared Spaces",
     "link": "https://uctoday.com/this-week-apple-puts-ai-at-the-heart-of-shared-spaces",
     "source": "UC Today",
@@ -38,16 +18,6 @@
     "keywords_matched": "logitech(8), collaboration tools(6)",
     "keyword_score": 14,
     "created_at": "2026-10-17 00:36:08"
-  },
-  {
-    "title": "This Week: Cisco's AI Workplace Push Meets New Devices",
-    "link": "https://uctoday.com/this-week-ciscos-ai-workplace-push-meets-new-devices",
-    "source": "UC Today",
-    "published_at": "Fri, 09 Oct 2026 11:01:00 GMT",
-    "summary": "Cisco, Microsoft and Logitech have unveiled AI-led workplace devices and management tools. UC Today shows why local AI, rooms and data matter for IT teams.",
-    "keywords_matched": "logitech(8), cisco(5), teams(1)",
-    "keyword_score": 14,
-    "created_at": "2026-10-10 00:30:28"
   },
   {
     "title": "UC Awards 2026 Finalists Revealed: See The Full Shortlist",
@@ -108,6 +78,16 @@
     "keywords_matched": "meeting room(10)",
     "keyword_score": 10,
     "created_at": "2026-10-14 00:31:26"
+  },
+  {
+    "title": "Michigan prof creates Python-like Jac language for AI agents",
+    "link": "https://www.theregister.com/devops/2026/10/23/michigan-prof-creates-python-like-jac-language-for-ai-agents/5305110",
+    "source": "The Register",
+    "published_at": "Fri, 23 Oct 2026 15:46:19 +0000",
+    "summary": "Stop burning $165K on AI rewrites; Jac is meant to \"gobble up\" your polyglot stack",
+    "keywords_matched": "poly(8)",
+    "keyword_score": 8,
+    "created_at": "2026-10-24 00:30:30"
   },
   {
     "title": "Jabra Enhance Select M3 Review (2026): A Big Price for Small Wins",
