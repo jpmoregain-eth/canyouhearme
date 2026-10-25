@@ -1,15 +1,5 @@
 [
   {
-    "title": "The 53% Utilization Trap: Redefining Meeting Room ROI",
-    "link": "https://uctoday.com/the-53-utilization-trap-redefining-meeting-room-roi",
-    "source": "UC Today",
-    "published_at": "Sat, 10 Oct 2026 08:01:00 GMT",
-    "summary": "Office use is rising, so buyers need better ROI evidence. Logitech, CBRE and JLL data show where meeting rooms fail and what it costs, UC Today reports.",
-    "keywords_matched": "meeting room(10), logitech(8)",
-    "keyword_score": 18,
-    "created_at": "2026-10-11 00:30:35"
-  },
-  {
     "title": "This Week: Apple Puts AI at the Heart of Shared Spaces",
     "link": "https://uctoday.com/this-week-apple-puts-ai-at-the-heart-of-shared-spaces",
     "source": "UC Today",
@@ -38,6 +28,16 @@
     "keywords_matched": "yealink(10), teams(1)",
     "keyword_score": 11,
     "created_at": "2026-10-15 00:31:16"
+  },
+  {
+    "title": "The Q4 Space Decision: What Occupiers Lock In This Month",
+    "link": "https://uctoday.com/the-q4-space-decision-what-occupiers-lock-in-this-month",
+    "source": "UC Today",
+    "published_at": "Sat, 24 Oct 2026 08:01:00 GMT",
+    "summary": "Why Q4 space decisions matter: CBRE, JLL and new HubStar, OfficeSpace, Robin, VergeSense tools shape 2027 budgets, meeting rooms and data.",
+    "keywords_matched": "meeting room(10)",
+    "keyword_score": 10,
+    "created_at": "2026-10-25 00:30:10"
   },
   {
     "title": "You're Ready to Go Global, But Is Your Customer Experience?",
