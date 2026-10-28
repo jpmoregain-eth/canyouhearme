@@ -1,5 +1,15 @@
 [
   {
+    "title": "How everyday technology choices drive true workplace sustainability",
+    "link": "https://www.theregister.com/on-prem/2026/10/27/sponsored-how-everyday-technology-choices-drive-true-workplace-sustainability/5296594",
+    "source": "The Register",
+    "published_at": "Tue, 27 Oct 2026 09:00:00 +0000",
+    "summary": "<span class=\"font-weight-bold m-font-weight-bold\">SPONSORED FEATURE:</span> Introducing certified, environmentally friendly meeting room solutions, such as Barco ClickShare, in a standardized way across the organization can make the difference between hitting sustainability goals or not",
+    "keywords_matched": "meeting room(10), barco(10)",
+    "keyword_score": 20,
+    "created_at": "2026-10-28 00:30:38"
+  },
+  {
     "title": "This Week: Apple Puts AI at the Heart of Shared Spaces",
     "link": "https://uctoday.com/this-week-apple-puts-ai-at-the-heart-of-shared-spaces",
     "source": "UC Today",
@@ -48,36 +58,6 @@
     "keywords_matched": "unified communications(10)",
     "keyword_score": 10,
     "created_at": "2026-10-20 00:31:50"
-  },
-  {
-    "title": "FBI arrests OpenAI employee accused of planting hidden recording device in conference room",
-    "link": "https://techcrunch.com/2026/10/13/fbi-arrests-openai-employee-accused-of-planting-hidden-recording-device-in-conference-room/",
-    "source": "TechCrunch",
-    "published_at": "Tue, 13 Oct 2026 20:59:11 +0000",
-    "summary": "It's not clear exactly for what purpose the recording device was used, but FBI director Kash Patel said the scheme was to \"capture sensitive communications about the company’s super intelligence technology.\"",
-    "keywords_matched": "conference room(10)",
-    "keyword_score": 10,
-    "created_at": "2026-10-14 00:31:28"
-  },
-  {
-    "title": "OpenAI employee arrested for allegedly planting a bug in a conference room",
-    "link": "https://www.theverge.com/ai-artificial-intelligence/1010642/openai-employee-arrested-recording-device",
-    "source": "The Verge",
-    "published_at": "2026-10-13T16:45:25-04:00",
-    "summary": "An OpenAI engineer was arrested after the company said it discovered a \"sophisticated recording device\" hidden in one of its offices. The employee was identified as Abdulrahman Alfozan, a 35-year-old Saudi national. Alfozan is charged with using or endeavoring to use a device to intercept oral communications, according to a press release from the Department [&#8230;]",
-    "keywords_matched": "conference room(10)",
-    "keyword_score": 10,
-    "created_at": "2026-10-14 00:31:27"
-  },
-  {
-    "title": "An OpenAI Employee Allegedly Used a Chatbot to Help Plant a Recording Device at the Office",
-    "link": "https://www.wired.com/story/an-openai-employee-allegedly-used-a-chatbot-to-help-plant-a-recording-device-at-the-office/",
-    "source": "Wired",
-    "published_at": "Tue, 13 Oct 2026 23:17:59 +0000",
-    "summary": "Chatbot prompts reveal the engineer’s alleged efforts to set up a covert listening device days before one was found in a meeting room used by high-level executives.",
-    "keywords_matched": "meeting room(10)",
-    "keyword_score": 10,
-    "created_at": "2026-10-14 00:31:26"
   },
   {
     "title": "The NBA’s response to gambling scandals is to add more gambling partnerships",
