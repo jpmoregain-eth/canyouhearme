@@ -30,16 +30,6 @@
     "created_at": "2026-10-16 00:31:31"
   },
   {
-    "title": "Untethered: Yealink's MP Portfolio Frees the Desk Phone",
-    "link": "https://uctoday.com/untethered-yealinks-mp-portfolio-frees-the-desk-phone-yealink-cs-0227",
-    "source": "UC Today",
-    "published_at": "Wed, 14 Oct 2026 12:31:00 GMT",
-    "summary": "Yealink’s MP55 E2 and MP66W show why frontline Teams Phone users still need dedicated handsets, with native certification for shared spaces.",
-    "keywords_matched": "yealink(10), teams(1)",
-    "keyword_score": 11,
-    "created_at": "2026-10-15 00:31:16"
-  },
-  {
     "title": "The Q4 Space Decision: What Occupiers Lock In This Month",
     "link": "https://uctoday.com/the-q4-space-decision-what-occupiers-lock-in-this-month",
     "source": "UC Today",
@@ -58,6 +48,26 @@
     "keywords_matched": "unified communications(10)",
     "keyword_score": 10,
     "created_at": "2026-10-20 00:31:50"
+  },
+  {
+    "title": "AI Context Wars: Microsoft, Zoom & Five9 Fight to Own Your Memory",
+    "link": "https://uctoday.com/ai-context-wars-microsoft-zoom-five9-fight-to-own-your-memory",
+    "source": "UC Today",
+    "published_at": "Wed, 28 Oct 2026 07:44:59 GMT",
+    "summary": "Microsoft, Zoom, RingCentral, Five9 and Logitech are racing to own your organization's AI context. Rob Scott on why context is the new vendor lock-in.",
+    "keywords_matched": "logitech(8), zoom(1)",
+    "keyword_score": 9,
+    "created_at": "2026-10-29 00:30:25"
+  },
+  {
+    "title": "How AI Is Changing Workloads, Not Simply Reducing Them",
+    "link": "https://uctoday.com/how-ai-is-changing-workloads-not-simply-reducing-them-jabra-cs-0207",
+    "source": "UC Today",
+    "published_at": "Wed, 28 Oct 2026 13:31:00 GMT",
+    "summary": "AI is shifting work towards strategy and collaboration, so workplace tech buyers must redesign processes; Jabra WorkLife 2026, meetings and conversational AI.",
+    "keywords_matched": "jabra(8)",
+    "keyword_score": 8,
+    "created_at": "2026-10-29 00:30:25"
   },
   {
     "title": "The NBA’s response to gambling scandals is to add more gambling partnerships",
