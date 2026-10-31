@@ -20,16 +20,6 @@
     "created_at": "2026-10-28 00:30:38"
   },
   {
-    "title": "This Week: Apple Puts AI at the Heart of Shared Spaces",
-    "link": "https://uctoday.com/this-week-apple-puts-ai-at-the-heart-of-shared-spaces",
-    "source": "UC Today",
-    "published_at": "Fri, 16 Oct 2026 11:01:00 GMT",
-    "summary": "Apple, IR and Logitech show why shared spaces are getting smarter, as HomeView, Clarion and government collaboration tools reshape UC Today.",
-    "keywords_matched": "logitech(8), collaboration tools(6)",
-    "keyword_score": 14,
-    "created_at": "2026-10-17 00:36:08"
-  },
-  {
     "title": "The Q4 Space Decision: What Occupiers Lock In This Month",
     "link": "https://uctoday.com/the-q4-space-decision-what-occupiers-lock-in-this-month",
     "source": "UC Today",
@@ -58,6 +48,16 @@
     "keywords_matched": "logitech(8), zoom(1)",
     "keyword_score": 9,
     "created_at": "2026-10-29 00:30:25"
+  },
+  {
+    "title": "This Week: Logitech’s Room Refresh, Google Beam, AI PCs",
+    "link": "https://uctoday.com/this-week-logitechs-room-refresh-google-beam-ai-pcs",
+    "source": "UC Today",
+    "published_at": "Fri, 30 Oct 2026 12:01:00 GMT",
+    "summary": "Why it matters: Logitech room refresh demand holds up, Google Beam reaches deployment, and Apple’s touchscreen MacBook Pro fuels the AI PC buyer debate.",
+    "keywords_matched": "logitech(8)",
+    "keyword_score": 8,
+    "created_at": "2026-10-31 00:30:35"
   },
   {
     "title": "Polymarket Halted International Trading After Hackers Drained Accounts",
@@ -98,16 +98,6 @@
     "keywords_matched": "poly(8)",
     "keyword_score": 8,
     "created_at": "2026-10-24 00:30:30"
-  },
-  {
-    "title": "Jabra Enhance Select M3 Review (2026): A Big Price for Small Wins",
-    "link": "https://www.wired.com/review/review-jabra-enhance-select-m3/",
-    "source": "Wired",
-    "published_at": "Fri, 16 Oct 2026 10:00:00 +0000",
-    "summary": "This direct-to-consumer brand’s latest top-of-the-line devices work well but only showcase incremental improvements over previous models.",
-    "keywords_matched": "jabra(8)",
-    "keyword_score": 8,
-    "created_at": "2026-10-17 00:36:15"
   },
   {
     "title": "Why the Office Is an Increasing Cybersecurity Risk",
