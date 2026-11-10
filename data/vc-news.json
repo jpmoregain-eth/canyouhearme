@@ -50,6 +50,16 @@
     "created_at": "2026-11-03 00:30:28"
   },
   {
+    "title": "Why Can’t Banks Treat UCaaS Migration Like Any Other Industry?",
+    "link": "https://uctoday.com/why-cant-banks-treat-ucaas-migration-like-any-other-industry-tatacommunications-cs-0242",
+    "source": "UC Today",
+    "published_at": "Mon, 09 Nov 2026 10:31:00 GMT",
+    "summary": "Banks need an assessment-led UCaaS migration as UC Today reports on Tata Communications, legacy PBXs, resilience, data sovereignty and voice security.",
+    "keywords_matched": "ucaas(10)",
+    "keyword_score": 10,
+    "created_at": "2026-11-10 00:31:26"
+  },
+  {
     "title": "AI Context Wars: Microsoft, Zoom & Five9 Fight to Own Your Memory",
     "link": "https://uctoday.com/ai-context-wars-microsoft-zoom-five9-fight-to-own-your-memory",
     "source": "UC Today",
@@ -118,15 +128,5 @@
     "keywords_matched": "jabra(8)",
     "keyword_score": 8,
     "created_at": "2026-10-29 00:30:25"
-  },
-  {
-    "title": "The NBA’s response to gambling scandals is to add more gambling partnerships",
-    "link": "https://www.theverge.com/entertainment/1018818/nba-kalshi-polymarket",
-    "source": "The Verge",
-    "published_at": "2026-10-26T14:22:06-04:00",
-    "summary": "From the bright minds that brought you FTX Arena and NBA Top Shot NFT maketplace (where sales last month dropped to $762,781, which is a 99.66 percent decrease compared to the February 2021 peak of $226,350,843), the NBA announced Monday that it has new \"preferred\" prediction market deals for Kalshi and Polymarket, as well as [&#8230;]",
-    "keywords_matched": "poly(8)",
-    "keyword_score": 8,
-    "created_at": "2026-10-27 00:30:24"
   }
 ]
